@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="WizardVerifyTitle">Verify phone number</string>
+    <string name="WizardCallTitle">Calling your phone now...</string>
+    <string name="WizardSmsTitle">Verify with text message</string>
+    <string name="WizardVerifiedTitle">Successfully verified</string>
+    <string name="WizardGeneralError">Error occurred, please try again</string>
+
+    <string name="pretty_format_yesterday">Yesterday at <xliff:g id="time">%s</xliff:g></string>
+    <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> days ago</string>
+
+    <string name="recent_calls_this_week_header">This week</string>
+    <string name="recent_calls_last_week_header">Last week</string>
+    <string name="recent_calls_older_header">Older</string>
+
+    <string name="action_call">Call</string>
+    <string name="action_details">Details</string>
+    <string name="action_history">History</string>
+    <string name="action_message">Message</string>
+
+    <string name="quick_action_contacts">Create contact for</string>
+    <string name="quick_action_sms">Send SMS to</string>
+
+    <string name="call_duration_seconds"><xliff:g id="seconds" example="28">%d</xliff:g> second call</string>
+    <string name="call_duration_minutes"><xliff:g id="minutes" example="13">%d</xliff:g> minute call</string>
+    <string name="call_duration_hours_minutes"><xliff:g id="hours" example="1">%d</xliff:g> hour <xliff:g id="minutes" example="13">%d</xliff:g> minute call</string>
+    <string name="call_duration_missed">Missed call</string>
+
+    <string name="unknown_caller">Unknown Caller</string>
+    <string name="clear_call_history">Clear call history</string>
+    <string name="search_prompt">Search Contacts</string>
+
+    <string name="empty_favorites_hint">Your favorites &amp; people that you call often will show up here.</string>
+    <string name="empty_dialpad_hint">You can dial a phone number or search your contacts.</string>
+    <string name="empty_recents_hint">You have no recent calls.</string>
+    <string name="empty_contacts_hint">You have no contacts.</string>
+
+    <string name="all_favorites_label">All Favorites</string>
+    <string name="all_favorites_title">Favorites</string>
+    <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> added to blacklist</string>
+    <string name="advanced_lookup_title">Advanced</string>
+    <string name="silence_spam_title">Silence spam calls</string>
+    <string name="silence_spam_summary">Never let spam calls ring through</string>
+    <string name="block_hidden_title">Block hidden phone numbers</string>
+    <string name="block_hidden_summary">Consider hidden numbers as spam</string>
+    <string name="block_dialog_title">Block this caller?</string>
+    <string name="block_dialog_positive">Block</string>
+    <string name="block_dialog_negative">Cancel</string>
+    <string name="block_dialog_description">You will no longer receive calls from this person.</string>
+    <string name="block_dialog_report_spam">Report as spam to <xliff:g id="provider">%s</xliff:g></string>
+
+    <string name="caller_info_auth_yes">Yes</string>
+    <string name="caller_info_auth_no">No thanks</string>
+    <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> will have access to your contacts and ME profile.</string>
+    <string name="caller_info_auth_learn_more">Learn more</string>
+    <string name="caller_info_auth_desc"><xliff:g id="provider_name">%s</xliff:g> will identify unknown callers and block spam.  Do you want to use it?</string>
+    <string name="caller_info_auth_desc_no_spam"><xliff:g id="provider_name">%s</xliff:g> will identify unknown callers.  Do you want to use it?</string>
+
+    <string name="edit_contact">Edit</string>
+    <string name="add_contact">Add contact</string>
+
+    <string name="caller_info_loading">Searching <xliff:g id="provider">%s</xliff:g>...</string>
+    <string name="powered_by_provider">Powered by <xliff:g id="provider">%s</xliff:g></string>
+    <string name="call_history_empty_view">No call history</string>
+</resources>
