@@ -4,6 +4,7 @@
   <string name="WizardVerifyTitle">Telefoonnummer verifiëren</string>
   <string name="WizardCallTitle">Uw telefoon wordt nu gebeld\u2026</string>
   <string name="WizardSmsTitle">Verifiëren met tekstbericht</string>
+  <string name="WizardVerifiedTitle">Succesvol geverifieerd</string>
   <string name="WizardGeneralError">Er is een fout opgetreden, probeer het opnieuw</string>
   <string name="pretty_format_yesterday">Gisteren om <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> dagen geleden</string>
@@ -16,11 +17,15 @@
   <string name="action_message">Bericht</string>
   <string name="quick_action_contacts">Contact aanmaken voor</string>
   <string name="quick_action_sms">Sms versturen naar</string>
+  <string name="call_duration_seconds">Gespreksduur <xliff:g id="seconds" example="28">%d</xliff:g> sec.</string>
+  <string name="call_duration_minutes">Gespreksduur <xliff:g id="minutes" example="13">%d</xliff:g> min.</string>
+  <string name="call_duration_hours_minutes">Gespreksduur <xliff:g id="hours" example="1">%d</xliff:g> u <xliff:g id="minutes" example="13">%d</xliff:g> min.</string>
   <string name="call_duration_missed">Gemiste oproep</string>
   <string name="unknown_caller">Onbekende beller</string>
   <string name="clear_call_history">Oproepgeschiedenis wissen</string>
   <string name="search_prompt">Contacten vinden</string>
   <string name="empty_favorites_hint">Hier worden uw favorieten en personen met wie u regelmatig belt weergegeven.</string>
+  <string name="empty_dialpad_hint">U kunt een telefoonnummer kiezen of uw contact doorzoeken.</string>
   <string name="empty_recents_hint">U heeft geen recente gesprekken.</string>
   <string name="empty_contacts_hint">U heeft geen contacten.</string>
   <string name="all_favorites_label">Alle favorieten</string>
@@ -29,6 +34,22 @@
   <string name="advanced_lookup_title">Geavanceerd</string>
   <string name="silence_spam_title">Ongewenste oproepen dempen</string>
   <string name="silence_spam_summary">Nooit ongewenste oproepen doorlaten</string>
+  <string name="block_hidden_title">Afgeschermde telefoonnummers blokkeren</string>
   <string name="block_hidden_summary">Afgeschermde nummers beschouwen als ongewenst</string>
+  <string name="block_dialog_title">Deze beller blokkeren?</string>
+  <string name="block_dialog_positive">Blokkeren</string>
+  <string name="block_dialog_negative">Annuleren</string>
+  <string name="block_dialog_description">U ontvangt niet langer oproepen van deze persoon.</string>
+  <string name="block_dialog_report_spam">Rapporteren als ongewenst aan <xliff:g id="provider">%s</xliff:g></string>
+  <string name="caller_info_auth_yes">Ja</string>
+  <string name="caller_info_auth_no">Annuleren</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> krijgt toegang tot uw contacten en ME-profiel.</string>
+  <string name="caller_info_auth_learn_more">Lees meer</string>
+  <string name="caller_info_auth_desc"><xliff:g id="provider_name">%s</xliff:g> identificeert onbekende bellers en blokkeert spam. Wilt u dit gebruiken?</string>
+  <string name="caller_info_auth_desc_no_spam"><xliff:g id="provider_name">%s</xliff:g> identificeert onbekende bellers. Wilt u dit gebruiken?</string>
+  <string name="edit_contact">Aanpassen</string>
+  <string name="add_contact">Contact toevoegen</string>
+  <string name="caller_info_loading">Opzoeken in <xliff:g id="provider">%s</xliff:g>\u2026</string>
+  <string name="powered_by_provider">Mogelijk gemaakt door <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">Geen oproepgeschiedenis</string>
 </resources>

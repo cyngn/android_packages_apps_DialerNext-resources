@@ -11,6 +11,9 @@
   <string name="action_details">Details</string>
   <string name="action_history">Verlauf</string>
   <string name="action_message">Nachricht</string>
+  <string name="call_duration_seconds"><xliff:g id="seconds" example="28">%d</xliff:g> Sek. Gespräch</string>
+  <string name="call_duration_minutes"><xliff:g id="minutes" example="13">%d</xliff:g> Min. Gespräch</string>
+  <string name="call_duration_hours_minutes"><xliff:g id="hours" example="1">%d</xliff:g> Std. <xliff:g id="minutes" example="13">%d</xliff:g> Min. Gespräch</string>
   <string name="call_duration_missed">Verpasster Anruf</string>
   <string name="unknown_caller">Unbekannter Anrufer</string>
   <string name="clear_call_history">Anrufverlauf löschen</string>
@@ -21,9 +24,16 @@
   <string name="all_favorites_title">Favoriten</string>
   <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> zur Sperrliste hinzugefügt</string>
   <string name="advanced_lookup_title">Erweitert</string>
+  <string name="block_hidden_title">Unterdrückte Nummern blockieren</string>
+  <string name="block_hidden_summary">Unterdrückte Nummern als Spam behandeln</string>
+  <string name="block_dialog_title">Diesen Anrufer blockieren?</string>
+  <string name="block_dialog_positive">Blockieren</string>
   <string name="block_dialog_negative">Abbrechen</string>
+  <string name="block_dialog_description">Sie werden keine Anrufe mehr von dieser Person erhalten.</string>
+  <string name="block_dialog_report_spam">An <xliff:g id="provider">%s</xliff:g> als Spam melden</string>
   <string name="caller_info_auth_yes">Ja</string>
   <string name="caller_info_auth_no">Nein Danke</string>
   <string name="caller_info_auth_learn_more">Mehr erfahren</string>
+  <string name="edit_contact">Bearbeiten</string>
   <string name="add_contact">Kontakt hinzufügen</string>
 </resources>
