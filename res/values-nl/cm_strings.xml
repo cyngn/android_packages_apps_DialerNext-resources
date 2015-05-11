@@ -25,7 +25,7 @@
   <string name="clear_call_history">Oproepgeschiedenis wissen</string>
   <string name="search_prompt">Contacten vinden</string>
   <string name="empty_favorites_hint">Hier worden uw favorieten en personen met wie u regelmatig belt weergegeven.</string>
-  <string name="empty_dialpad_hint">U kunt een telefoonnummer kiezen of uw contact doorzoeken.</string>
+  <string name="empty_dialpad_hint">U kunt een telefoonnummer kiezen of uw contacten doorzoeken.</string>
   <string name="empty_recents_hint">U heeft geen recente gesprekken.</string>
   <string name="empty_contacts_hint">U heeft geen contacten.</string>
   <string name="all_favorites_label">Alle favorieten</string>
