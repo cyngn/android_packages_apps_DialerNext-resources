@@ -20,7 +20,7 @@
   <string name="unknown_caller">Unbekannter Anrufer</string>
   <string name="clear_call_history">Anrufverlauf löschen</string>
   <string name="search_prompt">Kontakte suchen</string>
-  <string name="empty_favorites_hint">Ihre Favoriten &amp; Personen, die Sie häufig anrufen werden hier angezeigt.</string>
+  <string name="empty_favorites_hint">Ihre Favoriten &amp; Personen, die Sie häufig anrufen, werden hier angezeigt.</string>
   <string name="empty_dialpad_hint">Sie können eine Telefonnummer wählen, oder in Ihren Kontakten suchen.</string>
   <string name="empty_recents_hint">Sie haben keine kürzlichen Anrufe.</string>
   <string name="empty_contacts_hint">Sie haben keine Kontakte.</string>
