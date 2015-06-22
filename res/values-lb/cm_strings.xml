@@ -8,12 +8,8 @@
   <string name="action_details">Detailer</string>
   <string name="action_history">Historique</string>
   <string name="action_message">Message schécken</string>
-  <string name="quick_action_contacts">Kontakt erstelle fir</string>
-  <string name="quick_action_sms">SMS schécken un</string>
   <string name="call_duration_missed">Verpassten Uruff</string>
-  <string name="all_favorites_label">All d\'Favoritten</string>
   <string name="all_favorites_title">Favoritten</string>
-  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> op d\'schwaarz Lëscht gesat</string>
   <string name="advanced_lookup_title">Erweidert</string>
   <string name="block_dialog_positive">Blockéieren</string>
   <string name="block_dialog_negative">Ofbriechen</string>
