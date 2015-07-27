@@ -5,7 +5,7 @@
   <string name="WizardCallTitle">מתקשר למספר שלך כרגע\u2026</string>
   <string name="WizardSmsTitle">אימות באמצעות הודעת טקסט</string>
   <string name="WizardVerifiedTitle">אומת בהצלחה</string>
-  <string name="WizardGeneralError">אירעה שגיאה, אנא נסה שנית</string>
+  <string name="WizardGeneralError">אירעה שגיאה, אנא נסו שנית</string>
   <string name="pretty_format_yesterday">אתמול בשעה <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago">לפני <xliff:g id="n_days">%d</xliff:g> ימים</string>
   <string name="recent_calls_this_week_header">השבוע</string>
@@ -44,7 +44,7 @@
   <string name="silence_spam_title">השתק שיחות ספאם</string>
   <string name="silence_spam_summary">לעולם אל תיתן לשיחות ספאם לצלצל</string>
   <string name="block_hidden_title">חסום מספרי טלפון חסויים</string>
-  <string name="block_hidden_summary">התייחס למספרים מוסתרים כספאם</string>
+  <string name="block_hidden_summary">התייחס למספרים חסויים כספאם</string>
   <string name="block_dialog_title">לחסום מתקשר זה?</string>
   <string name="block_dialog_positive">חסום</string>
   <string name="block_dialog_negative">בטל</string>
@@ -56,7 +56,7 @@
   <string name="caller_info_auth_learn_more">למד עוד</string>
   <string name="caller_info_auth_desc"><xliff:g id="provider_name">%s</xliff:g> יזהה מתקשרים חסויים ויחסום ספאם. האם ברצונך להשתמש בו?</string>
   <string name="caller_info_auth_desc_no_spam"><xliff:g id="provider_name">%s</xliff:g> יזהה מתקשרים חסויים. האם ברצונך להשתמש בו?</string>
-  <string name="edit_contact">עריכה</string>
+  <string name="edit_contact">ערוך</string>
   <string name="add_contact">הוסף איש קשר</string>
   <string name="caller_info_loading">מחפש <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">מופעל על-ידי <xliff:g id="provider">%s</xliff:g></string>
