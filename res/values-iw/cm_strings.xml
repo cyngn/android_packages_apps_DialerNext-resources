@@ -34,11 +34,11 @@
   <string name="t9_search_input_locale">שפת הקלט של חיפוש T9</string>
   <string name="t9_search_input_locale_default">ברירת מחדל</string>
   <string name="type_blacklist">שיחה חסומה</string>
-  <string name="call_log_stats_title">סטטיסטיקה</string>
+  <string name="call_log_stats_title">סטטיסטיקות</string>
   <string name="callStatsDetailTitle">פרטים של סטטיסטיקת שיחות</string>
-  <string name="call_stats">סטטיסטיקת שיחות</string>
-  <string name="call_stats_refresh">רענן</string>
-  <string name="activity_title_call_stats">סטטיסטיקת שיחות</string>
+  <string name="call_stats">סטטיסטיקות שיחה</string>
+  <string name="call_stats_refresh">רענון</string>
+  <string name="activity_title_call_stats">סטטיסטיקות שיחה</string>
   <string name="call_stats_nav_all">הכל</string>
   <string name="call_stats_nav_incoming">נכנסות</string>
   <string name="call_stats_nav_outgoing">יוצאות</string>
@@ -85,7 +85,7 @@
   <string name="detailed_incall_info_summary">הצג פרטים נוספים אודות המתקשר במסך השיחות הנכנסות</string>
   <string name="video_call">שיחת וידאו</string>
   <string name="call_duration_active">זמן שיחה פעילה:</string>
-  <string name="call_duration_call_out">משך השיחה:</string>
+  <string name="call_duration_call_out">משך שיחה:</string>
   <string name="call_log_show_all_slots">כל הסימים</string>
   <string name="call_log_all_calls_header">כל השיחות</string>
   <string name="calllog_search_hint">חיפוש ביומן שיחות</string>
@@ -96,6 +96,7 @@
   <string name="call_playback_error_message">נכשל בניגון הקלטה</string>
   <string name="smart_dialer_title">שיחה חכמה</string>
   <string name="smart_dialer_summary">התקשר למספר שחויג באופן אוטומטי באמצעות הצמדת המכשיר לאוזנך</string>
+  <string name="pretty_format_yesterday">אתמול בשעה <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago">לפני <xliff:g id="n_days">%d</xliff:g> ימים</string>
   <string name="pretty_format_just_now">כרגע</string>
   <string name="recent_calls_today_header">היום</string>
@@ -106,14 +107,20 @@
   <string name="action_details">פרטים</string>
   <string name="action_history">היסטוריה</string>
   <string name="action_message">הודעה</string>
+  <string name="call_duration_missed">שיחה שלא נענתה</string>
+  <string name="unknown_caller">מתקשר לא ידוע</string>
+  <string name="search_prompt">חפש אנשי קשר</string>
   <string name="all_favorites_label">כל המועדפים</string>
   <string name="all_favorites_title">מועדפים</string>
   <string name="toast_added_to_blacklist">%s נוספו לרשימת המתקשרים החסומים.</string>
   <string name="advanced_lookup_title">מתקדם</string>
   <string name="block_dialog_title">לחסום מתקשר זה?</string>
+  <string name="block_dialog_positive">חסימה</string>
+  <string name="block_dialog_negative">ביטול</string>
   <string name="caller_info_auth_yes">כן</string>
   <string name="caller_info_auth_no">לא, תודה</string>
-  <string name="add_contact">הוסף איש קשר</string>
+  <string name="edit_contact">עריכה</string>
+  <string name="add_contact">הוספת איש קשר</string>
   <string name="caller_info_loading">מחפש <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">מופעל על-ידי <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">אין היסטוריית שיחות</string>

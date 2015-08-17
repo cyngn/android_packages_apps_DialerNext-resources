@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Kembalikan rentang waktu</string>
   <string name="call_stats_sort_by_duration">Urut sesuai durasi panggilan</string>
   <string name="call_stats_sort_by_count">Urut sesuai jumlah panggilan</string>
+  <string name="menu_add_to_blacklist">Blok nomor</string>
+  <string name="menu_remove_from_blacklist">Unblok nomor</string>
   <string name="speed_dial_settings">Pengaturan panggilan cepat</string>
   <string name="speed_dial_not_set">(tidak ditetapkan)</string>
   <string name="speed_dial_replace">Ganti</string>
@@ -96,6 +98,7 @@
   <string name="call_playback_error_message">Gagal untuk memutar rekaman</string>
   <string name="smart_dialer_title">Panggilan pintar</string>
   <string name="smart_dialer_summary">Otomatis telpon nomor yang dimasukkan dengan mendekatkan perangkat ke telinga</string>
+  <string name="powered_by">Didukung oleh</string>
   <string name="pretty_format_yesterday">Kemarin, pukul <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> hari yang lalu</string>
   <string name="pretty_format_just_now">Baru saja</string>
@@ -123,6 +126,7 @@
   <string name="unknown_caller">Penelepon tidak diketahui</string>
   <string name="clear_call_history">Hapus riwayat panggilan</string>
   <string name="search_prompt">Cari kontak</string>
+  <string name="search_places_prompt">Cari kontak atau tempat</string>
   <string name="empty_favorites_hint">Favorit Anda &amp; orang-orang yang sering Anda telepon akan muncul di sini.</string>
   <string name="empty_dialpad_hint">Anda dapat memasukkan nomor telepon atau mencari kontak Anda.</string>
   <string name="empty_recents_hint">Tiada panggilan terbaru.</string>
@@ -138,13 +142,23 @@
   <string name="block_dialog_title">Blokir penelepon ini?</string>
   <string name="block_dialog_positive">Blokir</string>
   <string name="block_dialog_negative">Batal</string>
+  <string name="block_dialog_description">Anda tidak akan menerima panggilan atau pesan dari orang ini.</string>
   <string name="block_dialog_report_spam">Laporan sebagai spam ke <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Ya</string>
   <string name="caller_info_auth_no">Mungkin lain kali</string>
-  <string name="caller_info_auth_learn_more">Pelajadi lebih lanjut</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> akan memiliki akses ke kontak Anda, Profil saya, dan akun Cyanogen OS, yang mungkin menyertakan alamat email Anda.</string>
+  <string name="caller_info_auth_learn_more">Pelajari lebih lanjut</string>
+  <string name="caller_info_auth_desc">Selamat datang! Apakah Anda ingin <xliff:g id="provider_name">%s</xliff:g> untuk mengidentifikasi penelepon tidak dikenal dan blok panggilan yang tidak diinginkan?</string>
+  <string name="caller_info_auth_desc_no_spam">Selamat datang! Apakah Anda ingin <xliff:g id="provider_name">%s</xliff:g> untuk mengidentifikasi penelepon tidak dikenal?</string>
+  <string name="caller_info_summary">Mengidentifikasi penelepon tidak dikenal dan spam</string>
+  <string name="caller_info_summary_no_spam">Mengidentifikasi penelepon tidak dikenal</string>
   <string name="edit_contact">Edit</string>
   <string name="add_contact">Tambahkan kontak</string>
   <string name="caller_info_loading">Mencari <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">Diberdayakan oleh <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">Tiada riwayat panggilan</string>
+  <string name="empty_dialpad_t9_example">Mencari %1$s dengan panggilan:</string>
+  <string name="provider_disable_title">Nonaktifkan %1$s?</string>
+  <string name="provider_disable_message">Dengan menonaktifkan %1$s, Anda tidak akan memiliki nomor ID.</string>
+  <string name="provider_disable_spam_message">Dengan menonaktifkan %1$s, Anda tidak akan memiliki perlindungan spam atau caller ID.</string>
 </resources>

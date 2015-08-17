@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Zresetuj zakres czasu</string>
   <string name="call_stats_sort_by_duration">Sortuj wg długości połączenia</string>
   <string name="call_stats_sort_by_count">Sortuj wg liczby połączeń</string>
+  <string name="menu_add_to_blacklist">Zablokuj numer</string>
+  <string name="menu_remove_from_blacklist">Odblokuj numer</string>
   <string name="speed_dial_settings">Ustawienia szybkiego wybierania</string>
   <string name="speed_dial_not_set">(nieustawione)</string>
   <string name="speed_dial_replace">Zastąp</string>
@@ -144,6 +146,7 @@
   <string name="block_dialog_title">Zablokować tego rozmówcę?</string>
   <string name="block_dialog_positive">Zablokuj</string>
   <string name="block_dialog_negative">Anuluj</string>
+  <string name="block_dialog_description">Nie otrzymasz więcej połączeń lub wiadomości od tej osoby.</string>
   <string name="block_dialog_report_spam">Zgłoś jako spam do <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Tak</string>
   <string name="caller_info_auth_no">Anuluj</string>
@@ -153,4 +156,5 @@
   <string name="caller_info_loading">Wyszukiwanie <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">Wpierane przez <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">Brak historii połączeń</string>
+  <string name="provider_disable_title">Wyłączyć %1$s?</string>
 </resources>

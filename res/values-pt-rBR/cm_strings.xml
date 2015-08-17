@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Redefinr tempo de intervalo</string>
   <string name="call_stats_sort_by_duration">Ordernar por duração de chamada</string>
   <string name="call_stats_sort_by_count">Ordenar por quantidade de chamadas</string>
+  <string name="menu_add_to_blacklist">Bloquear número</string>
+  <string name="menu_remove_from_blacklist">Desbloquear número</string>
   <string name="speed_dial_settings">Configurações de discagem rápida</string>
   <string name="speed_dial_not_set">(não definido)</string>
   <string name="speed_dial_replace">Substituir</string>
@@ -96,6 +98,7 @@
   <string name="call_playback_error_message">Falha ao reproduzir a gravação</string>
   <string name="smart_dialer_title">Chamada inteligente</string>
   <string name="smart_dialer_summary">Chamar automaticamente o número discado movendo o seu dispositivo ao seu ouvido</string>
+  <string name="powered_by">Fornecido por</string>
   <string name="pretty_format_yesterday">Ontem no <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> dias atrás</string>
   <string name="pretty_format_just_now">Agora mesmo</string>
@@ -126,6 +129,7 @@
   <string name="unknown_caller">Chamada desconhecida</string>
   <string name="clear_call_history">Limpar histórico de chamada</string>
   <string name="search_prompt">Procurar contatos</string>
+  <string name="search_places_prompt">Pesquisar contatos ou lugares</string>
   <string name="empty_favorites_hint">Seus favoritos &amp; as pessoas quem você liga frequentemente aparecerá aqui.</string>
   <string name="empty_dialpad_hint">Você pode discar um número de telefone ou procurar em seus contatos.</string>
   <string name="empty_recents_hint">Você não tem nenhuma chamada recente.</string>
@@ -141,13 +145,23 @@
   <string name="block_dialog_title">Bloquear esta chamada?</string>
   <string name="block_dialog_positive">Bloquear</string>
   <string name="block_dialog_negative">Cancelar</string>
+  <string name="block_dialog_description">Você não receberá mais chamadas ou mensagens desta pessoa.</string>
   <string name="block_dialog_report_spam">Reportar como spam para <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Sim</string>
   <string name="caller_info_auth_no">Não obrigado</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> terá acesso aos seus contatos, perfil e conta Cyanogen OS, que pode incluir o seu endereço de e-mail.</string>
   <string name="caller_info_auth_learn_more">Saiba mais</string>
+  <string name="caller_info_auth_desc">Bem-vindo! Gostaria que <xliff:g id="provider_name">%s</xliff:g> identifique os números desconhecidos e bloqueie chamadas indesejadas?</string>
+  <string name="caller_info_auth_desc_no_spam">Bem-vindo! Gostaria que <xliff:g id="provider_name">%s</xliff:g> identifique os números desconhecidos?</string>
+  <string name="caller_info_summary">Identifica os números desconhecidos e spam</string>
+  <string name="caller_info_summary_no_spam">Identifica números desconhecidos</string>
   <string name="edit_contact">Alterar</string>
   <string name="add_contact">Adicionar contato</string>
   <string name="caller_info_loading">Procurando <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">Desenvolvido por <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">Não há histórico de chamadas</string>
+  <string name="empty_dialpad_t9_example">Perquisar por %1$s ao discar:</string>
+  <string name="provider_disable_title">Desativar %1$s?</string>
+  <string name="provider_disable_message">Ao desativar %1$s, você não terá a identificação de quem te liga.</string>
+  <string name="provider_disable_spam_message">Ao desativar %1$s, não terá proteção de spam ou identificação de quem te liga.</string>
 </resources>

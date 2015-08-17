@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Reimposta intervallo</string>
   <string name="call_stats_sort_by_duration">Ordina per durata</string>
   <string name="call_stats_sort_by_count">Ordina per numero</string>
+  <string name="menu_add_to_blacklist">Blocca numero</string>
+  <string name="menu_remove_from_blacklist">Sblocca numero</string>
   <string name="speed_dial_settings">Impostazioni composizione rapida</string>
   <string name="speed_dial_not_set">(non impostato)</string>
   <string name="speed_dial_replace">Sostituisci</string>
@@ -96,6 +98,7 @@
   <string name="call_playback_error_message">Impossibile riprodurre la registrazione</string>
   <string name="smart_dialer_title">Smart Call</string>
   <string name="smart_dialer_summary">Chiama automaticamente il numero composto avvicinando il dispositivo all\'orecchio</string>
+  <string name="powered_by">Powered by</string>
   <string name="pretty_format_yesterday">Ieri alle <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> giorni fa</string>
   <string name="pretty_format_just_now">Poco fa</string>
@@ -126,6 +129,7 @@
   <string name="unknown_caller">Chiamante sconosciuto</string>
   <string name="clear_call_history">Pulisci cronologia chiamate</string>
   <string name="search_prompt">Cerca contatti</string>
+  <string name="search_places_prompt">Cerca Contatti o Luoghi</string>
   <string name="empty_favorites_hint">Tuoi preferiti &amp; le persone che chiami spesso appariranno qui.</string>
   <string name="empty_dialpad_hint">Puoi comporre un numero di telefono o cercare i tuoi contatti.</string>
   <string name="empty_recents_hint">Non hai chiamate recenti.</string>
@@ -141,13 +145,23 @@
   <string name="block_dialog_title">Bloccare questo chiamante?</string>
   <string name="block_dialog_positive">Blocca</string>
   <string name="block_dialog_negative">Annulla</string>
+  <string name="block_dialog_description">Non riceverai più chiamate o messaggi da questa persona.</string>
   <string name="block_dialog_report_spam">Segnala come spam per <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Si</string>
   <string name="caller_info_auth_no">No grazie</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> avrà accesso ai tuoi contatti, il tuo profilo e l\'account Cyanogen OS, che potrebbe includere il tuo indirizzo email.</string>
   <string name="caller_info_auth_learn_more">Maggiori informazioni</string>
+  <string name="caller_info_auth_desc">Benvenuto! Vuoi che <xliff:g id="provider_name">%s</xliff:g> identifichi i chiamanti sconosciuti e blocchi le chiamate non desiderate?</string>
+  <string name="caller_info_auth_desc_no_spam">Benvenuto! Vorresti che <xliff:g id="provider_name">%s</xliff:g> identifichi i chiamanti sconosciuti?</string>
+  <string name="caller_info_summary">Identifica spam e chiamanti sconosciuti</string>
+  <string name="caller_info_summary_no_spam">Identifica chiamanti sconosciuti</string>
   <string name="edit_contact">Modifica</string>
   <string name="add_contact">Aggiungi contatto</string>
   <string name="caller_info_loading">Ricerca di <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">Powered by <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">Nessuna chiamata effettuata</string>
+  <string name="empty_dialpad_t9_example">Cerca per %1$s digitando:</string>
+  <string name="provider_disable_title">Disattivare %1$s?</string>
+  <string name="provider_disable_message">Disattivando %1$s, non avrai un ID chiamante.</string>
+  <string name="provider_disable_spam_message">Disattivando %1$s, non avrai protezione da spam o ID chiamante.</string>
 </resources>

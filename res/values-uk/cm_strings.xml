@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Скинути фільтр</string>
   <string name="call_stats_sort_by_duration">Сортувати за тривалістю виклику</string>
   <string name="call_stats_sort_by_count">Сортувати за кількістю викликів</string>
+  <string name="menu_add_to_blacklist">Заблокувати номер</string>
+  <string name="menu_remove_from_blacklist">Розблокувати номер</string>
   <string name="speed_dial_settings">Налаштування швидкого набору</string>
   <string name="speed_dial_not_set">(не вказано)</string>
   <string name="speed_dial_replace">Замінити</string>
@@ -96,6 +98,7 @@
   <string name="call_playback_error_message">Не вдалося відтворити запис</string>
   <string name="smart_dialer_title">Розумний виклик</string>
   <string name="smart_dialer_summary">Автоматично набирати номер при прикладанні пристрою до вуха</string>
+  <string name="powered_by">Наданий</string>
   <string name="pretty_format_yesterday">Вчора о <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> днів тому</string>
   <string name="pretty_format_just_now">Тільки-що</string>
@@ -129,6 +132,7 @@
   <string name="unknown_caller">Невідомий абонент</string>
   <string name="clear_call_history">Очистити історію дзвінків</string>
   <string name="search_prompt">Пошук контактів</string>
+  <string name="search_places_prompt">Пошук контактів або місць</string>
   <string name="empty_favorites_hint">Вибрані та ті, кому ви телефонуєте частіш за все, будуть показані тут.</string>
   <string name="empty_dialpad_hint">Ви можете набрати номер телефону або виконати пошук  контактів.</string>
   <string name="empty_recents_hint">У вас немає останніх викликів.</string>
@@ -144,13 +148,23 @@
   <string name="block_dialog_title">Блокувати абонента?</string>
   <string name="block_dialog_positive">Блокувати</string>
   <string name="block_dialog_negative">Відміна</string>
+  <string name="block_dialog_description">Ви не зможете більше отримувати виклики і повідомлення від цього абонента.</string>
   <string name="block_dialog_report_spam">Повідомити про спам <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Так</string>
   <string name="caller_info_auth_no">Ні, дякую</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> матиме доступ до ваших контактів, профілів і облікового запису Cyanogen OS, які можуть включати вашу адресу електронної пошти.</string>
   <string name="caller_info_auth_learn_more">Дізнатися більше</string>
+  <string name="caller_info_auth_desc">Ласкаво просимо! Бажаєте використовувати <xliff:g id="provider_name">%s</xliff:g> для ідентифікації невідомих абонентів і блокування небажаних дзвінків?</string>
+  <string name="caller_info_auth_desc_no_spam">Ласкаво просимо! Бажаєте використовувати <xliff:g id="provider_name">%s</xliff:g> для ідентифікації невідомих абонентів?</string>
+  <string name="caller_info_summary">Визначає невідомих абонентів і спам</string>
+  <string name="caller_info_summary_no_spam">Визначає невідомих абонентів</string>
   <string name="edit_contact">Змінити</string>
   <string name="add_contact">Додати контакт</string>
   <string name="caller_info_loading">Пошук <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">За допомогою <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">Історія дзвінків відсутня</string>
+  <string name="empty_dialpad_t9_example">Пошук %1$s дзвінком на номер:</string>
+  <string name="provider_disable_title">Вимкнути %1$s?</string>
+  <string name="provider_disable_message">Вимикаючи %1$s, Ви відмовляєтесь від ідентифікації абонента за його допомогою.</string>
+  <string name="provider_disable_spam_message">Вимикаючи %1$s, Ви відмовляєтесь від спам-захисту чи визначення номера за його допомогою.</string>
 </resources>

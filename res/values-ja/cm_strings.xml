@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">時間範囲をリセット</string>
   <string name="call_stats_sort_by_duration">通話時間で並べ替え</string>
   <string name="call_stats_sort_by_count">通話回数で並べ替え</string>
+  <string name="menu_add_to_blacklist">番号を着信拒否</string>
+  <string name="menu_remove_from_blacklist">番号を着信拒否解除</string>
   <string name="speed_dial_settings">スピードダイヤルの設定</string>
   <string name="speed_dial_not_set">（未設定）</string>
   <string name="speed_dial_replace">書き換える</string>
@@ -96,5 +98,67 @@
   <string name="call_playback_error_message">録音を再生できませんでした</string>
   <string name="smart_dialer_title">スマートコール</string>
   <string name="smart_dialer_summary">端末を耳に近づけると入力した電話番号に自動的に発信する</string>
+  <string name="powered_by">提供</string>
+  <string name="pretty_format_yesterday">昨日の<xliff:g id="time">%s</xliff:g></string>
+  <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g>日前</string>
+  <string name="pretty_format_just_now">たった今</string>
+  <string name="recent_calls_today_header">今日</string>
+  <string name="recent_calls_yesterday_header">昨日</string>
+  <string name="recent_calls_this_week_header">今週</string>
+  <string name="recent_calls_last_week_header">先週</string>
+  <string name="recent_calls_older_header">それ以前</string>
+  <string name="action_call">発信</string>
+  <string name="action_details">詳細</string>
+  <string name="action_history">履歴</string>
+  <string name="action_message">メッセージ</string>
+  <string name="quick_action_contacts"><xliff:g id="number">%s</xliff:g>の連絡先を作成</string>
+  <string name="quick_action_sms"><xliff:g id="number">%s</xliff:g>にSMSを送信</string>
+  <plurals name="call_duration_seconds">
+    <item quantity="other"><xliff:g id="seconds" example="28">%d</xliff:g>秒の通話</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g>分の通話</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g>時間<xliff:g id="minutes" example="13">%d</xliff:g>分の通話</item>
+  </plurals>
+  <string name="call_duration_missed">不在着信</string>
+  <string name="unknown_caller">不明な発信者</string>
+  <string name="clear_call_history">通話履歴を消去</string>
+  <string name="search_prompt">連絡先を検索</string>
+  <string name="search_places_prompt">連絡先や場所を検索</string>
+  <string name="empty_favorites_hint">お気に入りとよく通話する相手がここに表示されます。</string>
+  <string name="empty_dialpad_hint">電話番号に発信したり連絡先を検索できます。</string>
+  <string name="empty_recents_hint">最近の通話はありません。</string>
+  <string name="empty_contacts_hint">連絡先はありません。</string>
+  <string name="all_favorites_label">すべてのお気に入り</string>
+  <string name="all_favorites_title">お気に入り</string>
   <string name="toast_added_to_blacklist">%sを着信拒否リストに追加しました</string>
+  <string name="advanced_lookup_title">詳細設定</string>
+  <string name="silence_spam_title">迷惑電話撃退</string>
+  <string name="silence_spam_summary">迷惑電話を着信しないようにする</string>
+  <string name="block_hidden_title">非通知番号を着信拒否</string>
+  <string name="block_hidden_summary">非通知番号を迷惑電話として認識する</string>
+  <string name="block_dialog_title">この発信者を着信拒否しますか？</string>
+  <string name="block_dialog_positive">着信拒否</string>
+  <string name="block_dialog_negative">キャンセル</string>
+  <string name="block_dialog_description">この人からの着信やメッセージを受け取らないようになりました。</string>
+  <string name="block_dialog_report_spam">迷惑電話として<xliff:g id="provider">%s</xliff:g>に報告</string>
+  <string name="caller_info_auth_yes">はい</string>
+  <string name="caller_info_auth_no">いいえ</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g>はあなたのメールアドレスを含む可能性のある連絡先、MeプロフィールおよびCyanogen OSアカウントにアクセスします。</string>
+  <string name="caller_info_auth_learn_more">詳細情報</string>
+  <string name="caller_info_auth_desc">ようこそ！<xliff:g id="provider_name">%s</xliff:g>で不明な発信者を識別したり、受けたくない電話を着信拒否したいですか？</string>
+  <string name="caller_info_auth_desc_no_spam">ようこそ！<xliff:g id="provider_name">%s</xliff:g>で不明な発信者を識別したいですか？</string>
+  <string name="caller_info_summary">不明な発信者や迷惑電話を識別する</string>
+  <string name="caller_info_summary_no_spam">不明な発信者を識別する</string>
+  <string name="edit_contact">編集</string>
+  <string name="add_contact">連絡先を追加</string>
+  <string name="caller_info_loading"><xliff:g id="provider">%s</xliff:g>を検索中\u2026</string>
+  <string name="powered_by_provider"><xliff:g id="provider">%s</xliff:g>提供</string>
+  <string name="call_history_empty_view">通話履歴はありません</string>
+  <string name="empty_dialpad_t9_example">番号を入力して%1$sを検索します:</string>
+  <string name="provider_disable_title">%1$sを無効にしますか？</string>
+  <string name="provider_disable_message">%1$sを無効にすると発信者の番号が表示できなくなります。</string>
+  <string name="provider_disable_spam_message">%1$sを無効にすると迷惑電話の着信拒否や、発信者の番号が表示できなくなります。</string>
 </resources>

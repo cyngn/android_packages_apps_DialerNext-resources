@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Zäitfënster zrécksetzen</string>
   <string name="call_stats_sort_by_duration">No Gespréichsdauer zortéieren</string>
   <string name="call_stats_sort_by_count">No Unzuel vun Uriff zortéieren</string>
+  <string name="menu_add_to_blacklist">Nummer blockéieren</string>
+  <string name="menu_remove_from_blacklist">Nummer deblockéieren</string>
   <string name="speed_dial_settings">Astellunge fir d\'séiert Wielen</string>
   <string name="speed_dial_not_set">(net gesat)</string>
   <string name="speed_dial_replace">Ersetzen</string>
@@ -96,5 +98,70 @@
   <string name="call_playback_error_message">Konnt d\'Opnam net ofspillen</string>
   <string name="smart_dialer_title">Intelligenten Uruff</string>
   <string name="smart_dialer_summary">Gewielt Nummer automatesch uruffen, wann s du däin Apparat no vum Ouer méchs</string>
+  <string name="powered_by">Bereetgestallt vu(n)</string>
+  <string name="pretty_format_yesterday">Gëschter um <xliff:g id="time">%s</xliff:g></string>
+  <string name="pretty_format_x_days_ago">Viru(n) <xliff:g id="n_days">%d</xliff:g> Deeg</string>
+  <string name="pretty_format_just_now">Elo grad</string>
+  <string name="recent_calls_today_header">Haut</string>
+  <string name="recent_calls_yesterday_header">Gëschter</string>
+  <string name="recent_calls_this_week_header">Dës Woch</string>
+  <string name="recent_calls_last_week_header">Lescht Woch</string>
+  <string name="recent_calls_older_header">Méi al</string>
+  <string name="action_call">Uruffen</string>
+  <string name="action_details">Detailer</string>
+  <string name="action_history">Historique</string>
+  <string name="action_message">Message</string>
+  <string name="quick_action_contacts">Kontakt fir <xliff:g id="number">%s</xliff:g> erstellen</string>
+  <string name="quick_action_sms">SMS schécken un <xliff:g id="number">%s</xliff:g></string>
+  <plurals name="call_duration_seconds">
+    <item quantity="one"><xliff:g id="seconds" example="1">%d</xliff:g>-Sek.-Uruff</item>
+    <item quantity="other"><xliff:g id="seconds" example="1">%d</xliff:g>-Sek.-Uruff</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="one"><xliff:g id="seconds" example="1">%d</xliff:g>-Min.-Uruff</item>
+    <item quantity="other"><xliff:g id="seconds" example="1">%d</xliff:g>-Min.-Uruff</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g>-St.-<xliff:g id="minutes" example="13">%d</xliff:g>-Min.-Uruff</item>
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g>-St.-<xliff:g id="minutes" example="13">%d</xliff:g>-Min.-Uruff</item>
+  </plurals>
+  <string name="call_duration_missed">Verpassten Uruff</string>
+  <string name="unknown_caller">Onbekannten Uruffer</string>
+  <string name="clear_call_history">Uruffhistorique eidel maachen</string>
+  <string name="search_prompt">Kontakter sichen</string>
+  <string name="search_places_prompt">Kontakter oder Plaze sichen</string>
+  <string name="empty_favorites_hint">Deng Favoritten a Persounen, déi s du dacks uriffs, ginn hei ugewisen.</string>
+  <string name="empty_dialpad_hint">Du kanns eng Telefonsnummer wielen, oder an denge Kontakter sichen.</string>
+  <string name="empty_recents_hint">Du hues keng rezent Uriff.</string>
+  <string name="empty_contacts_hint">Du hues keng Kontakter.</string>
+  <string name="all_favorites_label">All d\'Favoritten</string>
+  <string name="all_favorites_title">Favoritten</string>
   <string name="toast_added_to_blacklist">%s op d\'Lëscht mat de blockéierten Nummere dobäigesat.</string>
+  <string name="advanced_lookup_title">Erweidert</string>
+  <string name="silence_spam_title">Spam-Uriff roueg schalten</string>
+  <string name="silence_spam_summary">Spam-Uriff blockéieren</string>
+  <string name="block_hidden_title">Verstoppt Nummere blockéieren</string>
+  <string name="block_hidden_summary">Verstoppt Nummeren als Spam behandelen</string>
+  <string name="block_dialog_title">Dësen Uruffer blockéieren?</string>
+  <string name="block_dialog_positive">Blockéieren</string>
+  <string name="block_dialog_negative">Ofbriechen</string>
+  <string name="block_dialog_description">Du wäerts keng Uriff oder Noriichte méi vun dëser Persoun kréien.</string>
+  <string name="block_dialog_report_spam">U(n) <xliff:g id="provider">%s</xliff:g> als Spam mellen</string>
+  <string name="caller_info_auth_yes">Jo</string>
+  <string name="caller_info_auth_no">Nee Merci</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> wäert Zougrëff op d\'Kontakter, den Ech-Profil an däin Cyanogen OS-Kont hunn, deng E-Mail-Adress kéint och dozou zielen.</string>
+  <string name="caller_info_auth_learn_more">Méi gewuer ginn</string>
+  <string name="caller_info_auth_desc">Wëllkomm! wëlls du <xliff:g id="provider_name">%s</xliff:g>, fir onbekannt Uruffer z\'identifizéieren an onerwënscht Uriff ze blockéieren?</string>
+  <string name="caller_info_auth_desc_no_spam">Wëllkomm! wëlls du <xliff:g id="provider_name">%s</xliff:g>, fir onbekannt Uruffer z\'identifizéieren?</string>
+  <string name="caller_info_summary">Identifizéiert onbekannt Uruffer a Spam</string>
+  <string name="caller_info_summary_no_spam">Identifizéiert onbekannt Uruffer</string>
+  <string name="edit_contact">Änneren</string>
+  <string name="add_contact">Kontakt dobäisetzen</string>
+  <string name="caller_info_loading">Sichen no <xliff:g id="provider">%s</xliff:g>\u2026</string>
+  <string name="powered_by_provider">Bereetgestallt vu(n) <xliff:g id="provider">%s</xliff:g></string>
+  <string name="call_history_empty_view">Keen Uruffhistorique</string>
+  <string name="empty_dialpad_t9_example">Siche fir %1$s beim Wielen:</string>
+  <string name="provider_disable_title">%1$s desaktivéieren?</string>
+  <string name="provider_disable_message">Wann s du %1$s desaktivéiers, wäerts du d\'Identifizéierung vum Uruffer net hunn.</string>
+  <string name="provider_disable_spam_message">Wann s du %1$s desaktivéiers, wäerts du kee Spam-Schutz oder d\'Identifizéierung vum Uruffer hunn.</string>
 </resources>

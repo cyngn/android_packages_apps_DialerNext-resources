@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Lähtesta ajavahemik</string>
   <string name="call_stats_sort_by_duration">Kõne kestvuse järgi sortimine</string>
   <string name="call_stats_sort_by_count">Kõnede arvu järgi sortimine</string>
+  <string name="menu_add_to_blacklist">Blokeeri number</string>
+  <string name="menu_remove_from_blacklist">Eemalda numbri blokeering</string>
   <string name="speed_dial_settings">Kiirvalimise seaded</string>
   <string name="speed_dial_not_set">(määramata)</string>
   <string name="speed_dial_replace">Muuda</string>
@@ -96,5 +98,70 @@
   <string name="call_playback_error_message">Salvestuse esitamine nurjus</string>
   <string name="smart_dialer_title">Nutikas helistamine</string>
   <string name="smart_dialer_summary">Automaatselt helista valitud numbril liigutades seadme oma kõrvale</string>
+  <string name="powered_by">Kasutades teenust</string>
+  <string name="pretty_format_yesterday">Eile kell <xliff:g id="time">%s</xliff:g></string>
+  <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> päeva tagasi</string>
+  <string name="pretty_format_just_now">Just praegu</string>
+  <string name="recent_calls_today_header">Täna</string>
+  <string name="recent_calls_yesterday_header">Eile</string>
+  <string name="recent_calls_this_week_header">See nädal</string>
+  <string name="recent_calls_last_week_header">Eelmine nädal</string>
+  <string name="recent_calls_older_header">Vanemad</string>
+  <string name="action_call">Helista</string>
+  <string name="action_details">Detailid</string>
+  <string name="action_history">Ajalugu</string>
+  <string name="action_message">Sõnum</string>
+  <string name="quick_action_contacts">Loo kontakt numbrile <xliff:g id="number">%s</xliff:g></string>
+  <string name="quick_action_sms">Saada SMS numbrile <xliff:g id="number">%s</xliff:g></string>
+  <plurals name="call_duration_seconds">
+    <item quantity="one"><xliff:g id="seconds" example="1">%d</xliff:g> sekundiline kõne</item>
+    <item quantity="other"><xliff:g id="seconds" example="28">%d</xliff:g> sekundiline kõne</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="one"><xliff:g id="minutes" example="1">%d</xliff:g> minutiline kõne</item>
+    <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g> minutiline kõne</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g> tunni ja <xliff:g id="minutes" example="13">%d</xliff:g> minutiline kõne</item>
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> tunni <xliff:g id="minutes" example="13">%d</xliff:g> minutiline kõne</item>
+  </plurals>
+  <string name="call_duration_missed">Vastamata kõne</string>
+  <string name="unknown_caller">Tundmatu helistaja</string>
+  <string name="clear_call_history">Puhasta kõnede ajalugu</string>
+  <string name="search_prompt">Otsi kontakte</string>
+  <string name="search_places_prompt">Otsi Kontakte või Kohti</string>
+  <string name="empty_favorites_hint">Sinu lemmikud &amp; inimesed kellele tihti helistate ilmuvad siin.</string>
+  <string name="empty_dialpad_hint">Võite helistada numbrile või otsida oma kontakte.</string>
+  <string name="empty_recents_hint">Teil pole hiljutisi kõnesid.</string>
+  <string name="empty_contacts_hint">Teil pole ühtegi kontakti.</string>
+  <string name="all_favorites_label">Kõik lemmikud</string>
+  <string name="all_favorites_title">Lemmikud</string>
   <string name="toast_added_to_blacklist">%s lisatud blokeeritud helistajate nimekirja.</string>
+  <string name="advanced_lookup_title">Edasijõudnute valikud</string>
+  <string name="silence_spam_title">Vaigista rämpskõned</string>
+  <string name="silence_spam_summary">Mitte kunagi ära lase rämpskõnedel heliseda</string>
+  <string name="block_hidden_title">Blokeeri peidetud telefoninumbrid</string>
+  <string name="block_hidden_summary">Kaalu peidetud numbreid kui rämpspostina</string>
+  <string name="block_dialog_title">Blokeerida see helistaja?</string>
+  <string name="block_dialog_positive">Blokeeri</string>
+  <string name="block_dialog_negative">Katkesta</string>
+  <string name="block_dialog_description">Te ei saa rohkem kõnesid ega sõnumeid sellelt inimeselt.</string>
+  <string name="block_dialog_report_spam">Teata rämpspostist pakkujale <xliff:g id="provider">%s</xliff:g></string>
+  <string name="caller_info_auth_yes">Jah</string>
+  <string name="caller_info_auth_no">Ei, aitäh</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> saab ligipääsu sinu kontaktidele, Mina profiilile ning Cyanogen OS kontole, mis võib sisaldada sinu emaili aadressi.</string>
+  <string name="caller_info_auth_learn_more">Saa rohkem teada</string>
+  <string name="caller_info_auth_desc">Tere tulemast! Kas te sooviksite teenusel <xliff:g id="provider_name">%s</xliff:g> tuvastada tundmatud helistajad ja blokeerida soovimatud kõned?</string>
+  <string name="caller_info_auth_desc_no_spam">Tere tulemast! Kas te sooviksite teenusel <xliff:g id="provider_name">%s</xliff:g> tuvastada tundmatud helistajad?</string>
+  <string name="caller_info_summary">Tuvastab tundmatud helistajad ja rämpsposti</string>
+  <string name="caller_info_summary_no_spam">Tuvastab tundmatud helistajad</string>
+  <string name="edit_contact">Muuda</string>
+  <string name="add_contact">Lisa kontakt</string>
+  <string name="caller_info_loading">Otsin teenust <xliff:g id="provider">%s</xliff:g>\u2026</string>
+  <string name="powered_by_provider">Kasutades teenust <xliff:g id="provider">%s</xliff:g></string>
+  <string name="call_history_empty_view">Kõnede ajalugu puudub</string>
+  <string name="empty_dialpad_t9_example">Otsi %1$s valides:</string>
+  <string name="provider_disable_title">Keela %1$s?</string>
+  <string name="provider_disable_message">Keelates teenuse %1$s, ei ole teil enam helistaja ID\'d.</string>
+  <string name="provider_disable_spam_message">Keelates teenuse %1$s, ei ole teil enam rämpsposti kaitset ega helistaja ID\'d.</string>
 </resources>

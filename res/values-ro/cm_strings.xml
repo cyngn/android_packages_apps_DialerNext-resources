@@ -19,9 +19,14 @@
   <string name="nearby_places">Locații în apropiere</string>
   <string name="people">Persoane</string>
   <string name="lookup_settings_label">Căutare număr de telefon</string>
+  <string name="lookup_settings_description">Căutare de numere de telefon necunoscute</string>
   <string name="enable_forward_lookup_title">Căutare redirecţionată</string>
+  <string name="enable_forward_lookup_summary">Arată locațiile din apropiere când se caută în dialer</string>
   <string name="enable_people_lookup_title">Căutare persoane</string>
+  <string name="enable_people_lookup_summary">Arată rezultatele online pentru persoane când caut în dialer</string>
   <string name="enable_reverse_lookup_title">Căutare inversă</string>
+  <string name="enable_reverse_lookup_summary">Caută informații despre persoană sau locație pentru numerele necunoscute la primirea apelurilor</string>
+  <string name="forward_lookup_provider_title">Furnizor de căutare avansată</string>
   <string name="people_lookup_provider_title">Furnizor de căutare a persoanelor</string>
   <string name="reverse_lookup_provider_title">Furnizor de căutare inversă</string>
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chineză (CN)</string>
@@ -67,6 +72,7 @@
   <string name="speed_dial_delete">Ștergeți</string>
   <string name="speed_dial_unassigned_dialog_title">Cheie neatribuită</string>
   <string name="speed_dial_unassigned_dialog_message">Nicio acțiune de apel rapid nu este atribuită acestui număr \'<xliff:g id="number">%s</xliff:g>\'. Vreți să atribuiți o acțiune acum?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Pentru a utiliza apelarea rapidă, în primul rând opriți modul avion.</string>
   <string name="yes">Da</string>
   <string name="no">Nu</string>
   <string name="incall_vibration_category_title">Vibrare în apel</string>
@@ -76,6 +82,7 @@
   <string name="incall_vibrate_45_title">Vibrare la fiecare minut</string>
   <string name="incall_vibrate_45_summary">Vibrează la secunda 45 a fiecărui minut în timpul convorbirilor efectuate</string>
   <string name="detailed_incall_info_title">Informații detaliate ale apelantului</string>
+  <string name="detailed_incall_info_summary">Afișează informații suplimentare despre apelant în ecranul de apel primit</string>
   <string name="video_call">Apel video</string>
   <string name="call_duration_active">Durata activă:</string>
   <string name="call_duration_call_out">Durată apel:</string>
@@ -87,6 +94,9 @@
   <string name="start_call_playback">Redă înregistrarea</string>
   <string name="stop_call_playback">Stop</string>
   <string name="call_playback_error_message">Nu s-a reuşit redarea înregistrării</string>
+  <string name="smart_dialer_title">Apel inteligent</string>
+  <string name="pretty_format_yesterday">Ieri la <xliff:g id="time">%s</xliff:g></string>
+  <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> zile în urmă</string>
   <string name="pretty_format_just_now">Acum</string>
   <string name="recent_calls_today_header">Astăzi</string>
   <string name="recent_calls_yesterday_header">Ieri</string>
@@ -99,7 +109,28 @@
   <string name="action_message">Mesaj</string>
   <string name="call_duration_missed">Apel pierdut</string>
   <string name="unknown_caller">Apelant necunoscut</string>
+  <string name="clear_call_history">Șterge istoricul apelurilor</string>
+  <string name="search_prompt">Caută contacte</string>
+  <string name="empty_favorites_hint">Ai tăi favoriți &amp; oamenii pe care îi sunați adesea vor apărea aici.</string>
+  <string name="empty_dialpad_hint">Puteți forma un număr de telefon sau căuta prin contacte.</string>
+  <string name="empty_recents_hint">Nu aveți apeluri recente.</string>
+  <string name="empty_contacts_hint">Nu aveți niciun contact.</string>
+  <string name="all_favorites_label">Toate favoritele</string>
   <string name="all_favorites_title">Favorite</string>
   <string name="advanced_lookup_title">Avansat</string>
+  <string name="silence_spam_title">Tăcerea apelurilor de spam</string>
+  <string name="silence_spam_summary">Nu permiteți apeluri spam</string>
+  <string name="block_hidden_title">Blochează numere de telefon ascunse</string>
+  <string name="block_hidden_summary">Consideră numerele ascunse ca spam</string>
+  <string name="block_dialog_title">Blochează acest apelant?</string>
+  <string name="block_dialog_positive">Blochează</string>
+  <string name="block_dialog_negative">Anulare</string>
+  <string name="block_dialog_description">Nu veți mai primi apeluri sau mesaje de la această persoană.</string>
+  <string name="block_dialog_report_spam">Raportează ca spam la <xliff:g id="provider">%s</xliff:g></string>
+  <string name="caller_info_auth_yes">Da</string>
+  <string name="caller_info_auth_no">Nu, mulțumesc</string>
+  <string name="caller_info_auth_learn_more">Află mai multe</string>
   <string name="edit_contact">Editare</string>
+  <string name="add_contact">Adăugare contact</string>
+  <string name="call_history_empty_view">Nu aveți istoric de apeluri</string>
 </resources>

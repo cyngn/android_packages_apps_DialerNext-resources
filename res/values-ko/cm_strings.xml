@@ -18,8 +18,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="nearby_places">주변 장소</string>
   <string name="people">사람</string>
-  <string name="lookup_settings_label">전화 번호 검색</string>
-  <string name="lookup_settings_description">알 수 없는 전화 번호 검색</string>
+  <string name="lookup_settings_label">전화번호 검색</string>
+  <string name="lookup_settings_description">알 수 없는 전화번호 검색</string>
   <string name="enable_forward_lookup_title">순서대로 검색</string>
   <string name="enable_forward_lookup_summary">다이얼러 검색시 근처 장소 표시</string>
   <string name="enable_people_lookup_title">사람 찾기</string>
@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">시간 범위 재설정</string>
   <string name="call_stats_sort_by_duration">통화 시간으로 정렬</string>
   <string name="call_stats_sort_by_count">통화 횟수로 정렬</string>
+  <string name="menu_add_to_blacklist">번호 차단</string>
+  <string name="menu_remove_from_blacklist">번호 차단 해제</string>
   <string name="speed_dial_settings">스피드 다이얼 설정</string>
   <string name="speed_dial_not_set">(설정되지 않음)</string>
   <string name="speed_dial_replace">바꾸기</string>
@@ -96,5 +98,67 @@
   <string name="call_playback_error_message">녹음을 재생할 수 없습니다</string>
   <string name="smart_dialer_title">스마트 전화</string>
   <string name="smart_dialer_summary">장치를 귀에 갖다 대어 자동으로 입력한 전화번호로 전화</string>
+  <string name="powered_by">제공:</string>
+  <string name="pretty_format_yesterday">어제 <xliff:g id="time">%s</xliff:g>에</string>
+  <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g>일 전</string>
+  <string name="pretty_format_just_now">방금 전</string>
+  <string name="recent_calls_today_header">오늘</string>
+  <string name="recent_calls_yesterday_header">어제</string>
+  <string name="recent_calls_this_week_header">이번 주</string>
+  <string name="recent_calls_last_week_header">저번 주</string>
+  <string name="recent_calls_older_header">이전</string>
+  <string name="action_call">전화</string>
+  <string name="action_details">세부 정보</string>
+  <string name="action_history">기록</string>
+  <string name="action_message">내용</string>
+  <string name="quick_action_contacts"><xliff:g id="number">%s</xliff:g>에 대한 연락처 만들기</string>
+  <string name="quick_action_sms"><xliff:g id="number">%s</xliff:g>에 SMS 전송</string>
+  <plurals name="call_duration_seconds">
+    <item quantity="other"><xliff:g id="seconds" example="1">%d</xliff:g>초 동안 통화</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g>분 동안 통화</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g>시간 <xliff:g id="minutes" example="13">%d</xliff:g>분 동안 통화</item>
+  </plurals>
+  <string name="call_duration_missed">부재중 전화</string>
+  <string name="unknown_caller">알 수 없는 발신자</string>
+  <string name="clear_call_history">통화 기록 초기화</string>
+  <string name="search_prompt">연락처 검색</string>
+  <string name="search_places_prompt">연락처 또는 장소 검색</string>
+  <string name="empty_favorites_hint">즐겨찾기와 자주 전화 하는 사람들이 여기에 나타납니다.</string>
+  <string name="empty_dialpad_hint">전화번호를 입력하거나 연락처를 검색할 수 있습니다.</string>
+  <string name="empty_recents_hint">최근 통화가 없습니다.</string>
+  <string name="empty_contacts_hint">연락처가 없습니다.</string>
+  <string name="all_favorites_label">모든 즐겨찾기</string>
+  <string name="all_favorites_title">즐겨찾기</string>
   <string name="toast_added_to_blacklist">%s이(가) 발신자 차단 목록에 추가됨.</string>
+  <string name="advanced_lookup_title">고급</string>
+  <string name="silence_spam_title">스팸 전화 무음</string>
+  <string name="silence_spam_summary">스팸 전화가 걸려오면 벨소리를 울리지 않음</string>
+  <string name="block_hidden_title">발신자 표시 제한 번호 차단</string>
+  <string name="block_hidden_summary">발신자 표시 제한 번호를 스팸 전화로 간주합니다</string>
+  <string name="block_dialog_title">이 번호를 차단하겠습니까?</string>
+  <string name="block_dialog_positive">차단</string>
+  <string name="block_dialog_negative">취소</string>
+  <string name="block_dialog_description">더 이상 이 사람이 보내는 전화나 메시지를 받지 않게 됩니다.</string>
+  <string name="block_dialog_report_spam"><xliff:g id="provider">%s</xliff:g>에 스팸으로 신고</string>
+  <string name="caller_info_auth_yes">예</string>
+  <string name="caller_info_auth_no">아니오</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g>이(가) 당신의 연락처, \'나\' 프로필과 이메일 주소가 포함되어 있을 수 있는 Cyanogen OS 계정 정보에 접근할 수 있습니다.</string>
+  <string name="caller_info_auth_learn_more">더 알아보기</string>
+  <string name="caller_info_auth_desc">환영합니다! <xliff:g id="provider_name">%s</xliff:g>을(를) 사용하여 알 수 없는 번호를 식별하고 원치 않는 전화를 차단하시겠습니까?</string>
+  <string name="caller_info_auth_desc_no_spam">환영합니다! <xliff:g id="provider_name">%s</xliff:g>을(를) 사용하여 알 수 없는 번호를 식별하시겠습니까?</string>
+  <string name="caller_info_summary">알 수 없는 번호와 스팸 전화 식별</string>
+  <string name="caller_info_summary_no_spam">알 수 없는 번호 식별</string>
+  <string name="edit_contact">수정</string>
+  <string name="add_contact">연락처 추가</string>
+  <string name="caller_info_loading"><xliff:g id="provider">%s</xliff:g>에서 검색중\u2026</string>
+  <string name="powered_by_provider"><xliff:g id="provider">%s</xliff:g>이(가) 제공함</string>
+  <string name="call_history_empty_view">통화 기록 없음</string>
+  <string name="empty_dialpad_t9_example">전화하여 %1$s 검색:</string>
+  <string name="provider_disable_title">%1$s을(를) 비활성화합니까?</string>
+  <string name="provider_disable_message">%1$s를 비활성화하면 발신자 정보 확인을 할 수 없습니다.</string>
+  <string name="provider_disable_spam_message">%1$s를 비활성화하면 발신자 정보 확인과 스팸 차단을 할 수 없습니다.</string>
 </resources>

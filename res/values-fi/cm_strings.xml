@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Nollaa aikaväli</string>
   <string name="call_stats_sort_by_duration">Järjestä puhelun keston mukaan</string>
   <string name="call_stats_sort_by_count">Järjestä puheluiden määrän mukaan</string>
+  <string name="menu_add_to_blacklist">Estä numero</string>
+  <string name="menu_remove_from_blacklist">Poista numeron esto</string>
   <string name="speed_dial_settings">Pikavalinta-asetukset</string>
   <string name="speed_dial_not_set">(ei määritetty)</string>
   <string name="speed_dial_replace">Korvaa</string>
@@ -96,5 +98,70 @@
   <string name="call_playback_error_message">Nauhoituksen toisto epäonnistui</string>
   <string name="smart_dialer_title">Älykäs puhelu</string>
   <string name="smart_dialer_summary">Soita valittuun numeroon automaattisesti siirtämällä laite korvalle</string>
+  <string name="powered_by">Powered by</string>
+  <string name="pretty_format_yesterday">Eilen klo <xliff:g id="time">%s</xliff:g></string>
+  <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> päivää sitten</string>
+  <string name="pretty_format_just_now">Juuri nyt</string>
+  <string name="recent_calls_today_header">Tänään</string>
+  <string name="recent_calls_yesterday_header">Eilen</string>
+  <string name="recent_calls_this_week_header">Tällä viikolla</string>
+  <string name="recent_calls_last_week_header">Viime viikolla</string>
+  <string name="recent_calls_older_header">Vanhemmat</string>
+  <string name="action_call">Soita</string>
+  <string name="action_details">Lisätiedot</string>
+  <string name="action_history">Historia</string>
+  <string name="action_message">Viesti</string>
+  <string name="quick_action_contacts">Luo yhteystieto numerolle <xliff:g id="number">%s</xliff:g></string>
+  <string name="quick_action_sms">Lähetä tekstiviesti numeroon <xliff:g id="number">%s</xliff:g></string>
+  <plurals name="call_duration_seconds">
+    <item quantity="one"><xliff:g id="seconds" example="28">%d</xliff:g> sekunnin puhelu</item>
+    <item quantity="other"><xliff:g id="seconds" example="28">%d</xliff:g> sekunnin puhelu</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="one"><xliff:g id="minutes" example="13">%d</xliff:g> minuutin puhelu</item>
+    <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g> minuutin puhelu</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g> tunnin, <xliff:g id="minutes" example="13">%d</xliff:g> minuutin puhelu</item>
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> tunnin, <xliff:g id="minutes" example="13">%d</xliff:g> minuutin puhelu</item>
+  </plurals>
+  <string name="call_duration_missed">Vastaamaton puhelu</string>
+  <string name="unknown_caller">Tuntematon soittaja</string>
+  <string name="clear_call_history">Tyhjennä puheluhistoria</string>
+  <string name="search_prompt">Etsi yhteystietoja</string>
+  <string name="search_places_prompt">Etsi yhteystietoja tai paikkoja</string>
+  <string name="empty_favorites_hint">Suosikkisi &amp; ihmiset joille soitat usein näkyy tässä.</string>
+  <string name="empty_dialpad_hint">Voit valita puhelinnumeron tai etsiä yhteystiedoista.</string>
+  <string name="empty_recents_hint">Sinulla ei ole viimeaikaisia puheluita.</string>
+  <string name="empty_contacts_hint">Sinulla ei ole yhteystietoja.</string>
+  <string name="all_favorites_label">Kaikki suosikit</string>
+  <string name="all_favorites_title">Suosikit</string>
   <string name="toast_added_to_blacklist">%s lisätty estettyjen soittajien listaan.</string>
+  <string name="advanced_lookup_title">Lisäasetukset</string>
+  <string name="silence_spam_title">Hiljennä spam-puhelut</string>
+  <string name="silence_spam_summary">Älä päästä spam-puheluita läpi</string>
+  <string name="block_hidden_title">Estä piilotetut puhelinnumerot</string>
+  <string name="block_hidden_summary">Estä piilotetut numerot spam-puheluina</string>
+  <string name="block_dialog_title">Estä tämä soittaja?</string>
+  <string name="block_dialog_positive">Estä</string>
+  <string name="block_dialog_negative">Peruuta</string>
+  <string name="block_dialog_description">Et saa enään puheluita tai viestejä tältä henkilöltä.</string>
+  <string name="block_dialog_report_spam">Ilmoita spam-puheluista palveluun <xliff:g id="provider">%s</xliff:g></string>
+  <string name="caller_info_auth_yes">Kyllä</string>
+  <string name="caller_info_auth_no">Ei kiitos</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> voi käyttää yhteystietojasi, Minä-profiilia ja Cyanogen OS-tiliä, joka voi sisältää sähköpostiosoitteesi.</string>
+  <string name="caller_info_auth_learn_more">Lue lisää</string>
+  <string name="caller_info_auth_desc">Tervetuloa! Haluatko palvelun <xliff:g id="provider_name">%s</xliff:g> tunnistavan tuntemattomat soittajat ja estävän ei-toivotut puhelut?</string>
+  <string name="caller_info_auth_desc_no_spam">Tervetuloa! Haluatko palvelun <xliff:g id="provider_name">%s</xliff:g> tunnistavan tuntemattomat soittajat?</string>
+  <string name="caller_info_summary">Tunnistaa tuntemattomat soittajat ja spam-puhelut</string>
+  <string name="caller_info_summary_no_spam">Tunnistaa tuntemattomat soittajat</string>
+  <string name="edit_contact">Muokkaa</string>
+  <string name="add_contact">Lisää yhteystieto</string>
+  <string name="caller_info_loading">Haetaan käyttäen palvelua <xliff:g id="provider">%s</xliff:g>u2026</string>
+  <string name="powered_by_provider">Powered by <xliff:g id="provider">%s</xliff:g></string>
+  <string name="call_history_empty_view">Ei puheluhistoriaa</string>
+  <string name="empty_dialpad_t9_example">Etsi %1$s soittamalla:</string>
+  <string name="provider_disable_title">Poista %1$s käytöstä?</string>
+  <string name="provider_disable_message">Poistamalla palvelun %1$s käytöstä, sinulla ei ole soittajan tunnusta.</string>
+  <string name="provider_disable_spam_message">Poistamalla palvelun %1$s käytöstä, sinulla ei ole spam-puheluiden estoa eikä soittajan tunnusta.</string>
 </resources>

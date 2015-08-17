@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">ಸಮಯ ವ್ಯಾಪ್ತಿ ಮರುಹೊಂದಿಸಿ</string>
   <string name="call_stats_sort_by_duration">ಕರೆ ಕಾಲಾವಧಿಯಿಂದ ಶೋಧಿಸು</string>
   <string name="call_stats_sort_by_count">ಕರೆ ಎಣಿಕೆಯಿಂದ ಶೋಧಿಸು</string>
+  <string name="menu_add_to_blacklist">ಸಂಖ್ಯೆ ನಿರ್ಬಂಧಿಸಿ</string>
+  <string name="menu_remove_from_blacklist">ಸಂಖ್ಯೆ ನಿರ್ಬಂಧ ತೆಗೆ</string>
   <string name="speed_dial_settings">ವೇಗ ಡಯಲ್ ಸೆಟ್ಟಿಂಗ್ಸ್</string>
   <string name="speed_dial_not_set">(ಹೊಂದಿಸಿಲ್ಲ)</string>
   <string name="speed_dial_replace">ಬದಲಾಯಿಸಿ</string>
@@ -96,5 +98,70 @@
   <string name="call_playback_error_message">ರಿಕಾರ್ಡಿಂಗ್ ಪ್ಲೇ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ</string>
   <string name="smart_dialer_title">ಸ್ಮಾರ್ಟ್ ಕರೆ</string>
   <string name="smart_dialer_summary">ಸಾಧನವನ್ನು ನಿಮ್ಮ ಕಿವಿಗೆ ಇಡುವುದರ ಮೂಲಕ ಡಯಲ್ ಮಾಡಿದ ಸಂಖ್ಯೆಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಕರೆ ಮಾಡಿ</string>
+  <string name="powered_by">ನಡೆಸುವವರು</string>
+  <string name="pretty_format_yesterday">ನಿನ್ನೆ <xliff:g id="time">%s</xliff:g>ಗೆ</string>
+  <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> ದಿನಗಳ ಹಿಂದೆ</string>
+  <string name="pretty_format_just_now">ಈಗಷ್ಟೆ</string>
+  <string name="recent_calls_today_header">ಇಂದು</string>
+  <string name="recent_calls_yesterday_header">ನಿನ್ನೆ</string>
+  <string name="recent_calls_this_week_header">ಈ ವಾರ</string>
+  <string name="recent_calls_last_week_header">ಕಳೆದ ವಾರ</string>
+  <string name="recent_calls_older_header">ಹಳೆಯ</string>
+  <string name="action_call">ಕರೆ</string>
+  <string name="action_details">ವಿವರಗಳು</string>
+  <string name="action_history">ಇತಿಹಾಸ</string>
+  <string name="action_message">ಸಂದೇಶ</string>
+  <string name="quick_action_contacts"><xliff:g id="number">%s</xliff:g>ಗಾಗಿ ಸಂಪರ್ಕವನು ರಚಿಸಿ</string>
+  <string name="quick_action_sms"><xliff:g id="number">%s</xliff:g>ಗೆ ಎಸ್ಎಂಎಸ್ ಕಳುಹಿಸಿ</string>
+  <plurals name="call_duration_seconds">
+    <item quantity="one"><xliff:g id="seconds" example="1">%d</xliff:g> ಸೆಕೆಂಡ್ ಕರೆ</item>
+    <item quantity="other"><xliff:g id="seconds" example="28">%d</xliff:g> ಸೆಕೆಂಡ್ ಕರೆ</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="one"><xliff:g id="minutes" example="1">%d</xliff:g> ನಿಮಿಷ ಕರೆ</item>
+    <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g> ನಿಮಿಷ ಕರೆ</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g> ಗಂಟೆ <xliff:g id="minutes" example="13">%d</xliff:g> ನಿಮಿಷ ಕರೆ</item>
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> ಗಂಟೆ <xliff:g id="minutes" example="13">%d</xliff:g> ನಿಮಿಷ ಕರೆ</item>
+  </plurals>
+  <string name="call_duration_missed">ತಪ್ಪಿಹೋದ ಕರೆ</string>
+  <string name="unknown_caller">ಅಜ್ಞಾತ ಕರೆಮಾಡಿದಾತ</string>
+  <string name="clear_call_history">ಕರೆ ಇತಿಹಾಸ ತೆರವುಗೊಳಿಸಿ</string>
+  <string name="search_prompt">ಸಂಪರ್ಕಗಳನ್ನು ಹುಡುಕಿ</string>
+  <string name="search_places_prompt">ಸಂಪರ್ಕಗಳನ್ನು ಅಥವ ಸ್ಥಳಗಳನ್ನು ಹುಡುಕಿ</string>
+  <string name="empty_favorites_hint">ನೀವು ಹೆಚ್ಚಾಗಿ ಕರೆ ಮಾಡುವ ನಿಮ್ಮ ಪೇವರಿಟ್ಸ್ &amp; ವ್ಯಕ್ತಿಯನ್ನು ಇಲ್ಲಿ ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ.</string>
+  <string name="empty_dialpad_hint">ನೀವು ದೂರವಾಣಿ ಸಂಖ್ಯೆಯನ್ನು ಡಯಲ್ ಮಾಡಬಹುದು ಅಥವ ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ಹುಡುಕಬಹುದು.</string>
+  <string name="empty_recents_hint">ನೀವು ಯಾವುದೇ ಇತ್ತೀಚಿನ ಕರೆಗಳನ್ನು ಹೊಂದಿಲ್ಲ.</string>
+  <string name="empty_contacts_hint">ನೀವು ಯಾವುದೇ ಸಂಪರ್ಕಗಳನ್ನು ಹೊಂದಿಲ್ಲ.</string>
+  <string name="all_favorites_label">ಎಲ್ಲಾ ಫೇವರಿಟ್ಸ್</string>
+  <string name="all_favorites_title">ಫೇವರಿಟ್ಸ್</string>
   <string name="toast_added_to_blacklist">%s ನಿರ್ಬಂಧಿಸಿದ ಕರೆ ಮಾಡುವವರ ಪಟ್ಟಿಗೆ ಸೇರಿಸಲಾಗಿದೆ.</string>
+  <string name="advanced_lookup_title">ಸುಧಾರಿತ</string>
+  <string name="silence_spam_title">ಸ್ಪಾಮ್ ಕರೆಗಳನ್ನು ನಿಶ್ಯಬ್ಧಿಸು</string>
+  <string name="silence_spam_summary">ಎಂದಿಗೂ ಸ್ಪಾಮ್ ಕರೆಗಳಿಗೆ ರಿಂಗ್ ಮಾಡಲು ಬಿಡಬೇಡ</string>
+  <string name="block_hidden_title">ಮರೆಮಾಡಿದ ದೂರವಾಣಿ ಸಂಖ್ಯೆಗಳನ್ನು ನಿರ್ಬಂಧಿಸು</string>
+  <string name="block_hidden_summary">ಮರೆಮಾಡಿದ ಸಂಖ್ಯೆಗಳನ್ನು ಸ್ಪಾಮ್ ಎಂದು ಪರಿಗಣಿಸು</string>
+  <string name="block_dialog_title">ಈ ಕರೆಮಾಡುಗರನ್ನುನಿರ್ಬಂಧಿಸು?</string>
+  <string name="block_dialog_positive">ನಿರ್ಬಂಧಿಸು</string>
+  <string name="block_dialog_negative">ರದ್ದು</string>
+  <string name="block_dialog_description">ನೀವು ಇನ್ನು ಮುಂದೆ ಎಂದಿಗೂ ಈ ವ್ಯಕ್ತಿಯಿಂದ ಕರೆಗಳನ್ನು ಅಥವ ಸಂದೇಶಗಳನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ.</string>
+  <string name="block_dialog_report_spam">ಸ್ಪಾಮ್ ಎಂದು <xliff:g id="provider">%s</xliff:g> ಗೆ ವರದಿಮಾಡು</string>
+  <string name="caller_info_auth_yes">ಹೌದು</string>
+  <string name="caller_info_auth_no">ಬೇಡ ಧನ್ಯವಾದಗಳು</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> ನಿಮ್ಮ ಸಂಪರ್ಕಗಳಿಗೆ, ನಾನು ಪ್ರೊಫೈಲ್‍ಗೆ, ಮತ್ತು Cyanogen OS ಖಾತೆಗೆ ಪ್ರವೇಶವನ್ನು ಹೊಂದುತ್ತದೆ, ಇದರಲ್ಲಿ ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸ ಕೂಡ ಒಳಗೊಂಡಿರಬಹುದು.</string>
+  <string name="caller_info_auth_learn_more">ಮತ್ತಷ್ಟು ತಿಳಿಯಿರಿ</string>
+  <string name="caller_info_auth_desc">ಸ್ವಾಗತ! ನೀವು <xliff:g id="provider_name">%s</xliff:g> ಅನ್ನು ಅಜ್ಞಾತ ಕರೆಮಾಡುಗರನ್ನು ಗುರುತಿಸಿ ಮತ್ತು ಅನಗತ್ಯ ಕರೆಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲು ಬಳಸಲು ಬಯಸುವಿರಾ?</string>
+  <string name="caller_info_auth_desc_no_spam">ಸ್ವಾಗತ! ನೀವು <xliff:g id="provider_name">%s</xliff:g> ಅನ್ನು ಅಜ್ಞಾತ ಕರೆಮಾಡುಗರನ್ನು ಗುರುತಿಸಲು ಬಳಸಲು ಬಯಸುವಿರಾ?</string>
+  <string name="caller_info_summary">ಅಜ್ಞಾತ ಕರೆಮಾಡುಗರನ್ನು ಹಾಗು ಸ್ಪಾಮನ್ನು ಗುರುತಿಸುತ್ತದೆ</string>
+  <string name="caller_info_summary_no_spam">ಅಜ್ಞಾತ ಕರೆಮಾಡುಗರನ್ನು ಗುರುತಿಸುತ್ತದೆ</string>
+  <string name="edit_contact">ಸಂಪಾದಿಸಿ</string>
+  <string name="add_contact">ಸಂಪರ್ಕ ಸೇರಿಸಿ</string>
+  <string name="caller_info_loading"><xliff:g id="provider">%s</xliff:g> ಹುಡುಕುತ್ತಿದೆ\u2026</string>
+  <string name="powered_by_provider">ನಡೆಸಲ್ಪಡುತ್ತಿರುವವರು <xliff:g id="provider">%s</xliff:g></string>
+  <string name="call_history_empty_view">ಯಾವುದೇ ಕರೆ ಇತಿಹಾಸ ಇಲ್ಲ</string>
+  <string name="empty_dialpad_t9_example">ಹೀಗೆ ಡಯಲ್ ಮಾಡುವ ಮೂಲಕ %1$s ಗಾಗಿ ಹುಡುಕಿ:</string>
+  <string name="provider_disable_title">%1$s ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು?</string>
+  <string name="provider_disable_message">%1$s ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವುದರಿಂದ, ನೀಮಗೆ ಕಾಲರ್ ಐಡಿ ಇರುವುದಿಲ್ಲ.</string>
+  <string name="provider_disable_spam_message">%1$s ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವುದರಿಂದ, ನೀಮಗೆ ಸ್ಪಾಮ್ ಸಂರಕ್ಷಣೆ ಅಥವ ಕಾಲರ್ ಐಡಿ ಇರುವುದಿಲ್ಲ.</string>
 </resources>

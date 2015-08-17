@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">重置时间范围</string>
   <string name="call_stats_sort_by_duration">以通话时间排序</string>
   <string name="call_stats_sort_by_count">以通话次数排序</string>
+  <string name="menu_add_to_blacklist">屏蔽号码</string>
+  <string name="menu_remove_from_blacklist">解除屏蔽号码</string>
   <string name="speed_dial_settings">快速拨号设置</string>
   <string name="speed_dial_not_set">（未设置）</string>
   <string name="speed_dial_replace">替换</string>
@@ -96,5 +98,67 @@
   <string name="call_playback_error_message">播放录音失败</string>
   <string name="smart_dialer_title">智能呼叫</string>
   <string name="smart_dialer_summary">当移动您的设备到耳边时自动呼叫此号码</string>
+  <string name="powered_by">驱动者</string>
+  <string name="pretty_format_yesterday">在昨天 <xliff:g id="time">%s</xliff:g></string>
+  <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> 天前</string>
+  <string name="pretty_format_just_now">刚刚</string>
+  <string name="recent_calls_today_header">今天</string>
+  <string name="recent_calls_yesterday_header">昨天</string>
+  <string name="recent_calls_this_week_header">本周</string>
+  <string name="recent_calls_last_week_header">上周</string>
+  <string name="recent_calls_older_header">较早</string>
+  <string name="action_call">呼叫</string>
+  <string name="action_details">详细信息</string>
+  <string name="action_history">历史</string>
+  <string name="action_message">信息</string>
+  <string name="quick_action_contacts">为 <xliff:g id="number">%s</xliff:g> 创建联系人</string>
+  <string name="quick_action_sms">发送短信到 <xliff:g id="number">%s</xliff:g></string>
+  <plurals name="call_duration_seconds">
+    <item quantity="other"><xliff:g id="seconds" example="28">%d</xliff:g> 秒呼叫</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g> 分钟呼叫</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> 小时 <xliff:g id="minutes" example="13">%d</xliff:g> 分钟呼叫</item>
+  </plurals>
+  <string name="call_duration_missed">未接来电</string>
+  <string name="unknown_caller">未知呼叫人</string>
+  <string name="clear_call_history">清除通话记录</string>
+  <string name="search_prompt">搜索联系人</string>
+  <string name="search_places_prompt">搜索联系人或位置</string>
+  <string name="empty_favorites_hint">您的收藏夹和经常给您打电话的人将会出现在这里。</string>
+  <string name="empty_dialpad_hint">您可以拨打电话号码或搜索您的联系人。</string>
+  <string name="empty_recents_hint">您最近没有电话。</string>
+  <string name="empty_contacts_hint">您没有联系人。</string>
+  <string name="all_favorites_label">所有收藏</string>
+  <string name="all_favorites_title">收藏夹</string>
   <string name="toast_added_to_blacklist">%s 已添加到呼叫黑名单。</string>
+  <string name="advanced_lookup_title">高级</string>
+  <string name="silence_spam_title">静音垃圾电话</string>
+  <string name="silence_spam_summary">永远不让垃圾呼叫响铃</string>
+  <string name="block_hidden_title">屏蔽隐藏号码</string>
+  <string name="block_hidden_summary">将隐藏号码的来电视为垃圾来电</string>
+  <string name="block_dialog_title">屏蔽此呼叫者？</string>
+  <string name="block_dialog_positive">屏蔽</string>
+  <string name="block_dialog_negative">取消</string>
+  <string name="block_dialog_description">您将不会再收到此人的来电或信息。</string>
+  <string name="block_dialog_report_spam">报告垃圾呼叫到 <xliff:g id="provider">%s</xliff:g></string>
+  <string name="caller_info_auth_yes">是</string>
+  <string name="caller_info_auth_no">不，谢谢</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> 会访问您的联系人，我配置文件和 Cyanogen OS 帐户，其中可能包括您的电子邮件地址。</string>
+  <string name="caller_info_auth_learn_more">了解更多</string>
+  <string name="caller_info_auth_desc">欢迎！您想要 <xliff:g id="provider_name">%s</xliff:g> 来识别未知的呼叫和阻止不必要的电话吗？</string>
+  <string name="caller_info_auth_desc_no_spam">欢迎！您想让 <xliff:g id="provider_name">%s</xliff:g> 来识别未知来电吗？</string>
+  <string name="caller_info_summary">标记未知的呼叫和垃圾广告</string>
+  <string name="caller_info_summary_no_spam">标记未知来电</string>
+  <string name="edit_contact">修改</string>
+  <string name="add_contact">添加联系人</string>
+  <string name="caller_info_loading">正在搜索 <xliff:g id="provider">%s</xliff:g>\u2026</string>
+  <string name="powered_by_provider">由 <xliff:g id="provider">%s</xliff:g> 强力驱动</string>
+  <string name="call_history_empty_view">没有通话历史</string>
+  <string name="empty_dialpad_t9_example">通过拨号搜索 %1$s：</string>
+  <string name="provider_disable_title">禁用 %1$s 吗？</string>
+  <string name="provider_disable_message">通过禁用 %1$s，您将不会再有呼叫者身份识别。</string>
+  <string name="provider_disable_spam_message">通过禁用 %1$s，您将不再获得垃圾电话保护或呼叫者身份识别。</string>
 </resources>

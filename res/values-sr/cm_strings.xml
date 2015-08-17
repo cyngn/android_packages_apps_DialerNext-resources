@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Ресетуј временски опсег</string>
   <string name="call_stats_sort_by_duration">Сортирај по трајању позива</string>
   <string name="call_stats_sort_by_count">Сортирај по броју позива</string>
+  <string name="menu_add_to_blacklist">Блокирај број</string>
+  <string name="menu_remove_from_blacklist">Одблокирај број</string>
   <string name="speed_dial_settings">Подешавања брзог бирања</string>
   <string name="speed_dial_not_set">(није постављено)</string>
   <string name="speed_dial_replace">Замени</string>
@@ -96,5 +98,76 @@
   <string name="call_playback_error_message">Пуштање снимка није успело</string>
   <string name="smart_dialer_title">Паметни позив</string>
   <string name="smart_dialer_summary">Аутоматски позови бирани број примицањем уређаја увету</string>
+  <string name="powered_by">Омогућено од</string>
+  <string name="pretty_format_yesterday">Јуче у <xliff:g id="time">%s</xliff:g></string>
+  <string name="pretty_format_x_days_ago">пре <xliff:g id="n_days">%d</xliff:g> дана</string>
+  <string name="pretty_format_just_now">Управо сада</string>
+  <string name="recent_calls_today_header">Данас</string>
+  <string name="recent_calls_yesterday_header">Јуче</string>
+  <string name="recent_calls_this_week_header">Овe недељe</string>
+  <string name="recent_calls_last_week_header">Претходнe недељe</string>
+  <string name="recent_calls_older_header">Старије</string>
+  <string name="action_call">Позив</string>
+  <string name="action_details">Детаљи</string>
+  <string name="action_history">Историја</string>
+  <string name="action_message">Порука</string>
+  <string name="quick_action_contacts">Креирање контакта за <xliff:g id="number">%s</xliff:g></string>
+  <string name="quick_action_sms">Пошаљи SMS на <xliff:g id="number">%s</xliff:g></string>
+  <plurals name="call_duration_seconds">
+    <item quantity="one"><xliff:g id="seconds" example="1">%d</xliff:g> секунда позива</item>
+    <item quantity="few"><xliff:g id="seconds" example="28">%d</xliff:g> секунди позива</item>
+    <item quantity="many"><xliff:g id="seconds" example="28">%d</xliff:g> секунди позива</item>
+    <item quantity="other"><xliff:g id="seconds" example="28">%d</xliff:g> секунди позива</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="one"><xliff:g id="minutes" example="1">%d</xliff:g> минут позива</item>
+    <item quantity="few"><xliff:g id="minutes" example="13">%d</xliff:g> минута позива</item>
+    <item quantity="many"><xliff:g id="minutes" example="13">%d</xliff:g> минута позива</item>
+    <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g> минута позива</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g> сат <xliff:g id="minutes" example="13">%d</xliff:g> минута позива</item>
+    <item quantity="few"><xliff:g id="hours" example="1">%d</xliff:g> сата <xliff:g id="minutes" example="13">%d</xliff:g> минута позива</item>
+    <item quantity="many"><xliff:g id="hours" example="1">%d</xliff:g> сата <xliff:g id="minutes" example="13">%d</xliff:g> минута позива</item>
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> сата <xliff:g id="minutes" example="13">%d</xliff:g> минута позива</item>
+  </plurals>
+  <string name="call_duration_missed">Пропуштен позив</string>
+  <string name="unknown_caller">Непознати позиваоц</string>
+  <string name="clear_call_history">Обриши историју позива</string>
+  <string name="search_prompt">Претражи контакте</string>
+  <string name="search_places_prompt">Претражи контакте и места</string>
+  <string name="empty_favorites_hint">Твоје омиљене &amp; особе које чешће зовеш приказаће се овде.</string>
+  <string name="empty_dialpad_hint">Можеш бирати телефонски број или претражити контакте.</string>
+  <string name="empty_recents_hint">Нема скорашњих позива.</string>
+  <string name="empty_contacts_hint">Немаш контакте.</string>
+  <string name="all_favorites_label">Сви омиљени</string>
+  <string name="all_favorites_title">Омиљени</string>
   <string name="toast_added_to_blacklist">%s додат на листу блокираних позива.</string>
+  <string name="advanced_lookup_title">Напредно</string>
+  <string name="silence_spam_title">Утишај нежељене позиве</string>
+  <string name="silence_spam_summary">Не дозволи да нежељени позиви звоне</string>
+  <string name="block_hidden_title">Блокирај скривене телефонске бројеве</string>
+  <string name="block_hidden_summary">Сматрај скривене бројеве нежељеним</string>
+  <string name="block_dialog_title">Блокирати овог позиваоца?</string>
+  <string name="block_dialog_positive">Блокирано</string>
+  <string name="block_dialog_negative">Откажи</string>
+  <string name="block_dialog_description">Нећеш више примати позиве или поруке од те особе.</string>
+  <string name="block_dialog_report_spam">Пријави спам у <xliff:g id="provider">%s</xliff:g></string>
+  <string name="caller_info_auth_yes">Да</string>
+  <string name="caller_info_auth_no">Не хвала</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> ће приступити твојим контактима, профилу и Cyanogen OS налогу што може укључити и твоју Е-пошту.</string>
+  <string name="caller_info_auth_learn_more">Сазнај више</string>
+  <string name="caller_info_auth_desc">Добродошли! Да ли желиш да <xliff:g id="provider_name">%s</xliff:g> идентификује непознате позиваоце и блокира нежељене позиве?</string>
+  <string name="caller_info_auth_desc_no_spam">Добродошли! Да ли желиш да <xliff:g id="provider_name">%s</xliff:g> идентификује непознате позиваоце?</string>
+  <string name="caller_info_summary">Открива непознате позиваоце и спам</string>
+  <string name="caller_info_summary_no_spam">Идентификује непознате позиваоце</string>
+  <string name="edit_contact">Измени</string>
+  <string name="add_contact">Додај контакт</string>
+  <string name="caller_info_loading">Претражујем <xliff:g id="provider">%s</xliff:g>\u2026</string>
+  <string name="powered_by_provider">Омогућено од <xliff:g id="provider">%s</xliff:g></string>
+  <string name="call_history_empty_view">Нема историје позива</string>
+  <string name="empty_dialpad_t9_example">Тражи %1$s позивањем броја:</string>
+  <string name="provider_disable_title">Онемогући %1$s?</string>
+  <string name="provider_disable_message">Онемогућавањем %1$s, нећеш имати идентификацију позива.</string>
+  <string name="provider_disable_spam_message">Онемогућавањем %1$s, нећеш имати заштиту од спама или идентификацију позива.</string>
 </resources>

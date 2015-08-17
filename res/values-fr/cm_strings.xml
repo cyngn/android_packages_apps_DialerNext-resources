@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Réinitialiser l\'intervalle de temps</string>
   <string name="call_stats_sort_by_duration">Trier par durée d\'appel</string>
   <string name="call_stats_sort_by_count">Trier par nombre d\'appel</string>
+  <string name="menu_add_to_blacklist">Bloquer le numéro</string>
+  <string name="menu_remove_from_blacklist">Débloquer le numéro</string>
   <string name="speed_dial_settings">Paramètres de la numérotation rapide</string>
   <string name="speed_dial_not_set">(non défini)</string>
   <string name="speed_dial_replace">Remplacer</string>
@@ -96,6 +98,7 @@
   <string name="call_playback_error_message">Impossible de lire l\'enregistrement</string>
   <string name="smart_dialer_title">Appel intelligent</string>
   <string name="smart_dialer_summary">Appel automatique du numéro composé lorsque vous approchez votre téléphone de votre oreille</string>
+  <string name="powered_by">Fourni par</string>
   <string name="pretty_format_yesterday">Hier à <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago">Il y a <xliff:g id="n_days">%d</xliff:g> jours</string>
   <string name="pretty_format_just_now">À l\'instant</string>
@@ -128,6 +131,7 @@ Appel de <xliff:g id="minutes" example="13">%d</xliff:g> minutes
   <string name="unknown_caller">Numéro inconnu</string>
   <string name="clear_call_history">Effacer l\'historique des appels</string>
   <string name="search_prompt">Rechercher des contacts</string>
+  <string name="search_places_prompt">Rechercher des Contacts ou des Lieux</string>
   <string name="empty_favorites_hint">Vos favoris et les personnes que vous appelez souvent apparaitront ici.</string>
   <string name="empty_dialpad_hint">Vous pouvez composer un numéro ou chercher dans vos contacts.</string>
   <string name="empty_recents_hint">Vous avez aucun appel récent.</string>
@@ -143,13 +147,23 @@ Appel de <xliff:g id="minutes" example="13">%d</xliff:g> minutes
   <string name="block_dialog_title">Bloquer cet appelant ?</string>
   <string name="block_dialog_positive">Bloquer</string>
   <string name="block_dialog_negative">Annuler</string>
+  <string name="block_dialog_description">Vous ne recevrez plus d\'appels ou de SMS de cette personne.</string>
   <string name="block_dialog_report_spam">Signaler comme spam à <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Oui</string>
   <string name="caller_info_auth_no">Non merci</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> aura accès à vos contacts, Mon profil, et au compte Cyanogen OS, pouvant inclure votre adresse e-mail.</string>
   <string name="caller_info_auth_learn_more">En savoir plus</string>
+  <string name="caller_info_auth_desc">Bienvenue ! Souhaitez-vous que <xliff:g id="provider_name">%s</xliff:g> identifie les appelants inconnus et bloque les appels indésirables ?</string>
+  <string name="caller_info_auth_desc_no_spam">Bienvenue ! Souhaitez-vous que <xliff:g id="provider_name">%s</xliff:g> identifie les appelants inconnus ?</string>
+  <string name="caller_info_summary">Identifie les appelants inconnus et le spam</string>
+  <string name="caller_info_summary_no_spam">Identifie les appelants inconnus</string>
   <string name="edit_contact">Éditer</string>
   <string name="add_contact">Ajouter un contact</string>
   <string name="caller_info_loading">Recherche de <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">Proposé par <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">Aucun historique des appels</string>
+  <string name="empty_dialpad_t9_example">Rechercher %1$s en composant le :</string>
+  <string name="provider_disable_title">Désactiver %1$s ?</string>
+  <string name="provider_disable_message">En désactivant %1$s, vous n\'aurez pas l\'ID de l\'appelant.</string>
+  <string name="provider_disable_spam_message">En désactivant %1$s, vous n\'aurez pas l\'ID de l\'appelant ou de protection contre le spam.</string>
 </resources>
