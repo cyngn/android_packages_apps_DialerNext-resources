@@ -33,7 +33,7 @@
   <string name="unknown_caller">ಅಜ್ಞಾತ ಕರೆಮಾಡಿದಾತ</string>
   <string name="clear_call_history">ಕರೆ ಇತಿಹಾಸ ತೆರವುಗೊಳಿಸಿ</string>
   <string name="search_prompt">ಸಂಪರ್ಕಗಳನ್ನು ಹುಡುಕಿ</string>
-  <string name="empty_favorites_hint">ನೀವು ಹೆಚ್ಚಾಗಿ ಕರೆ ಮಾಡುವ ನಿಮ್ಮ ಅಪೇವರಿಟ್ಸ್ &amp; ವ್ಯಕ್ತಿಯನ್ನು ಇಲ್ಲಿ ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ.</string>
+  <string name="empty_favorites_hint">ನೀವು ಹೆಚ್ಚಾಗಿ ಕರೆ ಮಾಡುವ ನಿಮ್ಮ ಪೇವರಿಟ್ಸ್ &amp; ವ್ಯಕ್ತಿಯನ್ನು ಇಲ್ಲಿ ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ.</string>
   <string name="empty_dialpad_hint">ನೀವು ದೂರವಾಣಿ ಸಂಖ್ಯೆಯನ್ನು ಡಯಲ್ ಮಾಡಬಹುದು ಅಥವ ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ಹುಡುಕಬಹುದು.</string>
   <string name="empty_recents_hint">ನೀವು ಯಾವುದೇ ಇತ್ತೀಚಿನ ಕರೆಗಳನ್ನು ಹೊಂದಿಲ್ಲ.</string>
   <string name="empty_contacts_hint">ನೀವು ಯಾವುದೇ ಸಂಪರ್ಕಗಳನ್ನು ಹೊಂದಿಲ್ಲ.</string>

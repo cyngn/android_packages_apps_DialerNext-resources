@@ -43,8 +43,8 @@
   <string name="advanced_lookup_title">Erweitert</string>
   <string name="silence_spam_title">Spam-Anrufe stumm schalten</string>
   <string name="silence_spam_summary">Spam-Anrufe blockieren</string>
-  <string name="block_hidden_title">Unterdrückte Nummern blockieren</string>
-  <string name="block_hidden_summary">Unterdrückte Nummern als Spam behandeln</string>
+  <string name="block_hidden_title">Blockiere versteckte Telefonnummern</string>
+  <string name="block_hidden_summary">Betrachten Sie versteckte Zahlen als Spam</string>
   <string name="block_dialog_title">Diesen Anrufer blockieren?</string>
   <string name="block_dialog_positive">Blockieren</string>
   <string name="block_dialog_negative">Abbrechen</string>
