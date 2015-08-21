@@ -25,11 +25,13 @@
   <string name="all_favorites_title">Favorite</string>
   <string name="advanced_lookup_title">Avansat</string>
   <string name="block_hidden_title">Blochează numere de telefon ascunse</string>
+  <string name="block_hidden_summary">Consideră numerele ascunse ca spam</string>
   <string name="block_dialog_positive">Blochează</string>
   <string name="block_dialog_negative">Anulare</string>
   <string name="block_dialog_description">Nu veți mai primi apeluri de la această persoană.</string>
   <string name="caller_info_auth_yes">Da</string>
   <string name="caller_info_auth_no">Nu, mulțumesc</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> va avea acces la contacte și la profilul ME.</string>
   <string name="caller_info_auth_learn_more">Află mai multe</string>
   <string name="caller_info_auth_desc_no_spam"><xliff:g id="provider_name">%s</xliff:g> va identifica apelanții necunoscuți. Vreți să-l folosiți?</string>
   <string name="edit_contact">Editare</string>
