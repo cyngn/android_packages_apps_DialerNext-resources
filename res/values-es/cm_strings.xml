@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Restablecer rango de fechas</string>
   <string name="call_stats_sort_by_duration">Ordenar por duración</string>
   <string name="call_stats_sort_by_count">Ordenar por núm. llamadas</string>
+  <string name="menu_add_to_blacklist">Bloquear número</string>
+  <string name="menu_remove_from_blacklist">Desbloquear número</string>
   <string name="speed_dial_settings">Ajustes de marcado</string>
   <string name="speed_dial_not_set">(sin establecer)</string>
   <string name="speed_dial_replace">Reemplazar</string>
@@ -96,6 +98,7 @@
   <string name="call_playback_error_message">Ocurrió un error al reproducir la grabación</string>
   <string name="smart_dialer_title">Llamada inteligente</string>
   <string name="smart_dialer_summary">Llamar automáticamente al número marcado al acercar el dispositivo a la oreja</string>
+  <string name="powered_by">Impulsado por</string>
   <string name="pretty_format_yesterday">Ayer a las <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> días atrás</string>
   <string name="pretty_format_just_now">Ahora</string>
@@ -103,7 +106,7 @@
   <string name="recent_calls_yesterday_header">Ayer</string>
   <string name="recent_calls_this_week_header">Esta semana</string>
   <string name="recent_calls_last_week_header">La última pasada</string>
-  <string name="recent_calls_older_header">Más antigua</string>
+  <string name="recent_calls_older_header">Anteriores</string>
   <string name="action_call">Llamar</string>
   <string name="action_details">Detallado</string>
   <string name="action_history">Historial</string>
@@ -126,28 +129,39 @@
   <string name="unknown_caller">Origen desconocido</string>
   <string name="clear_call_history">Limpiar historial de llamadas</string>
   <string name="search_prompt">Buscar contactos</string>
+  <string name="search_places_prompt">Buscar contactos o lugares</string>
   <string name="empty_favorites_hint">Tus favoritos y gente a la que llamas a menudo se mostrará aquí.</string>
-  <string name="empty_dialpad_hint">Puede marcar un número de teléfono o buscar tus contactos.</string>
-  <string name="empty_recents_hint">Sin llamadas recientes.</string>
-  <string name="empty_contacts_hint">Sin contactos.</string>
+  <string name="empty_dialpad_hint">Puedes marcar un número de teléfono o buscar de un contacto.</string>
+  <string name="empty_recents_hint">No tiene llamadas recientes.</string>
+  <string name="empty_contacts_hint">No tiene contactos.</string>
   <string name="all_favorites_label">Todos los favoritos</string>
   <string name="all_favorites_title">Favoritos</string>
   <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> añadido a la lista de bloqueados</string>
   <string name="advanced_lookup_title">Avanzado</string>
-  <string name="silence_spam_title">Silenciar llamadas no deseadas</string>
-  <string name="silence_spam_summary">No permitir que las llamadas no deseadas suenen</string>
+  <string name="silence_spam_title">Silenciar llamadas Spam</string>
+  <string name="silence_spam_summary">Nunca dejar que suene una llamada considerada como spam</string>
   <string name="block_hidden_title">Bloquear números ocultos</string>
-  <string name="block_hidden_summary">Considerar números ocultos como no deseados</string>
+  <string name="block_hidden_summary">Considerar números ocultos como spam</string>
   <string name="block_dialog_title">¿Bloquear a este contacto?</string>
   <string name="block_dialog_positive">Bloquear</string>
   <string name="block_dialog_negative">Cancelar</string>
+  <string name="block_dialog_description">Ya no recibirás más llamadas o mensajes de esta persona.</string>
   <string name="block_dialog_report_spam">Informar como no deseado a <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Sí</string>
   <string name="caller_info_auth_no">No gracias</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> tendrá acceso a tus contactos, Me profile y que puede incluir su dirección de correo electrónico.</string>
   <string name="caller_info_auth_learn_more">Saber más</string>
+  <string name="caller_info_auth_desc">¡Bienvenido! ¿Te gustaría <xliff:g id="provider_name">%s </xliff:g> identificar las llamadas desconocidas y bloquear llamadas no deseadas?</string>
+  <string name="caller_info_auth_desc_no_spam">¡Bienvenido! ¿Te gustaría que <xliff:g id="provider_name">%s</xliff:g> identificase a personas desconocidas?</string>
+  <string name="caller_info_summary">Identifica los llamadores desconocidos y spam</string>
+  <string name="caller_info_summary_no_spam">Identifica personas desconocidas</string>
   <string name="edit_contact">Editar</string>
   <string name="add_contact">Añadir contacto</string>
   <string name="caller_info_loading">Buscando <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">Patrocinado por <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">Sin historial de llamadas</string>
+  <string name="empty_dialpad_t9_example">Buscar %1$s marcando:</string>
+  <string name="provider_disable_title">¿Desactivar la %1$s?</string>
+  <string name="provider_disable_message">Al desactivar %1$s, no tendrás un identificador de llamada.</string>
+  <string name="provider_disable_spam_message">Al desactivar %1$s, no tendrás protección contra spam ni un identificador de llamada.</string>
 </resources>

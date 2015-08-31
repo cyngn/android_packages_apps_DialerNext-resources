@@ -32,7 +32,7 @@
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
   <string name="preference_category_t9_dialpad_search">T9-поиск в номеронабирателе</string>
   <string name="t9_search_input_locale">Язык поиска</string>
-  <string name="t9_search_input_locale_default">Язык системы</string>
+  <string name="t9_search_input_locale_default">По умолчанию</string>
   <string name="type_blacklist">Заблокированный вызов</string>
   <string name="call_log_stats_title">Статистика</string>
   <string name="callStatsDetailTitle">Статистика вызовов</string>
@@ -88,7 +88,7 @@
   <string name="video_call">Видеовызов</string>
   <string name="call_duration_active">Длительность активн.:</string>
   <string name="call_duration_call_out">Длительность вызова:</string>
-  <string name="call_log_show_all_slots">Все SIM-карты</string>
+  <string name="call_log_show_all_slots">Все SIM</string>
   <string name="call_log_all_calls_header">Все звонки</string>
   <string name="calllog_search_hint">Искать в журнале вызовов</string>
   <string name="msim_ime_dialog_title">Идентификатор устройства</string>

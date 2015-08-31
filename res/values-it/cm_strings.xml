@@ -96,8 +96,8 @@
   <string name="start_call_playback">Riproduci registrazione</string>
   <string name="stop_call_playback">Ferma</string>
   <string name="call_playback_error_message">Impossibile riprodurre la registrazione</string>
-  <string name="smart_dialer_title">Smart Call</string>
-  <string name="smart_dialer_summary">Chiama automaticamente il numero composto avvicinando il dispositivo all\'orecchio</string>
+  <string name="smart_dialer_title">Chiamate Smart</string>
+  <string name="smart_dialer_summary">Chiama automaticamente il vostro contatto avvicinando il telefono all’orecchio</string>
   <string name="powered_by">Powered by</string>
   <string name="pretty_format_yesterday">Ieri alle <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> giorni fa</string>
@@ -131,16 +131,16 @@
   <string name="search_prompt">Cerca contatti</string>
   <string name="search_places_prompt">Cerca Contatti o Luoghi</string>
   <string name="empty_favorites_hint">Tuoi preferiti &amp; le persone che chiami spesso appariranno qui.</string>
-  <string name="empty_dialpad_hint">Puoi comporre un numero di telefono o cercare i tuoi contatti.</string>
+  <string name="empty_dialpad_hint">Puoi chiamare un numero telefonico o cercare tra i tuoi contatti.</string>
   <string name="empty_recents_hint">Non hai chiamate recenti.</string>
   <string name="empty_contacts_hint">Non hai contatti.</string>
   <string name="all_favorites_label">Tutti i preferiti</string>
   <string name="all_favorites_title">Preferiti</string>
   <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> aggiunto alla lista chiamanti bloccati</string>
   <string name="advanced_lookup_title">Avanzate</string>
-  <string name="silence_spam_title">Filtra chiamate spam</string>
-  <string name="silence_spam_summary">Non lasciar squillare le chiamate spam</string>
-  <string name="block_hidden_title">Numeri di telefono nascosti</string>
+  <string name="silence_spam_title">Chiamate silenziose spam</string>
+  <string name="silence_spam_summary">Non lasciare mai squillare le chiamate spam</string>
+  <string name="block_hidden_title">Blocca numeri nascosti</string>
   <string name="block_hidden_summary">Considera i numeri nascosti come spam</string>
   <string name="block_dialog_title">Bloccare questo chiamante?</string>
   <string name="block_dialog_positive">Blocca</string>
@@ -153,14 +153,14 @@
   <string name="caller_info_auth_learn_more">Maggiori informazioni</string>
   <string name="caller_info_auth_desc">Benvenuto! Vuoi che <xliff:g id="provider_name">%s</xliff:g> identifichi i chiamanti sconosciuti e blocchi le chiamate non desiderate?</string>
   <string name="caller_info_auth_desc_no_spam">Benvenuto! Vorresti che <xliff:g id="provider_name">%s</xliff:g> identifichi i chiamanti sconosciuti?</string>
-  <string name="caller_info_summary">Identifica spam e chiamanti sconosciuti</string>
+  <string name="caller_info_summary">Identifica i chiamanti sconosciuti e spam</string>
   <string name="caller_info_summary_no_spam">Identifica chiamanti sconosciuti</string>
   <string name="edit_contact">Modifica</string>
   <string name="add_contact">Aggiungi contatto</string>
   <string name="caller_info_loading">Ricerca di <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">Powered by <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">Nessuna chiamata effettuata</string>
-  <string name="empty_dialpad_t9_example">Cerca per %1$s digitando:</string>
+  <string name="empty_dialpad_t9_example">Cerca ad esempio %1$s digitando:</string>
   <string name="provider_disable_title">Disattivare %1$s?</string>
   <string name="provider_disable_message">Disattivando %1$s, non avrai un ID chiamante.</string>
   <string name="provider_disable_spam_message">Disattivando %1$s, non avrai protezione da spam o ID chiamante.</string>

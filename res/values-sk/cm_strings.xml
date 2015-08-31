@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Obnoviť časový rozsah</string>
   <string name="call_stats_sort_by_duration">Zoradiť podľa trvania hovoru</string>
   <string name="call_stats_sort_by_count">Zoradiť podľa počtu hovorov</string>
+  <string name="menu_add_to_blacklist">Zablokovať číslo</string>
+  <string name="menu_remove_from_blacklist">Odblokovať číslo</string>
   <string name="speed_dial_settings">Nastavenia rýchleho vytáčania</string>
   <string name="speed_dial_not_set">(nenastavené)</string>
   <string name="speed_dial_replace">Nahradiť</string>
@@ -96,5 +98,68 @@
   <string name="call_playback_error_message">Prehrávanie nahrávky zlyhalo</string>
   <string name="smart_dialer_title">Inteligentné vytáčanie</string>
   <string name="smart_dialer_summary">Automaticky vytočiť volané číslo presunutím zariadenia k uchu</string>
+  <string name="powered_by">Používa služby</string>
+  <string name="pretty_format_yesterday">Včera o <xliff:g id="time">%s</xliff:g></string>
+  <string name="pretty_format_x_days_ago">Pred <xliff:g id="n_days">%d</xliff:g> dňami</string>
+  <string name="pretty_format_just_now">Práve teraz</string>
+  <string name="recent_calls_today_header">Dnes</string>
+  <string name="recent_calls_yesterday_header">Včera</string>
+  <string name="recent_calls_this_week_header">Tento týždeň</string>
+  <string name="recent_calls_last_week_header">Minulý týždeň</string>
+  <string name="recent_calls_older_header">Staršie</string>
+  <string name="action_call">Hovor</string>
+  <string name="action_details">Podrobnosti</string>
+  <string name="action_history">História</string>
+  <string name="action_message">Správa</string>
+  <string name="quick_action_contacts">Vytvoriť kontakt pre <xliff:g id="number">%s</xliff:g></string>
+  <string name="quick_action_sms">Poslať SMS pre <xliff:g id="number">%s</xliff:g></string>
+  <plurals name="call_duration_seconds">
+    <item quantity="one"><xliff:g id="seconds" example="1">%d</xliff:g>s hovor</item>
+    <item quantity="few"><xliff:g id="seconds" example="1">%d</xliff:g>s hovor</item>
+    <item quantity="other"><xliff:g id="seconds" example="1">%d</xliff:g>s hovor</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="one"><xliff:g id="minutes" example="1">%d</xliff:g>m hovor</item>
+    <item quantity="few"><xliff:g id="minutes" example="1">%d</xliff:g>m hovor</item>
+    <item quantity="other"><xliff:g id="minutes" example="1">%d</xliff:g>m hovor</item>
+  </plurals>
+  <string name="call_duration_missed">Zmeškaný hovor</string>
+  <string name="unknown_caller">Neznámy volajúci</string>
+  <string name="clear_call_history">Vyčistiť históriu hovorov</string>
+  <string name="search_prompt">Vyhľadať kontakty</string>
+  <string name="search_places_prompt">Hľadať kontakty alebo miesta</string>
+  <string name="empty_favorites_hint">Tu sa zobrazia vaše obľúbené kontakty a ľudia, ktorým často voláte.</string>
+  <string name="empty_dialpad_hint">Môžete vytočiť telefónne číslo alebo vyhľadať vaše kontakty.</string>
+  <string name="empty_recents_hint">Nemáte žiadne nedávne hovory.</string>
+  <string name="empty_contacts_hint">Nemáte žiadne kontakty.</string>
+  <string name="all_favorites_label">Všetky obľúbené</string>
+  <string name="all_favorites_title">Obľúbené</string>
   <string name="toast_added_to_blacklist">Kontakt %s bol pridaný do zoznamu zablokovaných volajúcich.</string>
+  <string name="advanced_lookup_title">Pokročilé</string>
+  <string name="silence_spam_title">Stlmiť nevyžiadané hovory</string>
+  <string name="silence_spam_summary">Nikdy nenechať zvoniť nevyžiadané hovory</string>
+  <string name="block_hidden_title">Zablokovať skryté telefónne čísla</string>
+  <string name="block_hidden_summary">Považovať skryté čísla za spam</string>
+  <string name="block_dialog_title">Zablokovať tohto volajúceho?</string>
+  <string name="block_dialog_positive">Zablokovať</string>
+  <string name="block_dialog_negative">Zrušiť</string>
+  <string name="block_dialog_description">Už nebudete prijímať hovory alebo správy od tejto osoby.</string>
+  <string name="block_dialog_report_spam">Nahlásiť ako spam do <xliff:g id="provider">%s </xliff:g></string>
+  <string name="caller_info_auth_yes">Áno</string>
+  <string name="caller_info_auth_no">Nie, ďakujem</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s </xliff:g> bude mať prístup ku kontaktom, vášmu profilu a účtu Cyanogen OS, ktorý môže obsahovať vašu e-mailovú adresu.</string>
+  <string name="caller_info_auth_learn_more">Zistiť viac</string>
+  <string name="caller_info_auth_desc">Vitajte! Chcete, aby <xliff:g id="provider_name">%s</xliff:g> rozpoznával neznámych volajúcich a zablokoval nevyžiadané hovory?</string>
+  <string name="caller_info_auth_desc_no_spam">Vitajte! Chcete, aby <xliff:g id="provider_name">%s</xliff:g> rozpoznával neznámych volajúcich?</string>
+  <string name="caller_info_summary">Identifikovať neznámych volajúcich a spam</string>
+  <string name="caller_info_summary_no_spam">Identifikovať neznámych volajúcich</string>
+  <string name="edit_contact">Upraviť</string>
+  <string name="add_contact">Pridať kontakt</string>
+  <string name="caller_info_loading">Vyhľadávanie <xliff:g id="provider">%s</xliff:g>\u2026</string>
+  <string name="powered_by_provider">Používa služby <xliff:g id="provider">%s</xliff:g></string>
+  <string name="call_history_empty_view">Žiadna história hovorov</string>
+  <string name="empty_dialpad_t9_example">Hľadať %1$s vytočením:</string>
+  <string name="provider_disable_title">Zakázať %1$s?</string>
+  <string name="provider_disable_message">Zakázaním %1$s nebudete mať identifikáciu volajúceho.</string>
+  <string name="provider_disable_spam_message">Zakázaním %1$s nebudete mať ochranu pred spamom a identifikáciu volajúceho.</string>
 </resources>

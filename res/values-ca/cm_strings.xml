@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Reinicia el rang del temps</string>
   <string name="call_stats_sort_by_duration">Ordena per duració de trucada</string>
   <string name="call_stats_sort_by_count">Ordena per nombre de trucades</string>
+  <string name="menu_add_to_blacklist">Bloqueja el número</string>
+  <string name="menu_remove_from_blacklist">Desbloqueja el número</string>
   <string name="speed_dial_settings">Ajustaments de trucada ràpida</string>
   <string name="speed_dial_not_set">(no configurat)</string>
   <string name="speed_dial_replace">Substitueix</string>
@@ -96,5 +98,70 @@
   <string name="call_playback_error_message">No s\'ha pogut reproduir la gravació</string>
   <string name="smart_dialer_title">Trucada intel·ligent</string>
   <string name="smart_dialer_summary">Truca automàticament al número de telèfon marcat al moure el dispositiu a l\'orella</string>
+  <string name="powered_by">Proveït per</string>
+  <string name="pretty_format_yesterday">Ahir a les <xliff:g id="time">%s</xliff:g></string>
+  <string name="pretty_format_x_days_ago">Fa <xliff:g id="n_days">%d</xliff:g> dies</string>
+  <string name="pretty_format_just_now">Ara</string>
+  <string name="recent_calls_today_header">Avui</string>
+  <string name="recent_calls_yesterday_header">Ahir</string>
+  <string name="recent_calls_this_week_header">Aquesta setmana</string>
+  <string name="recent_calls_last_week_header">La setmana passada</string>
+  <string name="recent_calls_older_header">Més antigues</string>
+  <string name="action_call">Truca</string>
+  <string name="action_details">Detalls</string>
+  <string name="action_history">Historial</string>
+  <string name="action_message">Missatge</string>
+  <string name="quick_action_contacts">Crea un contacte per a <xliff:g id="number">%s</xliff:g></string>
+  <string name="quick_action_sms">Envia un SMS a <xliff:g id="number">%s</xliff:g></string>
+  <plurals name="call_duration_seconds">
+    <item quantity="one">Trucada d\' <xliff:g id="seconds" example="1">%d</xliff:g> segon</item>
+    <item quantity="other">Trucada de <xliff:g id="seconds" example="1">%d</xliff:g> segons</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="one">Trucada d\' <xliff:g id="minutes" example="1">%d</xliff:g> minut</item>
+    <item quantity="other">Trucada de <xliff:g id="minutes" example="1">%d</xliff:g> minuts</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="one">Trucada d\' <xliff:g id="hours" example="1">%d</xliff:g> hora i <xliff:g id="minutes" example="13">%d</xliff:g> minuts</item>
+    <item quantity="other">Trucada de <xliff:g id="hours" example="1">%d</xliff:g> hores i <xliff:g id="minutes" example="13">%d</xliff:g> minuts</item>
+  </plurals>
+  <string name="call_duration_missed">Trucada perduda</string>
+  <string name="unknown_caller">Trucada desconeguda</string>
+  <string name="clear_call_history">Neteja l\'historial de trucades</string>
+  <string name="search_prompt">Cerca als contactes</string>
+  <string name="search_places_prompt">Cerca contactes o llocs</string>
+  <string name="empty_favorites_hint">Els teus preferits i la gent que et truqui sovint apareixerà aquí.</string>
+  <string name="empty_dialpad_hint">Pots trucar un número de telèfon o cercar als teus contactes.</string>
+  <string name="empty_recents_hint">No tens trucades recents.</string>
+  <string name="empty_contacts_hint">No tens contactes.</string>
+  <string name="all_favorites_label">Tots els preferits</string>
+  <string name="all_favorites_title">Preferits</string>
   <string name="toast_added_to_blacklist">%s afegit a la llista de números bloquejats.</string>
+  <string name="advanced_lookup_title">Avançat</string>
+  <string name="silence_spam_title">Silencia les trucades brossa</string>
+  <string name="silence_spam_summary">Mai deixis que les trucades brossa sonin</string>
+  <string name="block_hidden_title">Bloqueja les trucades amb números ocults</string>
+  <string name="block_hidden_summary">Considera els números ocults com a brossa</string>
+  <string name="block_dialog_title">Vols bloquejar aquesta trucada?</string>
+  <string name="block_dialog_positive">Bloqueja</string>
+  <string name="block_dialog_negative">Cancel·la</string>
+  <string name="block_dialog_description">Ja no rebràs les trucades o missatges d\'aquesta persona.</string>
+  <string name="block_dialog_report_spam">Informa com brossa a <xliff:g id="provider">%s</xliff:g></string>
+  <string name="caller_info_auth_yes">Sí</string>
+  <string name="caller_info_auth_no">No, gràcies</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> tindrà accés als teus contactes, perfil Me i el compte de Cyanogen OS, que pot incloure la teva adreça de correu electrònic.</string>
+  <string name="caller_info_auth_learn_more">Aprèn més</string>
+  <string name="caller_info_auth_desc">Benvingut! Vols <xliff:g id="provider_name">%s</xliff:g> identificar trucades desconegudes i bloquejar trucades indesitjades?</string>
+  <string name="caller_info_auth_desc_no_spam">Benvingut! Vols <xliff:g id="provider_name">%s</xliff:g> per identificar trucades desconegudes?</string>
+  <string name="caller_info_summary">Identifica trucades desconegudes i brossa</string>
+  <string name="caller_info_summary_no_spam">Identifica trucades desconegudes</string>
+  <string name="edit_contact">Edita</string>
+  <string name="add_contact">Afegeix contacte</string>
+  <string name="caller_info_loading">S\'està cercant <xliff:g id="provider">%s</xliff:g>\u2026</string>
+  <string name="powered_by_provider">Proveït per <xliff:g id="provider">%s</xliff:g></string>
+  <string name="call_history_empty_view">No hi ha historial de trucades</string>
+  <string name="empty_dialpad_t9_example">Cerca %1$s marcant:</string>
+  <string name="provider_disable_title">Vols desactivar %1$s?</string>
+  <string name="provider_disable_message">Si desactives %1$s, no tindràs ID de trucada.</string>
+  <string name="provider_disable_spam_message">Si desactives %1$s, no tindràs protecció contra brossa o ID de trucada.</string>
 </resources>

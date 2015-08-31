@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Herstel tyd reeks</string>
   <string name="call_stats_sort_by_duration">Sorteer volgens oproep tydsduur</string>
   <string name="call_stats_sort_by_count">Sorteer volgens oproepe</string>
+  <string name="menu_add_to_blacklist">Blokkeer nommer</string>
+  <string name="menu_remove_from_blacklist">Deblokkeer nommer</string>
   <string name="speed_dial_settings">Snel keuse instellings</string>
   <string name="speed_dial_not_set">(nie gestel)</string>
   <string name="speed_dial_replace">Vervang</string>
@@ -96,5 +98,70 @@
   <string name="call_playback_error_message">Kon nie opname speel nie</string>
   <string name="smart_dialer_title">Slim oproep</string>
   <string name="smart_dialer_summary">Outomaties skakel die nommer deur die toestel na jou oor toe te beweeg</string>
+  <string name="powered_by">Aangedryf deur</string>
+  <string name="pretty_format_yesterday">Gister om <xliff:g id="time">%s</xliff:g></string>
+  <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> dae terug</string>
+  <string name="pretty_format_just_now">Sopas</string>
+  <string name="recent_calls_today_header">Vandag</string>
+  <string name="recent_calls_yesterday_header">Gister</string>
+  <string name="recent_calls_this_week_header">Hierdie week</string>
+  <string name="recent_calls_last_week_header">Afgelope week</string>
+  <string name="recent_calls_older_header">Ouer</string>
+  <string name="action_call">Skakel</string>
+  <string name="action_details">Details</string>
+  <string name="action_history">Vorige items</string>
+  <string name="action_message">Boodskap</string>
+  <string name="quick_action_contacts">Skep kontak vir <xliff:g id="number">%s</xliff:g></string>
+  <string name="quick_action_sms">Stuur SMS na <xliff:g id="number">%s</xliff:g></string>
+  <plurals name="call_duration_seconds">
+    <item quantity="one"><xliff:g id="seconds" example="1">%d</xliff:g> tweede oproep</item>
+    <item quantity="other"><xliff:g id="seconds" example="1">%d</xliff:g> tweede oproep</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="one"><xliff:g id="minutes" example="1">%d</xliff:g> minuut oproep</item>
+    <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g> minute oproep</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g> uur <xliff:g id="minutes" example="13">%d</xliff:g> minuut oproep</item>
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> uur <xliff:g id="minutes" example="13">%d</xliff:g> minute oproep</item>
+  </plurals>
+  <string name="call_duration_missed">Oproep gemis</string>
+  <string name="unknown_caller">Onbekende persoon</string>
+  <string name="clear_call_history">Maak oproep geskiedenis skoon</string>
+  <string name="search_prompt">Soek kontakte</string>
+  <string name="search_places_prompt">Deursoek Kontakte of Plekke</string>
+  <string name="empty_favorites_hint">Jou gunstelinge &amp; persone wat gereeld geskakel word sal hier wys.</string>
+  <string name="empty_dialpad_hint">Jy kan \'n foon nommer skakel of deur jou kontakte soek.</string>
+  <string name="empty_recents_hint">Jy het geen onlangse oproepe nie.</string>
+  <string name="empty_contacts_hint">Jy het geen kontakte nie.</string>
+  <string name="all_favorites_label">Al jou gunstelinge</string>
+  <string name="all_favorites_title">Gunstelinge</string>
   <string name="toast_added_to_blacklist">%s bygevoeg tot blokkeer oproep lys.</string>
+  <string name="advanced_lookup_title">Gevorderd</string>
+  <string name="silence_spam_title">Maak gemors oproepe stil</string>
+  <string name="silence_spam_summary">Laat geen gemors oproepe deur nie</string>
+  <string name="block_hidden_title">Blokker versteekte foon nommers</string>
+  <string name="block_hidden_summary">Oorweeg verskuilde nommers as gemors</string>
+  <string name="block_dialog_title">Blokkeer hierdie persoon?</string>
+  <string name="block_dialog_positive">Blokkeer</string>
+  <string name="block_dialog_negative">Kanselleer</string>
+  <string name="block_dialog_description">Jy sal nie meer boodskappe of oproepe ontvang vanaf hierdie persoon.</string>
+  <string name="block_dialog_report_spam">Rapporteer as gemors aan <xliff:g id="provider">%s</xliff:g></string>
+  <string name="caller_info_auth_yes">Ja</string>
+  <string name="caller_info_auth_no">Nee dankie</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> sal toegang hê na jou kontakte, My profiel en Cyanogen BS rekening wat jou epos adres mag insluit.</string>
+  <string name="caller_info_auth_learn_more">Leer meer</string>
+  <string name="caller_info_auth_desc">Welkom! Wil jy graag hê dat <xliff:g id="provider_name">%s</xliff:g> onbekende inbellers identifiseer en ongewenste oproepe blokkeer?</string>
+  <string name="caller_info_auth_desc_no_spam">Welkom! Wil jy graag hê dat <xliff:g id="provider_name">%s</xliff:g> onbekende inbellers identifiseer?</string>
+  <string name="caller_info_summary">Identifiseer onbekende inbellers en gemors oproepe</string>
+  <string name="caller_info_summary_no_spam">Identifiseer onbekende inbellers</string>
+  <string name="edit_contact">Verander</string>
+  <string name="add_contact">Voeg kontak by</string>
+  <string name="caller_info_loading">Soek <xliff:g id="provider">%s</xliff:g>\u2026</string>
+  <string name="powered_by_provider">Aangedryf deur <xliff:g id="provider">%s</xliff:g></string>
+  <string name="call_history_empty_view">Geen oproep geskiedenis</string>
+  <string name="empty_dialpad_t9_example">Soek vir %1$s deur die skakel van:</string>
+  <string name="provider_disable_title">Deaktiveer %1$s?</string>
+  <string name="provider_disable_message">Deur die deaktivering van %1$s, gaan jy nie \'n oproep ID hê nie.</string>
+  <string name="provider_disable_spam_message">Deur die deaktivering van %1$s, sal jy nie gemors/oproep ID beskerming hê nie.</string>
 </resources>

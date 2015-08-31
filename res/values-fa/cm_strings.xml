@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">تنظیم مجدد محدوده زمانی</string>
   <string name="call_stats_sort_by_duration">دسته‌بندی بر اساس مدت تماس</string>
   <string name="call_stats_sort_by_count">دسته‌بندی بر اساس تعداد تماس</string>
+  <string name="menu_add_to_blacklist">مسدود کردن شماره</string>
+  <string name="menu_remove_from_blacklist">رفع مسدودیت شماره</string>
   <string name="speed_dial_settings">تنظیمات تماس سریع</string>
   <string name="speed_dial_not_set">(تنظیم نشده)</string>
   <string name="speed_dial_replace">جایگزین کردن</string>
@@ -96,6 +98,7 @@
   <string name="call_playback_error_message">پخش مورد ضبط‌شده ناموفق بود</string>
   <string name="smart_dialer_title">تماس هوشمند</string>
   <string name="smart_dialer_summary">تماس خودکار با شماره گرفته شده، به وسیله نزدیک‌کردن دستگاه به گوش</string>
+  <string name="powered_by">مجهز به</string>
   <string name="pretty_format_yesterday">دیروز در <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> روز پیش</string>
   <string name="pretty_format_just_now">همین الان</string>
@@ -119,11 +122,12 @@
   <plurals name="call_duration_hours_minutes">
     <item quantity="other">تماس <xliff:g id="hours" example="1">%d</xliff:g> ساعت و <xliff:g id="minutes" example="13">%d</xliff:g> دقیقه‌ای</item>
   </plurals>
-  <string name="call_duration_missed">تماس بی‌پاسخ</string>
+  <string name="call_duration_missed">تماس از دست رفته</string>
   <string name="unknown_caller">تماس‌گيرنده ناشناس</string>
   <string name="clear_call_history">پاک‌کردن تاریخچه تماس</string>
   <string name="search_prompt">جستجوی مخاطبین</string>
-  <string name="empty_favorites_hint">افراد &amp; موردعلاقه شما که مرتباً با آنها در تماس هستید در اینجا نمایش داده خواهند شد.</string>
+  <string name="search_places_prompt">جستجوی مخاطبین یا مکان</string>
+  <string name="empty_favorites_hint">افراد و علاقه‌مندی‌های شما که مرتبا با آنها در تماس هستید در اینجا نمایش داده خواهند شد.</string>
   <string name="empty_dialpad_hint">شما می‌توانید یا یک شماره تماس بگیرید یا در مخاطبین خود جستجو کنید.</string>
   <string name="empty_recents_hint">هیچ تماس اخیری وجود ندارد.</string>
   <string name="empty_contacts_hint">هیچ مخاطبی وجود ندارد.</string>
@@ -138,13 +142,23 @@
   <string name="block_dialog_title">مسدود کردن این تماس‌گیرنده؟</string>
   <string name="block_dialog_positive">مسدود کردن</string>
   <string name="block_dialog_negative">لغو</string>
+  <string name="block_dialog_description">شما دیگر تماس یا پیام از این شخص دریافت نخواهید کرد.</string>
   <string name="block_dialog_report_spam">گزارش به عنوان اسپم به <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">بله</string>
   <string name="caller_info_auth_no">خیر متشکرم</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> به مخاطبین، نمایه شخصی و حساب کاربری سیتم عامل که ممکن است شامل آدرس پست الکترونیک شما باشد دسترسی خواهد داشت.</string>
   <string name="caller_info_auth_learn_more">بیشتر بدانید</string>
+  <string name="caller_info_auth_desc">خوش آمدید! مایل به شناسایی تماسهای ناشناس و مسدود کردن تماسهای ناخواسته توسط <xliff:g id="provider_name">%s</xliff:g> هستید؟</string>
+  <string name="caller_info_auth_desc_no_spam">خوش آمدید! مایل به شناسایی تماس گیرنده ناشناخته توسط <xliff:g id="provider_name">%s</xliff:g>هستید؟</string>
+  <string name="caller_info_summary">شناسایی تماس گیرنده ناشناخته و ناخواسته</string>
+  <string name="caller_info_summary_no_spam">شناسایی تماس گیرنده ناشناخته</string>
   <string name="edit_contact">ویرایش</string>
   <string name="add_contact">افزودن مخاطب</string>
   <string name="caller_info_loading">در حال جستجوی <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">طراحی‌شده توسط <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">تاریخچه تماسی وجود ندارد</string>
+  <string name="empty_dialpad_t9_example">جستجوی %1$s بوسیله شماره گیری:</string>
+  <string name="provider_disable_title">%1$s غیرفعال شود؟</string>
+  <string name="provider_disable_message">با غیرفعال کردن %1$s شما شناسه تماس گیرنده را ندارد.</string>
+  <string name="provider_disable_spam_message">با غیرفعال کردن %1$s شما امکان شناسایی تماس یا محافظت از تماسهای ناخواسته را ندارید.</string>
 </resources>

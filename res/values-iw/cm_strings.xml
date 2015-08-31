@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">אפס טווח זמן</string>
   <string name="call_stats_sort_by_duration">מיין לפי משך שיחה</string>
   <string name="call_stats_sort_by_count">מיין לפי מספר שיחות</string>
+  <string name="menu_add_to_blacklist">חסום מספר</string>
+  <string name="menu_remove_from_blacklist">בטל חסימת מספר</string>
   <string name="speed_dial_settings">הגדרות חיוג מהיר</string>
   <string name="speed_dial_not_set">(לא מוגדר)</string>
   <string name="speed_dial_replace">החלף</string>
@@ -96,6 +98,7 @@
   <string name="call_playback_error_message">נכשל בניגון הקלטה</string>
   <string name="smart_dialer_title">שיחה חכמה</string>
   <string name="smart_dialer_summary">התקשר למספר שחויג באופן אוטומטי באמצעות הצמדת המכשיר לאוזנך</string>
+  <string name="powered_by">באמצעות</string>
   <string name="pretty_format_yesterday">אתמול בשעה <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago">לפני <xliff:g id="n_days">%d</xliff:g> ימים</string>
   <string name="pretty_format_just_now">כרגע</string>
@@ -104,24 +107,61 @@
   <string name="recent_calls_this_week_header">השבוע</string>
   <string name="recent_calls_last_week_header">שבוע שעבר</string>
   <string name="recent_calls_older_header">ישן יותר</string>
+  <string name="action_call">שיחה</string>
   <string name="action_details">פרטים</string>
   <string name="action_history">היסטוריה</string>
   <string name="action_message">הודעה</string>
+  <string name="quick_action_contacts">צור איש קשר עבור <xliff:g id="number">%s</xliff:g></string>
+  <string name="quick_action_sms">שלח SMS אל <xliff:g id="number">%s</xliff:g></string>
+  <plurals name="call_duration_seconds">
+    <item quantity="one"><xliff:g id="seconds" example="28">%d</xliff:g> שניות שיחה</item>
+    <item quantity="other"><xliff:g id="seconds" example="28">%d</xliff:g> שניות שיחה</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="one"><xliff:g id="minutes" example="13">%d</xliff:g> דקות שיחה</item>
+    <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g> דקות שיחה</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g> שעות ו-<xliff:g id="minutes" example="13">%d</xliff:g> דקות שיחה</item>
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> שעות ו-<xliff:g id="minutes" example="13">%d</xliff:g> דקות שיחה</item>
+  </plurals>
   <string name="call_duration_missed">שיחה שלא נענתה</string>
   <string name="unknown_caller">מתקשר לא ידוע</string>
+  <string name="clear_call_history">ניקוי היסטוריית שיחות</string>
   <string name="search_prompt">חפש אנשי קשר</string>
+  <string name="search_places_prompt">חיפוש אנשי קשר או מקומות</string>
+  <string name="empty_favorites_hint">המועדפים שלך ואנשים שאתה יוצר איתם קשר לעיתים קרובות יופיעו כאן.</string>
+  <string name="empty_dialpad_hint">ניתן לחייג מספר טלפון או לחפש איש קשר.</string>
+  <string name="empty_recents_hint">אין לך שיחות אחרונות.</string>
+  <string name="empty_contacts_hint">אין לך אנשי קשר.</string>
   <string name="all_favorites_label">כל המועדפים</string>
   <string name="all_favorites_title">מועדפים</string>
   <string name="toast_added_to_blacklist">%s נוספו לרשימת המתקשרים החסומים.</string>
   <string name="advanced_lookup_title">מתקדם</string>
+  <string name="silence_spam_title">השתק שיחות ספאם</string>
+  <string name="silence_spam_summary">לעולם אל תיתן לשיחות ספאם לצלצל</string>
+  <string name="block_hidden_title">חסום מספרי טלפון חסויים</string>
+  <string name="block_hidden_summary">התייחס למספרים חסויים כספאם</string>
   <string name="block_dialog_title">לחסום מתקשר זה?</string>
   <string name="block_dialog_positive">חסימה</string>
   <string name="block_dialog_negative">ביטול</string>
+  <string name="block_dialog_description">לא יתקבלו יותר שיחות או הודעות מאדם זה.</string>
+  <string name="block_dialog_report_spam">דווח כספאם ל-<xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">כן</string>
   <string name="caller_info_auth_no">לא, תודה</string>
+  <string name="caller_info_auth_access">ל-<xliff:g id="provider_name">%s</xliff:g> תהיה גישה לאנשי הקשר, הפרופילים, וחשבון מערכת Cyanogen שלך, אשר עלולים לכלול את כתובת הדוא\"ל שלך.</string>
+  <string name="caller_info_auth_learn_more">למד עוד</string>
+  <string name="caller_info_auth_desc">ברוכים הבאים! האם ברצונכם ש-<xliff:g id="provider_name">%s</xliff:g> תזהה מתקשרים לא ידועים ותחסום שיחות לא רצויות?</string>
+  <string name="caller_info_auth_desc_no_spam">ברוכים הבאים! האם ברצונכם ש-<xliff:g id="provider_name">%s</xliff:g> תזהה מתקשרים לא ידועים?</string>
+  <string name="caller_info_summary">מזהה מתקשרים לא ידועים וספאם</string>
+  <string name="caller_info_summary_no_spam">מזהה מתקשרים לא ידועים</string>
   <string name="edit_contact">עריכה</string>
   <string name="add_contact">הוספת איש קשר</string>
   <string name="caller_info_loading">מחפש <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">מופעל על-ידי <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">אין היסטוריית שיחות</string>
+  <string name="empty_dialpad_t9_example">חפש %1$s בעזרת חיוג:</string>
+  <string name="provider_disable_title">להשבית את %1$s?</string>
+  <string name="provider_disable_message">עקב השבתת %1$s, לא תהיה לך יותר שיחה מזוהה.</string>
+  <string name="provider_disable_spam_message">עקב השבתת %1$s, לא יהיה לך יותר סינון ספאם או שיחה מזוהה.</string>
 </resources>

@@ -106,33 +106,34 @@
   <string name="recent_calls_this_week_header">W tym tygodniu</string>
   <string name="recent_calls_last_week_header">Ostatni tydzień</string>
   <string name="recent_calls_older_header">Starsze</string>
-  <string name="action_call">Zadzwoń</string>
-  <string name="action_details">Szczegółowy</string>
+  <string name="action_call">Połączenie</string>
+  <string name="action_details">Szczegóły</string>
   <string name="action_history">Historia</string>
   <string name="action_message">Wiadomość</string>
   <string name="quick_action_contacts">Utwórz kontakt dla <xliff:g id="number">%s</xliff:g></string>
   <string name="quick_action_sms">Wyślij SMS do <xliff:g id="number">%s</xliff:g></string>
   <plurals name="call_duration_seconds">
-    <item quantity="one"><xliff:g id="seconds" example="1">%d</xliff:g> sekunda rozmowy</item>
-    <item quantity="few"><xliff:g id="seconds" example="1">%d</xliff:g> sekund rozmowy</item>
-    <item quantity="other"><xliff:g id="seconds" example="1">%d</xliff:g> sekund rozmowy</item>
+    <item quantity="one"><xliff:g id="seconds" example="1">%d</xliff:g> s poł.</item>
+    <item quantity="few"><xliff:g id="seconds" example="1">%d</xliff:g> s poł.</item>
+    <item quantity="other"><xliff:g id="seconds" example="1">%d</xliff:g> s poł.</item>
   </plurals>
   <plurals name="call_duration_minutes">
-    <item quantity="one"><xliff:g id="minutes" example="1">%d</xliff:g> minuta rozmowy</item>
+    <item quantity="one"><xliff:g id="minutes" example="1">%d</xliff:g> min poł.</item>
     <item quantity="few"><xliff:g id="minutes" example="1">%d</xliff:g> minut rozmowy</item>
     <item quantity="other"><xliff:g id="minutes" example="1">%d</xliff:g> minut rozmowy</item>
   </plurals>
   <plurals name="call_duration_hours_minutes">
-    <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g> godzin <xliff:g id="minutes" example="13">%d</xliff:g> minut rozmowy</item>
-    <item quantity="few"><xliff:g id="hours" example="1">%d</xliff:g> godzin <xliff:g id="minutes" example="13">%d</xliff:g> minut rozmowy</item>
-    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> godzin <xliff:g id="minutes" example="13">%d</xliff:g> minut rozmowy</item>
+    <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g> godzin <xliff:g id="minutes" example="13">%d</xliff:g> min poł.</item>
+    <item quantity="few"><xliff:g id="hours" example="1">%d</xliff:g> godzin <xliff:g id="minutes" example="13">%d</xliff:g> min poł.</item>
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> godzin <xliff:g id="minutes" example="13">%d</xliff:g> min poł.</item>
   </plurals>
-  <string name="call_duration_missed">Nieodebrane połączenie</string>
+  <string name="call_duration_missed">Nieodebr. poł.</string>
   <string name="unknown_caller">Nieznany rozmówca</string>
-  <string name="clear_call_history">Wyczyść historię połączeń</string>
+  <string name="clear_call_history">Skasuj historię poł.</string>
   <string name="search_prompt">Szukaj kontaktów</string>
+  <string name="search_places_prompt">Wyszukiwanie kontaktów lub miejsc</string>
   <string name="empty_favorites_hint">Twoje ulubione &amp; osoby, do których często dzwonisz pojawią się tutaj.</string>
-  <string name="empty_dialpad_hint">Możesz wprowadzić numer telefonu lub wyszukać kontakt.</string>
+  <string name="empty_dialpad_hint">Możesz wybrać numer lub szukać w kontaktach.</string>
   <string name="empty_recents_hint">Brak ostatnio wybieranych połączeń.</string>
   <string name="empty_contacts_hint">Brak kontaktów.</string>
   <string name="all_favorites_label">Wszystkie ulubione</string>
@@ -140,21 +141,24 @@
   <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> dodany do listy blokowanych rozmówców</string>
   <string name="advanced_lookup_title">Zaawansowane</string>
   <string name="silence_spam_title">Wycisz połączenia spam</string>
-  <string name="silence_spam_summary">Nigdy nie pozwól połączeniom spam na dzwonienie</string>
-  <string name="block_hidden_title">Ukryj zablokowane numery telefonów</string>
-  <string name="block_hidden_summary">Rozważaj ukryte numery jako spam</string>
-  <string name="block_dialog_title">Zablokować tego rozmówcę?</string>
+  <string name="silence_spam_summary">Wyciszaj połączenia rozpoznane jako spam</string>
+  <string name="block_hidden_title">Blokuj poł. z ukrytych numerów</string>
+  <string name="block_hidden_summary">Traktuj je jako połączenia spam</string>
+  <string name="block_dialog_title">Zablokować ten numer?</string>
   <string name="block_dialog_positive">Zablokuj</string>
   <string name="block_dialog_negative">Anuluj</string>
-  <string name="block_dialog_description">Nie otrzymasz więcej połączeń lub wiadomości od tej osoby.</string>
+  <string name="block_dialog_description">Nie będziesz otrzymywać powiadomień o wiadomościach i połączeniach z tego numeru.</string>
   <string name="block_dialog_report_spam">Zgłoś jako spam do <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Tak</string>
-  <string name="caller_info_auth_no">Anuluj</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> będzie miał dostęp do Twoich kontaktów, profili i konta Cyanogen, włącznie z adresem email.</string>
   <string name="caller_info_auth_learn_more">Dowiedz się więcej</string>
-  <string name="edit_contact">Dostosuj</string>
+  <string name="caller_info_summary">Rozpoznawaj i blokuj połączenia spam</string>
+  <string name="caller_info_summary_no_spam">Identyfikuje nieznanych rozmówców</string>
+  <string name="edit_contact">Edytuj</string>
   <string name="add_contact">Dodaj kontakt</string>
   <string name="caller_info_loading">Wyszukiwanie <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">Wpierane przez <xliff:g id="provider">%s</xliff:g></string>
-  <string name="call_history_empty_view">Brak historii połączeń</string>
+  <string name="call_history_empty_view">Brak poł. w historii</string>
+  <string name="empty_dialpad_t9_example">Aby wyszukać %1$s wpisz:</string>
   <string name="provider_disable_title">Wyłączyć %1$s?</string>
 </resources>
