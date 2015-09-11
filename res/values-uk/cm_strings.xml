@@ -152,9 +152,9 @@
   <string name="block_dialog_report_spam">Повідомити про спам <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Так</string>
   <string name="caller_info_auth_no">Ні, дякую</string>
-  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> матиме доступ до ваших контактів, профілів і облікового запису Cyanogen OS, які можуть включати вашу адресу електронної пошти.</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> отримає доступ до ваших контактів, профілю, аккаунту Cyanogen, який може містити вашу адресу електронної пошти.</string>
   <string name="caller_info_auth_learn_more">Дізнатися більше</string>
-  <string name="caller_info_auth_desc">Ласкаво просимо! Бажаєте використовувати <xliff:g id="provider_name">%s</xliff:g> для ідентифікації невідомих абонентів і блокування небажаних дзвінків?</string>
+  <string name="caller_info_auth_desc">Ласкаво просимо! Ви хочете, щоб додаток <xliff:g id="provider_name">%s</xliff:g> визначав невідомі номери і блокував небажані дзвінки?</string>
   <string name="caller_info_auth_desc_no_spam">Ласкаво просимо! Бажаєте використовувати <xliff:g id="provider_name">%s</xliff:g> для ідентифікації невідомих абонентів?</string>
   <string name="caller_info_summary">Визначає невідомі номери і спам</string>
   <string name="caller_info_summary_no_spam">Визначає невідомих абонентів</string>

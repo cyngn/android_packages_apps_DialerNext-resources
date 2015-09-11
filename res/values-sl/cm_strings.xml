@@ -42,11 +42,11 @@
   <string name="call_stats_nav_all">Vsi</string>
   <string name="call_stats_nav_incoming">Dohodni</string>
   <string name="call_stats_nav_outgoing">Odhodni</string>
-  <string name="call_stats_nav_missed">Zgrešeni</string>
+  <string name="call_stats_nav_missed">Neodgovorjeni</string>
   <string name="call_stats_incoming">Dohodni: <xliff:g id="percent">%d</xliff:g>%%</string>
   <string name="call_stats_outgoing">Odhodni: <xliff:g id="percent">%d</xliff:g>%%</string>
-  <string name="call_stats_missed">Zgrešeni</string>
-  <string name="call_stats_missed_percent">Zgrešeni: <xliff:g id="percent">%d</xliff:g>%%</string>
+  <string name="call_stats_missed">Neodgovorjeni</string>
+  <string name="call_stats_missed_percent">Neodgovorjeni: <xliff:g id="percent">%d</xliff:g>%%</string>
   <string name="call_stats_blacklist">Blokiran</string>
   <string name="call_stats_blacklist_percent">Blokiranih: <xliff:g id="percent">%d</xliff:g>%%</string>
   <string name="call_stats_header_total">Skupaj: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
@@ -131,7 +131,7 @@
     <item quantity="few">Trajanje klica: <xliff:g id="hours" example="1">%d</xliff:g> ur, <xliff:g id="minutes" example="13">%d</xliff:g> min.</item>
     <item quantity="other">Trajanje klica: <xliff:g id="hours" example="1">%d</xliff:g> ur, <xliff:g id="minutes" example="13">%d</xliff:g> min.</item>
   </plurals>
-  <string name="call_duration_missed">Zgrešen klic</string>
+  <string name="call_duration_missed">Neodgovorjen klic</string>
   <string name="unknown_caller">Neznan klicatelj</string>
   <string name="clear_call_history">Počisti zgodovino klicev</string>
   <string name="search_prompt">Išči po stikih</string>

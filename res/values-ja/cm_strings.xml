@@ -147,7 +147,7 @@
   <string name="caller_info_auth_yes">はい</string>
   <string name="caller_info_auth_no">いいえ</string>
   <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g>はあなたのメールアドレスを含む可能性のある連絡先、MeプロフィールおよびCyanogen OSアカウントにアクセスします。</string>
-  <string name="caller_info_auth_learn_more">詳細情報</string>
+  <string name="caller_info_auth_learn_more">もっと詳しく</string>
   <string name="caller_info_auth_desc">ようこそ！<xliff:g id="provider_name">%s</xliff:g>で不明な発信者を識別したり、受けたくない電話を着信拒否したいですか？</string>
   <string name="caller_info_auth_desc_no_spam">ようこそ！<xliff:g id="provider_name">%s</xliff:g>で不明な発信者を識別したいですか？</string>
   <string name="caller_info_summary">不明な発信者や迷惑電話を識別する</string>

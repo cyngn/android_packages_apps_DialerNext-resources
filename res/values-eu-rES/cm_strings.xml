@@ -110,6 +110,7 @@
   <string name="action_details">Xehetasunak</string>
   <string name="action_history">Historia</string>
   <string name="action_message">Mezua</string>
+  <string name="quick_action_contacts">Sortu <xliff:g id="number">%s</xliff:g>(r)en kontaktua</string>
   <string name="quick_action_sms">Bidali SMSa <xliff:g id="number">%s</xliff:g>(r)i</string>
   <plurals name="call_duration_seconds">
     <item quantity="one">Segundo <xliff:g id="seconds" example="1">%d</xliff:g>eko deia</item>
@@ -147,7 +148,10 @@
   <string name="block_dialog_report_spam">Salatu spam gisa <xliff:g id="provider">%s</xliff:g>ri</string>
   <string name="caller_info_auth_yes">Bai</string>
   <string name="caller_info_auth_no">Ez, eskerrik asko</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> zure kontaktuak, Ni profila, eta Cyanogen OS kontua atzitu ahal izango ditu, zure eposta helbidea barne.</string>
   <string name="caller_info_auth_learn_more">Ikasi gehiago</string>
+  <string name="caller_info_auth_desc">Ongi etorri! <xliff:g id="provider_name">%s</xliff:g>(e)k deitzaile ezezagunak identifikatzea eta jaso nahi ez dituzun deiak blokeatzea nahi duzu?</string>
+  <string name="caller_info_auth_desc_no_spam">Ongi etorri! <xliff:g id="provider_name">%s</xliff:g>(e)k deitzaile ezezagunak identifikatzea nahi duzu?</string>
   <string name="caller_info_summary">Deitzaile ezezagunak eta spam deiak identifikatzen ditu</string>
   <string name="caller_info_summary_no_spam">Deitzaile ezezagunak identifikatzen ditu</string>
   <string name="edit_contact">Editatu</string>
@@ -155,6 +159,7 @@
   <string name="caller_info_loading"><xliff:g id="provider">%s</xliff:g> bilatzen\u2026</string>
   <string name="powered_by_provider"><xliff:g id="provider">%s</xliff:g>k indartua</string>
   <string name="call_history_empty_view">Ez dago dei historiarik</string>
+  <string name="empty_dialpad_t9_example">Bilatu %1$s hau markatuz:</string>
   <string name="provider_disable_title">%1$s desgaitu?</string>
   <string name="provider_disable_message">%1$s desgaituz ez duzu deitzailearen identifikazioa izango.</string>
   <string name="provider_disable_spam_message">%1$s desgaituz ez duzu smap deien aurkako babesa edo dei identifikazioa izango.</string>

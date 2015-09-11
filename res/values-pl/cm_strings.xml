@@ -98,6 +98,7 @@
   <string name="call_playback_error_message">Nie udało się zarejestrować nagrania</string>
   <string name="smart_dialer_title">Inteligentne połączenie</string>
   <string name="smart_dialer_summary">Automatycznie wybierz wpisany numer poprzez przyłożenie urządzenia do ucha</string>
+  <string name="powered_by">Wspierane przez</string>
   <string name="pretty_format_yesterday">Wczoraj o <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> dni temu</string>
   <string name="pretty_format_just_now">Teraz</string>
@@ -150,8 +151,11 @@
   <string name="block_dialog_description">Nie będziesz otrzymywać powiadomień o wiadomościach i połączeniach z tego numeru.</string>
   <string name="block_dialog_report_spam">Zgłoś jako spam do <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Tak</string>
+  <string name="caller_info_auth_no">Nie, dziękuję</string>
   <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> będzie miał dostęp do Twoich kontaktów, profili i konta Cyanogen, włącznie z adresem email.</string>
   <string name="caller_info_auth_learn_more">Dowiedz się więcej</string>
+  <string name="caller_info_auth_desc">Witaj! Czy chciałbyś żeby <xliff:g id="provider_name">%s</xliff:g> identyfikował nieznanych rozmówców i blokował niechciane połączenia?</string>
+  <string name="caller_info_auth_desc_no_spam">Witaj! Czy chcesz żeby <xliff:g id="provider_name">%s</xliff:g> identyfikował nieznanych rozmówców?</string>
   <string name="caller_info_summary">Rozpoznawaj i blokuj połączenia spam</string>
   <string name="caller_info_summary_no_spam">Identyfikuje nieznanych rozmówców</string>
   <string name="edit_contact">Edytuj</string>
@@ -161,4 +165,6 @@
   <string name="call_history_empty_view">Brak poł. w historii</string>
   <string name="empty_dialpad_t9_example">Aby wyszukać %1$s wpisz:</string>
   <string name="provider_disable_title">Wyłączyć %1$s?</string>
+  <string name="provider_disable_message">Wyłączając %1$s, pozbawisz się identyfikacji rozmówcy.</string>
+  <string name="provider_disable_spam_message">Wyłączając %1$s, pozbawisz się ochrony przed spamem lub identyfikacji rozmówcy.</string>
 </resources>
