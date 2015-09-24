@@ -119,9 +119,7 @@
   </plurals>
   <plurals name="call_duration_minutes">
     <item quantity="one">Appel de <xliff:g id="minutes" example="1">%d</xliff:g> minute</item>
-    <item quantity="other">Appel de <xliff:g id="minutes" example="1">%d</xliff:g> minute
-Appel de <xliff:g id="minutes" example="13">%d</xliff:g> minutes
-</item>
+    <item quantity="other">Appel de <xliff:g id="minutes" example="13">%d</xliff:g> minutes</item>
   </plurals>
   <plurals name="call_duration_hours_minutes">
     <item quantity="one">Appel de <xliff:g id="hours" example="1">%d</xliff:g> heures <xliff:g id="minutes" example="13">%d</xliff:g> minute(s)</item>

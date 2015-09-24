@@ -17,4 +17,148 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="nearby_places">Địa điểm gần kề</string>
+  <string name="people">Người</string>
+  <string name="lookup_settings_label">Tra cứu số điện thoại</string>
+  <string name="lookup_settings_description">Tra cứu số điện thoại không quen</string>
+  <string name="enable_forward_lookup_title">Tra cứu xuôi</string>
+  <string name="enable_forward_lookup_summary">Hiển thị các địa điểm gần kề khi tìm kiếm trong trình quay số</string>
+  <string name="enable_people_lookup_title">Tra cứu người</string>
+  <string name="enable_people_lookup_summary">Hiển thị kết quả trực tuyến về người khi tìm kiếm trong trình quay số</string>
+  <string name="enable_reverse_lookup_title">Tra cứu ngược</string>
+  <string name="enable_reverse_lookup_summary">Tra cứu thông tin về người hoặc địa điểm cho những số gọi đến không biết</string>
+  <string name="forward_lookup_provider_title">Nhà cung cấp tra cứu xuôi</string>
+  <string name="people_lookup_provider_title">Nhà cung cấp tra cứu người</string>
+  <string name="reverse_lookup_provider_title">Nhà cung cấp tra cứu ngược</string>
+  <string name="cyngn_reverse_lookup_provider_name">Cyngn Trung Quốc (CN)</string>
+  <string name="preference_category_t9_dialpad_search">Bàn phím tìm kiếm T9</string>
+  <string name="t9_search_input_locale">Ô tìm kiếm T9</string>
+  <string name="t9_search_input_locale_default">Mặc định</string>
+  <string name="type_blacklist">Cuộc gọi bị chặn</string>
+  <string name="call_log_stats_title">Thống kê</string>
+  <string name="callStatsDetailTitle">Thống kê chi tiết cuộc gọi</string>
+  <string name="call_stats">Thống kê cuộc gọi</string>
+  <string name="call_stats_refresh">Làm mới</string>
+  <string name="activity_title_call_stats">Thống kê cuộc gọi</string>
+  <string name="call_stats_nav_all">Tất cả</string>
+  <string name="call_stats_nav_incoming">Gọi đến</string>
+  <string name="call_stats_nav_outgoing">Gọi đi</string>
+  <string name="call_stats_nav_missed">Gọi nhỡ</string>
+  <string name="call_stats_incoming">Gọi đến: <xliff:g id="percent">%d</xliff:g>%%</string>
+  <string name="call_stats_outgoing">Gọi đi: <xliff:g id="percent">%d</xliff:g>%%</string>
+  <string name="call_stats_missed">Gọi nhỡ</string>
+  <string name="call_stats_missed_percent">Gọi nhỡ: <xliff:g id="percent">%d</xliff:g>%%</string>
+  <string name="call_stats_blacklist">Bị chặn</string>
+  <string name="call_stats_blacklist_percent">Bị chặn: <xliff:g id="percent">%d </xliff:g>%%</string>
+  <string name="call_stats_header_total">Tổng: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
+  <string name="call_stats_header_total_callsonly">Tổng: <xliff:g id="call_count">%s</xliff:g></string>
+  <string name="call_stats_filter_from">Ngày bắt đầu</string>
+  <string name="call_stats_filter_to">Ngày kết thúc</string>
+  <string name="call_stats_filter_picker_title">Phạm vi lọc</string>
+  <string name="date_quick_selection">Chọn nhanh</string>
+  <string name="date_qs_currentmonth">Tháng hiện tại</string>
+  <string name="date_qs_currentquarter">Quý hiện tại</string>
+  <string name="date_qs_currentyear">Năm hiện tại</string>
+  <string name="date_qs_lastweek">Tuần trước</string>
+  <string name="date_qs_lastmonth">Tháng trước</string>
+  <string name="date_qs_lastquarter">Quý trước</string>
+  <string name="date_qs_lastyear">Năm trước</string>
+  <string name="call_stats_date_filter">Điều chỉnh khoảng thời gian</string>
+  <string name="call_stats_reset_filter">Đặt lại khoảng thời gian</string>
+  <string name="call_stats_sort_by_duration">Sắp xếp theo thời lượng cuộc gọi</string>
+  <string name="call_stats_sort_by_count">Sắp xếp theo số cuộc gọi</string>
+  <string name="menu_add_to_blacklist">Chặn số</string>
+  <string name="menu_remove_from_blacklist">Bỏ chặn số</string>
+  <string name="speed_dial_settings">Quay số nhanh</string>
+  <string name="speed_dial_not_set">(không thiết đặt)</string>
+  <string name="speed_dial_replace">Thay thế</string>
+  <string name="speed_dial_delete">Xóa</string>
+  <string name="speed_dial_unassigned_dialog_title">Phím chưa được ấn định</string>
+  <string name="speed_dial_unassigned_dialog_message">Không có thao tác quay số nhanh nào được ấn định cho phím số \'<xliff:g id="number">%s</xliff:g>\'. Bạn có muốn ấn định một thao tác bây giờ không?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Để sử dụng quay số nhanh, trước tiên tắt chế độ máy bay.</string>
+  <string name="yes">Có</string>
+  <string name="no">Không</string>
+  <string name="incall_vibration_category_title">Rung trong khi gọi</string>
+  <string name="incall_vibrate_outgoing_title">Rung khi trả lời</string>
+  <string name="vibrate_call_waiting">Rung khi chờ cuộc gọi</string>
+  <string name="incall_vibrate_hangup_title">Rung khi gác máy</string>
+  <string name="incall_vibrate_45_title">Rung mỗi phút</string>
+  <string name="incall_vibrate_45_summary">Rung tại giây 45 mỗi phút trong khi gọi đi</string>
+  <string name="detailed_incall_info_title">Thông tin chi tiết người gọi</string>
+  <string name="detailed_incall_info_summary">Hiển thị thêm thông tin về người gọi trong màn hình cuộc gọi đến</string>
+  <string name="video_call">Cuộc gọi video</string>
+  <string name="call_duration_active">Thời gian hoạt động:</string>
+  <string name="call_duration_call_out">Thời gian gọi:</string>
+  <string name="call_log_show_all_slots">Tất cả các SIM</string>
+  <string name="call_log_all_calls_header">Tất cả các cuộc gọi</string>
+  <string name="calllog_search_hint">Tìm kiếm nhật ký cuộc gọi</string>
+  <string name="msim_ime_dialog_title">Ký hiệu nhận dạng thiết bị</string>
+  <string name="call_log_blacklist_header">Chỉ các cuộc gọi bị chặn</string>
+  <string name="start_call_playback">Phát ghi âm</string>
+  <string name="stop_call_playback">Dừng</string>
+  <string name="call_playback_error_message">Không thể phát ghi âm</string>
+  <string name="smart_dialer_title">Cuộc gọi thông minh</string>
+  <string name="smart_dialer_summary">Tự động gọi đến số đã quay bằng cách đưa thiết bị lên tai của bạn</string>
+  <string name="powered_by">Được hỗ trợ bởi</string>
+  <string name="pretty_format_yesterday">Hôm qua vào lúc <xliff:g id="time">%s</xliff:g></string>
+  <string name="pretty_format_x_days_ago">cách đây <xliff:g id="n_days">%d</xliff:g> ngày</string>
+  <string name="pretty_format_just_now">Vừa mới đây</string>
+  <string name="recent_calls_today_header">Hôm nay</string>
+  <string name="recent_calls_yesterday_header">Hôm qua</string>
+  <string name="recent_calls_this_week_header">Tuần này</string>
+  <string name="recent_calls_last_week_header">Tuần trước</string>
+  <string name="recent_calls_older_header">Cũ hơn</string>
+  <string name="action_call">Cuộc gọi</string>
+  <string name="action_details">Chi tiết</string>
+  <string name="action_history">Lịch sử</string>
+  <string name="action_message">Tin nhắn</string>
+  <string name="quick_action_contacts">Tạo số liên lạc cho <xliff:g id="number">%s </xliff:g></string>
+  <string name="quick_action_sms">Gửi tin nhắn SMS đến <xliff:g id="number">%s </xliff:g></string>
+  <plurals name="call_duration_seconds">
+    <item quantity="other">Cuộc gọi <xliff:g id="seconds" example="28">%d</xliff:g> giây</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="other">Cuộc gọi <xliff:g id="minutes" example="13">%d</xliff:g> phút</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="other">Cuộc gọi <xliff:g id="hours" example="1">%d</xliff:g> tiếng <xliff:g id="minutes" example="13">%d</xliff:g> phút</item>
+  </plurals>
+  <string name="call_duration_missed">Cuộc gọi nhỡ</string>
+  <string name="unknown_caller">Người gọi không biết</string>
+  <string name="clear_call_history">Xóa lịch sử cuộc gọi</string>
+  <string name="search_prompt">Tìm kiếm số liên lạc</string>
+  <string name="search_places_prompt">Tìm kiếm số liên lạc hoặc địa điểm</string>
+  <string name="empty_favorites_hint">Số yêu thích của bạn &amp; người mà bạn gọi thường xuyên sẽ xuất hiện ở đây.</string>
+  <string name="empty_dialpad_hint">Bạn có thể quay số điện thoại hoặc tìm kiếm số liên lạc của bạn.</string>
+  <string name="empty_recents_hint">Bạn không có cuộc gọi nào gần đây.</string>
+  <string name="empty_contacts_hint">Bạn không có danh bạ.</string>
+  <string name="all_favorites_label">Tất cả các số yêu thích</string>
+  <string name="all_favorites_title">Số yêu thích</string>
+  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> được thêm vào danh sách chặn người gọi</string>
+  <string name="advanced_lookup_title">Nâng cao</string>
+  <string name="silence_spam_title">Đặt các cuộc gọi rác ở chế độ im lặng</string>
+  <string name="silence_spam_summary">Không bao giờ để các cuộc gọi rác rung chuông</string>
+  <string name="block_hidden_title">Chặn các số điện thoại ẩn</string>
+  <string name="block_hidden_summary">Coi các số điện thoại ẩn là số rác</string>
+  <string name="block_dialog_title">Chặn người gọi này?</string>
+  <string name="block_dialog_positive">Chặn</string>
+  <string name="block_dialog_negative">Hủy</string>
+  <string name="block_dialog_description">Bạn sẽ không còn nhận các cuộc gọi hoặc tin nhắn từ người này.</string>
+  <string name="block_dialog_report_spam">Báo cáo là rác cho <xliff:g id="provider">%s</xliff:g></string>
+  <string name="caller_info_auth_yes">Có</string>
+  <string name="caller_info_auth_no">Không cảm ơn</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> sẽ có quyền truy cập danh bạ của bạn, cấu hình Tôi, và tài khoản hệ điều hành Cyanogen, có thể bao gồm địa chỉ email của bạn.</string>
+  <string name="caller_info_auth_learn_more">Tìm hiểu thêm</string>
+  <string name="caller_info_auth_desc">Chào mừng! Bạn muốn <xliff:g id="provider_name">%s</xliff:g> xác định người gọi không biết và chặn cuộc gọi không mong muốn?</string>
+  <string name="caller_info_auth_desc_no_spam">Chào mừng! Bạn muốn <xliff:g id="provider_name">%s</xliff:g> xác định người gọi không biết?</string>
+  <string name="caller_info_summary">Xác định người gọi không biết và cuộc gọi hay tin nhắn rác</string>
+  <string name="caller_info_summary_no_spam">Xác định người gọi không biết</string>
+  <string name="edit_contact">Chỉnh sửa</string>
+  <string name="add_contact">Thêm số liên lạc</string>
+  <string name="caller_info_loading">Đang tìm kiếm <xliff:g id="provider">%s</xliff:g>\u2026</string>
+  <string name="powered_by_provider">Được hỗ trợ bởi <xliff:g id="provider">%s</xliff:g></string>
+  <string name="call_history_empty_view">Không có lịch sử cuộc gọi</string>
+  <string name="empty_dialpad_t9_example">Tìm kiếm %1$s bằng cách quay số:</string>
+  <string name="provider_disable_title">Vô hiệu hóa %1$s?</string>
+  <string name="provider_disable_message">Bằng cách vô hiệu hoá %1$s, bạn sẽ không có ID người gọi.</string>
+  <string name="provider_disable_spam_message">Bằng cách vô hiệu hoá %1$s, bạn sẽ không có tính năng chống cuộc gọi hay tin nhắn rác hoặc ID người gọi.</string>
 </resources>

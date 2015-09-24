@@ -96,8 +96,8 @@
   <string name="start_call_playback">Riproduci registrazione</string>
   <string name="stop_call_playback">Ferma</string>
   <string name="call_playback_error_message">Impossibile riprodurre la registrazione</string>
-  <string name="smart_dialer_title">Chiamate Smart</string>
-  <string name="smart_dialer_summary">Chiama automaticamente il vostro contatto avvicinando il telefono all’orecchio</string>
+  <string name="smart_dialer_title">Chiamata intelligente</string>
+  <string name="smart_dialer_summary">Chiama automaticamente il numero composto avvicinando il dispositivo all’orecchio</string>
   <string name="powered_by">Powered by</string>
   <string name="pretty_format_yesterday">Ieri alle <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> giorni fa</string>

@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">समय रेंज को रीसेट करें</string>
   <string name="call_stats_sort_by_duration">कॉल अवधि के अनुसार छाँटें</string>
   <string name="call_stats_sort_by_count">कॉल गिनती के अनुसार छाँटें</string>
+  <string name="menu_add_to_blacklist">नंबर को अवरोधित करें</string>
+  <string name="menu_remove_from_blacklist">नंबर को अनवरोधित करें</string>
   <string name="speed_dial_settings">तेज़ डायल सेटिंग</string>
   <string name="speed_dial_not_set">(सेट नहीं किया गया है)</string>
   <string name="speed_dial_replace">बदलें</string>
@@ -96,6 +98,7 @@
   <string name="call_playback_error_message">रिकॉर्डिंग को प्ले नहीं कर सके</string>
   <string name="smart_dialer_title">स्मार्ट कॉल</string>
   <string name="smart_dialer_summary">उपकरण को अपने कान की तरफ़ ले जाकर स्वतः ही डायल किए गए नंबर को कॉल करें</string>
+  <string name="powered_by">इसके द्वारा संचालित</string>
   <string name="pretty_format_yesterday">कल <xliff:g id="time">%s</xliff:g> को</string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> दिन पहले</string>
   <string name="pretty_format_just_now">अभी-अभी</string>
@@ -126,6 +129,7 @@
   <string name="unknown_caller">अज्ञात कॉलर</string>
   <string name="clear_call_history">कॉल इतिहास को साफ़ करें</string>
   <string name="search_prompt">संपर्क खोजें</string>
+  <string name="search_places_prompt">संपर्कों या स्थानों को खोजें</string>
   <string name="empty_favorites_hint">आपकी पसंदें तथा जो लोग आपको अक्सर कॉल करते हैं, वे यहाँ दिखाई देंगे।</string>
   <string name="empty_dialpad_hint">आप कोई फ़ोन नंबर डायल कर सकते हैं या अपने संपर्कों में खोज सकते हैं।</string>
   <string name="empty_recents_hint">आपके कोई हाल के कॉल नहीं हैं।</string>
@@ -141,13 +145,23 @@
   <string name="block_dialog_title">इस कॉलर को अवरुद्ध करें?</string>
   <string name="block_dialog_positive">अवरुद्ध करें</string>
   <string name="block_dialog_negative">रद्द करें</string>
+  <string name="block_dialog_description">आपको इस व्यक्ति से अबसे कोई भी कॉल या संदेश नहीं प्राप्त होंगे।</string>
   <string name="block_dialog_report_spam"><xliff:g id="provider">%s</xliff:g> को स्पैम के रूप में रिपोर्ट करें</string>
   <string name="caller_info_auth_yes">हाँ</string>
   <string name="caller_info_auth_no">नहीं चाहिए</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> आपके संपर्कों, मैं प्रोफ़ाइल, और सियानोजेन ओएस खाते में पहुँच सकेगा, जिसमें आपका ईमेल पता भी शामिल है।</string>
   <string name="caller_info_auth_learn_more">अधिक जानें</string>
+  <string name="caller_info_auth_desc">स्वागत है! क्या आप चाहेंगे कि <xliff:g id="provider_name">%s</xliff:g> आपके अज्ञात कॉलरों को पहचाने और अनावश्यक कॉलों को रोके?</string>
+  <string name="caller_info_auth_desc_no_spam">स्वागत है! क्या आप चाहेंगे कि <xliff:g id="provider_name">%s</xliff:g> अज्ञात कॉलरों को पहचाने?</string>
+  <string name="caller_info_summary">अज्ञात कॉलरों और स्पैम को पहचानता है</string>
+  <string name="caller_info_summary_no_spam">अज्ञात कॉलरों को पहचानता है</string>
   <string name="edit_contact">संपादन</string>
   <string name="add_contact">संपर्क जोड़ें</string>
   <string name="caller_info_loading"><xliff:g id="provider">%s</xliff:g> को खोज रहे हैं\u2026</string>
   <string name="powered_by_provider"><xliff:g id="provider">%s</xliff:g> द्वारा चालित</string>
   <string name="call_history_empty_view">कोई कॉल इतिहास नहीं है</string>
+  <string name="empty_dialpad_t9_example">इसे डायल करे %1$s को खोजें:</string>
+  <string name="provider_disable_title">%1$s को अक्षम करें?</string>
+  <string name="provider_disable_message">%1$s को अक्षम करने पर आपकी कॉलर आईडी बंद हो जाएगी।</string>
+  <string name="provider_disable_spam_message">%1$s को अक्षम करने पर आप स्पैम से अरक्षित हो जाएँगे या आपकी कॉलर आईडी बंद हो जाएगी।</string>
 </resources>

@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">รีเซ็ตขอบเขตเวลา</string>
   <string name="call_stats_sort_by_duration">เรียงตามระยะเวลาโทร</string>
   <string name="call_stats_sort_by_count">เรียงตามจำนวนครั้งการโทร</string>
+  <string name="menu_add_to_blacklist">บล็อคหมายเลข</string>
+  <string name="menu_remove_from_blacklist">ปลดการบล็อคหมายเลข</string>
   <string name="speed_dial_settings">ตั้งค่าการโทรอย่างรวดเร็ว</string>
   <string name="speed_dial_not_set">(ไม่ได้กำหนด)</string>
   <string name="speed_dial_replace">แทน​ที่</string>
@@ -95,5 +97,68 @@
   <string name="stop_call_playback">หยุด</string>
   <string name="call_playback_error_message">ไม่สามารถเล่นบันทึกได้</string>
   <string name="smart_dialer_title">การโทรอัจฉริยะ</string>
+  <string name="smart_dialer_summary">โทรหาหมายเลขที่มีการโทรออกโดยอัตโนมัติโดยเคลื่อนอุปกรณ์ไปที่หูของคุณ</string>
+  <string name="powered_by">สนับสนุนโดย</string>
+  <string name="pretty_format_yesterday">เมื่อวานเวลา <xliff:g id="time">%s</xliff:g></string>
+  <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> วันก่อน</string>
+  <string name="pretty_format_just_now">เดี๋ยวนี้</string>
+  <string name="recent_calls_today_header">วันนี้</string>
+  <string name="recent_calls_yesterday_header">เมื่อวาน</string>
+  <string name="recent_calls_this_week_header">สัปดาห์นี้</string>
+  <string name="recent_calls_last_week_header">สัปดาห์ที่แล้ว</string>
+  <string name="recent_calls_older_header">เก่ากว่า</string>
+  <string name="action_call">โทร</string>
+  <string name="action_details">รายละเอียด</string>
+  <string name="action_history">ประวัติ</string>
+  <string name="action_message">ข้อความ</string>
+  <string name="quick_action_contacts">สร้างรายชื่อติดต่อของ <xliff:g id="number">%s</xliff:g></string>
+  <string name="quick_action_sms">ส่ง SMS ไปที่ <xliff:g id="number">%s</xliff:g></string>
+  <plurals name="call_duration_seconds">
+    <item quantity="other">โทร <xliff:g id="seconds" example="28">%d</xliff:g> วินาที</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="other">โทร <xliff:g id="minutes" example="13">%d</xliff:g> นาที</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="other">โทร <xliff:g id="hours" example="1">%d</xliff:g> ชั่วโมง <xliff:g id="minutes" example="13">%d</xliff:g> นาที</item>
+  </plurals>
+  <string name="call_duration_missed">สายที่ไม่ได้รับ</string>
+  <string name="unknown_caller">เบอร์ที่ไม่รู้จัก</string>
+  <string name="clear_call_history">ล้างประวัติการโทร</string>
+  <string name="search_prompt">ค้นหารายชื่อ</string>
+  <string name="search_places_prompt">ค้นหารายชื่อหรือสถานที่</string>
+  <string name="empty_favorites_hint">รายการโปรด &amp; คนที่คุณโทรหาบ่อยจะแสดงที่นี่</string>
+  <string name="empty_dialpad_hint">คุณสามารถกดหมายเลขเพื่อโทรออกหรือค้นหาจากผู้ติดต่อของคุณ</string>
+  <string name="empty_recents_hint">คุณไม่มีสายล่าสุด</string>
+  <string name="empty_contacts_hint">คุณไม่มีรายชื่อผู้ติดต่อ</string>
+  <string name="all_favorites_label">รายการโปรดทั้งหมด</string>
+  <string name="all_favorites_title">รายการโปรด</string>
   <string name="toast_added_to_blacklist">%s ถูกเพิ่มไปยังรายชื่อที่ถูกบล็อค</string>
+  <string name="advanced_lookup_title">ขั้นสูง</string>
+  <string name="silence_spam_title">การปิดเสียงสายสแปม</string>
+  <string name="silence_spam_summary">ไม่มีเสียงเรียกเข้าเมื่อเป็นสายสแปม</string>
+  <string name="block_hidden_title">บล็อคสายที่ซ่อนหมายเลข</string>
+  <string name="block_hidden_summary">พิจารณาว่าสายที่ซ่อนหมายเลขเป็นสแปม</string>
+  <string name="block_dialog_title">บล็อคเบอร์นี้หรือไม่</string>
+  <string name="block_dialog_positive">บล็อค</string>
+  <string name="block_dialog_negative">ยกเลิก</string>
+  <string name="block_dialog_description">คุณจะไม่ได้รับการโทรหรือข้อความจากบุคคลนี้อีกต่อไป</string>
+  <string name="block_dialog_report_spam">แจ้งว่าเป็นสแปมไปยัง <xliff:g id="provider">%s</xliff:g></string>
+  <string name="caller_info_auth_yes">ตกลง</string>
+  <string name="caller_info_auth_no">ไม่ ขอบคุณ</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> จะสามารถเข้าถึงรายชื่อติดต่อของคุณ โปรไฟล์ของฉัน บัญชี Cyanogen OS ซึ่งอาจมีที่อยู่อีเมลของคุณรวมอยู่ด้วย</string>
+  <string name="caller_info_auth_learn_more">เรียนรู้เพิ่มเติม</string>
+  <string name="caller_info_auth_desc">ยินดีต้อนรับ! คุณต้องการ <xliff:g id="provider_name">%s</xliff:g> เพื่อระบุผู้โทรที่ไม่รู้จักและบล็อคสายการโทรที่ไม่ต้องการหรือไม่</string>
+  <string name="caller_info_auth_desc_no_spam">ยินดีต้อนรับ! คุณต้องการ <xliff:g id="provider_name">%s</xliff:g> เพื่อระบุผู้โทรที่ไม่รู้จักหรือไม่</string>
+  <string name="caller_info_summary">ระบุผู้โทรที่ไม่รู้จักและสแปม</string>
+  <string name="caller_info_summary_no_spam">ระบุผู้โทรที่ไม่รู้จัก</string>
+  <string name="edit_contact">แก้ไข</string>
+  <string name="add_contact">เพิ่มรายชื่อติดต่อ</string>
+  <string name="caller_info_loading">กำลังค้นหา <xliff:g id="provider">%s</xliff:g>\u2026</string>
+  <string name="powered_by_provider">สนับสนุนโดย <xliff:g id="provider">%s</xliff:g></string>
+  <string name="call_history_empty_view">ไม่มีประวัติการโทร</string>
+  <string name="empty_dialpad_t9_example">ค้นหา %1$s โดยโทรหมายเลข:</string>
+  <string name="provider_disable_title">ปิดการใช้งาน %1$s หรือไม่</string>
+  <string name="provider_disable_message">โดยการปิดการใช้งาน %1$s คุณจะไม่มี ID ผู้โทร</string>
+  <string name="provider_disable_spam_message">โดยการปิด %1$s คุณจะไม่มีการป้องกันสแปมหรือ ID ผู้โทร</string>
 </resources>

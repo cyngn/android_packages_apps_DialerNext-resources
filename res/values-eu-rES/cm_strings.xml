@@ -98,6 +98,7 @@
   <string name="call_playback_error_message">Ezin izan da grabazioa erreproduzitu</string>
   <string name="smart_dialer_title">Dei adimentsua</string>
   <string name="smart_dialer_summary">Automatikoki deitu markatutako zenbakira gailua belarrira hurbilduz</string>
+  <string name="powered_by">Oinarria:</string>
   <string name="pretty_format_yesterday">Atzo <xliff:g id="time">%s</xliff:g>tan</string>
   <string name="pretty_format_x_days_ago">Duela <xliff:g id="n_days">%d</xliff:g> egun</string>
   <string name="pretty_format_just_now">Oraintxe bertan</string>
