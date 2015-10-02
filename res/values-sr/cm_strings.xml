@@ -116,19 +116,16 @@
   <plurals name="call_duration_seconds">
     <item quantity="one"><xliff:g id="seconds" example="1">%d</xliff:g> секунда позива</item>
     <item quantity="few"><xliff:g id="seconds" example="28">%d</xliff:g> секунди позива</item>
-    <item quantity="many"><xliff:g id="seconds" example="28">%d</xliff:g> секунди позива</item>
     <item quantity="other"><xliff:g id="seconds" example="28">%d</xliff:g> секунди позива</item>
   </plurals>
   <plurals name="call_duration_minutes">
     <item quantity="one"><xliff:g id="minutes" example="1">%d</xliff:g> минут позива</item>
     <item quantity="few"><xliff:g id="minutes" example="13">%d</xliff:g> минута позива</item>
-    <item quantity="many"><xliff:g id="minutes" example="13">%d</xliff:g> минута позива</item>
     <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g> минута позива</item>
   </plurals>
   <plurals name="call_duration_hours_minutes">
     <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g> сат <xliff:g id="minutes" example="13">%d</xliff:g> минута позива</item>
     <item quantity="few"><xliff:g id="hours" example="1">%d</xliff:g> сата <xliff:g id="minutes" example="13">%d</xliff:g> минута позива</item>
-    <item quantity="many"><xliff:g id="hours" example="1">%d</xliff:g> сата <xliff:g id="minutes" example="13">%d</xliff:g> минута позива</item>
     <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> сата <xliff:g id="minutes" example="13">%d</xliff:g> минута позива</item>
   </plurals>
   <string name="call_duration_missed">Пропуштен позив</string>

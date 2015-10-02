@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Tijdsbestek herstellen</string>
   <string name="call_stats_sort_by_duration">Sorteren op gespreksduur</string>
   <string name="call_stats_sort_by_count">Sorteren op gespreksaantal</string>
+  <string name="menu_add_to_blacklist">Nummer blokkeren</string>
+  <string name="menu_remove_from_blacklist">Nummer deblokkeren</string>
   <string name="speed_dial_settings">Instellingen snelkiesnummers</string>
   <string name="speed_dial_not_set">(niet ingesteld)</string>
   <string name="speed_dial_replace">Vervangen</string>
@@ -143,10 +145,14 @@
   <string name="block_dialog_title">Deze beller blokkeren?</string>
   <string name="block_dialog_positive">Blokkeren</string>
   <string name="block_dialog_negative">Annuleren</string>
+  <string name="block_dialog_description">U ontvangt geen oproepen of berichten meer van deze persoon.</string>
   <string name="block_dialog_report_spam">Rapporteren als ongewenst aan <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Ja</string>
   <string name="caller_info_auth_no">Annuleren</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> zal toegang hebben tot uw contacten, uw profiel en Cyanogen-OS-account, waaronder mogelijk uw e-mailadres.</string>
   <string name="caller_info_auth_learn_more">Lees meer</string>
+  <string name="caller_info_auth_desc">Welkom! Wilt u <xliff:g id="provider_name">%s</xliff:g> gebruiken om onbekende bellers te identificeren en ongewenste oproepen te blokkeren?</string>
+  <string name="caller_info_auth_desc_no_spam">Welkom! Wilt u <xliff:g id="provider_name">%s</xliff:g> gebruiken om onbekende bellers te identificeren?</string>
   <string name="caller_info_summary">Identificeert onbekende bellers en spam</string>
   <string name="caller_info_summary_no_spam">Identificeert onbekende bellers</string>
   <string name="edit_contact">Aanpassen</string>
@@ -154,5 +160,8 @@
   <string name="caller_info_loading">Zoeken naar <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">Mogelijk gemaakt door <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">Geen oproepgeschiedenis</string>
+  <string name="empty_dialpad_t9_example">Zoek naar %1$s door het volgende te tikken:</string>
   <string name="provider_disable_title">%1$s uitschakelen?</string>
+  <string name="provider_disable_message">Door %1$s uit te schakelen heeft u geen beller-id.</string>
+  <string name="provider_disable_spam_message">Door %1$s uit te schakelen heeft u geen spambeveiliging of beller-id.</string>
 </resources>
