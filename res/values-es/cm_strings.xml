@@ -151,8 +151,8 @@
   <string name="caller_info_auth_no">No gracias</string>
   <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> tendrá acceso a tus contactos y perfil, y puede incluir su dirección de correo electrónico.</string>
   <string name="caller_info_auth_learn_more">Saber más</string>
-  <string name="caller_info_auth_desc">¡Bienvenido! ¿Te gustaría <xliff:g id="provider_name">%s </xliff:g> identificar las llamadas desconocidas y bloquear llamadas no deseadas?</string>
-  <string name="caller_info_auth_desc_no_spam">¡Bienvenido! ¿Te gustaría usar <xliff:g id="provider_name">%s</xliff:g> para identificar las llamadas de números no guardados y bloquear llamadas no deseadas?</string>
+  <string name="caller_info_auth_desc">¡Bienvenido! ¿Te gustaría usar <xliff:g id="provider_name">%s</xliff:g> para identificar las llamadas de números no guardados y bloquear llamadas no deseadas?</string>
+  <string name="caller_info_auth_desc_no_spam">¡Bienvenido! ¿Te gustaría usar <xliff:g id="provider_name">%s</xliff:g> para identificar las llamadas de números no guardados?</string>
   <string name="caller_info_summary">Identifica las llamadas no deseadas y de números desconocidos</string>
   <string name="caller_info_summary_no_spam">Identifica personas desconocidas</string>
   <string name="edit_contact">Editar</string>
@@ -161,7 +161,7 @@
   <string name="powered_by_provider">Patrocinado por <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">Sin historial de llamadas</string>
   <string name="empty_dialpad_t9_example">Buscar %1$s marcando:</string>
-  <string name="provider_disable_title">¿Desactivar la %1$s?</string>
+  <string name="provider_disable_title">¿Desactivar %1$s?</string>
   <string name="provider_disable_message">Al desactivar %1$s, no tendrás un identificador de llamada.</string>
   <string name="provider_disable_spam_message">Al desactivar %1$s, no tendrás protección contra llamadas no deseadas ni identificación de números no guardados.</string>
 </resources>
