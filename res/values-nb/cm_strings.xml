@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">Tilbakestille tidsområde</string>
   <string name="call_stats_sort_by_duration">Sorter etter samtalevarighet</string>
   <string name="call_stats_sort_by_count">Sorter etter antall samtaler</string>
+  <string name="menu_add_to_blacklist">Blokker nummer</string>
+  <string name="menu_remove_from_blacklist">Opphev blokkering av nummer</string>
   <string name="speed_dial_settings">Innstillinger for hurtigringing</string>
   <string name="speed_dial_not_set">(ikke angitt)</string>
   <string name="speed_dial_replace">Erstatt</string>
@@ -96,6 +98,7 @@
   <string name="call_playback_error_message">Kunne ikke spille av opptak</string>
   <string name="smart_dialer_title">Smart samtale</string>
   <string name="smart_dialer_summary">Automatisk ring det slåtte nummeret ved å heve enheten til øret</string>
+  <string name="powered_by">Drevet av</string>
   <string name="pretty_format_yesterday">I går på <xliff:g id="time">%s </xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d </xliff:g> dager siden</string>
   <string name="pretty_format_just_now">Nå</string>
@@ -126,6 +129,7 @@
   <string name="unknown_caller">Ukjent nummer</string>
   <string name="clear_call_history">Fjern samtalelogg</string>
   <string name="search_prompt">Søk etter kontakter</string>
+  <string name="search_places_prompt">Søk etter kontakter eller steder</string>
   <string name="empty_favorites_hint">Dine favoritter &amp; personer som du ofte ringer vil dukke opp her.</string>
   <string name="empty_dialpad_hint">Du kan ringe et telefonnummer eller søke kontaktene dine.</string>
   <string name="empty_recents_hint">Du har ingen samtaleliste.</string>
@@ -141,13 +145,23 @@
   <string name="block_dialog_title">Blokkere dette telefonnummeret?</string>
   <string name="block_dialog_positive">Blokker</string>
   <string name="block_dialog_negative">Avbryt</string>
+  <string name="block_dialog_description">Du vil ikke lenger motta samtaler eller meldinger fra denne personen.</string>
   <string name="block_dialog_report_spam">Rapporterer som søppelpost til <xliff:g id="provider">%s </xliff:g></string>
   <string name="caller_info_auth_yes">Ja</string>
   <string name="caller_info_auth_no">Nei takk</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> vil ha tilgang til kontaktene dine, Me-profilen, og Cyanogen OS-kontoen, som kan inkludere e-postadressen din.</string>
   <string name="caller_info_auth_learn_more">Les mer</string>
+  <string name="caller_info_auth_desc">Velkommen! Ønsker du at <xliff:g id="provider_name">%s</xliff:g> skal identifisere ukjente anrop og blokkere uønskede anrop?</string>
+  <string name="caller_info_auth_desc_no_spam">Velkommen! Ønsker du at <xliff:g id="provider_name">%s</xliff:g> skal identifisere ukjente anrop?</string>
+  <string name="caller_info_summary">Identifiserer ukjente innringere og spam</string>
+  <string name="caller_info_summary_no_spam">Identifiserer ukjente innringere</string>
   <string name="edit_contact">Endre</string>
   <string name="add_contact">Legg til kontakt</string>
   <string name="caller_info_loading">Søker <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">Drevet av <xliff:g id="provider">%s </xliff:g></string>
   <string name="call_history_empty_view">Ingen Samtalelogg</string>
+  <string name="empty_dialpad_t9_example">Søk etter %1$s ved å taste inn:</string>
+  <string name="provider_disable_title">Deaktiver %1$s?</string>
+  <string name="provider_disable_message">Ved å deaktivere %1$s, vil du ikke ha Caller-ID.</string>
+  <string name="provider_disable_spam_message">Ved å deaktivere %1$s, vil du ikke ha spam-beskyttelse eller Caller-ID.</string>
 </resources>
