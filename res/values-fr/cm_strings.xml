@@ -115,14 +115,14 @@
   <string name="quick_action_sms">Envoyer un SMS au <xliff:g id="number">%s</xliff:g></string>
   <plurals name="call_duration_seconds">
     <item quantity="one">Appel de <xliff:g id="seconds" example="1">%d</xliff:g> seconde</item>
-    <item quantity="other">Appel de <xliff:g id="seconds" example="1">%d</xliff:g> secondes</item>
+    <item quantity="other">Appel de <xliff:g id="seconds" example="28">%d</xliff:g> secondes</item>
   </plurals>
   <plurals name="call_duration_minutes">
     <item quantity="one">Appel de <xliff:g id="minutes" example="1">%d</xliff:g> minute</item>
     <item quantity="other">Appel de <xliff:g id="minutes" example="13">%d</xliff:g> minutes</item>
   </plurals>
   <plurals name="call_duration_hours_minutes">
-    <item quantity="one">Appel de <xliff:g id="hours" example="1">%d</xliff:g> heures <xliff:g id="minutes" example="13">%d</xliff:g> minute(s)</item>
+    <item quantity="one">Appel de <xliff:g id="hours" example="1">%d</xliff:g> heure <xliff:g id="minutes" example="13">%d</xliff:g> minute(s)</item>
     <item quantity="other">Appel de <xliff:g id="hours" example="1">%d</xliff:g> heures <xliff:g id="minutes" example="13">%d</xliff:g> minute(s)</item>
   </plurals>
   <string name="call_duration_missed">Appel manqué</string>
