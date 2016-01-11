@@ -112,7 +112,7 @@
   <string name="action_history">Geçmiş</string>
   <string name="action_message">Mesaj</string>
   <string name="quick_action_contacts"><xliff:g id="number">%s</xliff:g> için kişi oluştur</string>
-  <string name="quick_action_sms"><xliff:g id="number">%s</xliff:g> numarasına mesaj gönder</string>
+  <string name="quick_action_sms"><xliff:g id="number">%s</xliff:g> numarasına SMS gönder</string>
   <plurals name="call_duration_seconds">
     <item quantity="one"><xliff:g id="seconds" example="1">%d</xliff:g> saniyelik arama</item>
     <item quantity="other"><xliff:g id="seconds" example="28">%d</xliff:g> saniyelik arama</item>
@@ -136,7 +136,7 @@
   <string name="empty_contacts_hint">Kişi yok.</string>
   <string name="all_favorites_label">Tüm favoriler</string>
   <string name="all_favorites_title">Beğeniler</string>
-  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> engellenen arayan listesine eklendi</string>
+  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> engelli arayan listesine eklendi</string>
   <string name="advanced_lookup_title">Gelişmiş</string>
   <string name="silence_spam_title">Spam aramalarını sessize al</string>
   <string name="silence_spam_summary">Spam aramalarının çalmasına asla izin verme</string>
@@ -149,7 +149,7 @@
   <string name="block_dialog_report_spam"><xliff:g id="provider">%s</xliff:g> sağlayıcısına spam olarak bildir</string>
   <string name="caller_info_auth_yes">Evet</string>
   <string name="caller_info_auth_no">Hayır teşekkürler</string>
-  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> kişilerinize, Me profilinize ve e-posta adresinizin bulunduğu Cyanogenmod İS hesabınıza erişebilecek.</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> kişilerinize, Me profilinize ve e-posta adresinizin bulunduğu Cyanogenmod OS hesabınıza erişebilecek.</string>
   <string name="caller_info_auth_learn_more">Daha fazla bilgi edinin</string>
   <string name="caller_info_auth_desc">Hoş geldiniz! <xliff:g id="provider_name">%s</xliff:g> ile bilinmeyen arayanları bulmak ve istenmeyen çağrıları engellemek ister misiniz?</string>
   <string name="caller_info_auth_desc_no_spam">Hoş geldiniz! <xliff:g id="provider_name">%s</xliff:g> ile bilinmeyen arayanları bulmak ister misiniz?</string>
