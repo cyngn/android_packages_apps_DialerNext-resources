@@ -64,6 +64,8 @@
   <string name="date_qs_lastyear">Geçen yıl</string>
   <string name="call_stats_date_filter">Zaman aralığını ayarla</string>
   <string name="call_stats_reset_filter">Zaman aralığını sıfırla</string>
+  <string name="call_stats_sort_by_duration">Arama süresine göre sırala</string>
+  <string name="call_stats_sort_by_count">Arama sayısına göre sırala</string>
   <string name="menu_add_to_blacklist">Numarayı engelle</string>
   <string name="menu_remove_from_blacklist">Engeli kaldır</string>
   <string name="speed_dial_settings">Hızlı arama ayarları</string>
@@ -79,6 +81,8 @@
   <string name="incall_vibrate_outgoing_title">Cevapladığımda titre</string>
   <string name="vibrate_call_waiting">Çağrı bekletildiğinde titre</string>
   <string name="incall_vibrate_hangup_title">Kapatıldığında titre</string>
+  <string name="incall_vibrate_45_title">Her dakika titre</string>
+  <string name="incall_vibrate_45_summary">Giden aramaların her dakikasının 45. saniyesinde titreşir</string>
   <string name="detailed_incall_info_title">Arayanın detaylı bilgileri</string>
   <string name="detailed_incall_info_summary">Gelen arama ekranında arayan hakkında daha fazla bilgi görüntüle</string>
   <string name="video_call">Görüntülü arama</string>
@@ -97,6 +101,8 @@
   <string name="powered_by">Sağlayan</string>
   <string name="pretty_format_yesterday">Dün şu saatte: <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> gün önce</string>
+  <string name="pretty_format_just_now">Az önce</string>
+  <string name="recent_calls_today_header">Bugün</string>
   <string name="recent_calls_yesterday_header">Dün</string>
   <string name="recent_calls_this_week_header">Bu hafta</string>
   <string name="recent_calls_last_week_header">Geçen hafta</string>
@@ -107,6 +113,10 @@
   <string name="action_message">Mesaj</string>
   <string name="quick_action_contacts"><xliff:g id="number">%s</xliff:g> için kişi oluştur</string>
   <string name="quick_action_sms"><xliff:g id="number">%s</xliff:g> numarasına SMS gönder</string>
+  <plurals name="call_duration_seconds">
+    <item quantity="one"><xliff:g id="seconds" example="1">%d</xliff:g> saniyelik arama</item>
+    <item quantity="other"><xliff:g id="seconds" example="28">%d</xliff:g> saniyelik arama</item>
+  </plurals>
   <plurals name="call_duration_minutes">
     <item quantity="one"><xliff:g id="minutes" example="1">%d</xliff:g> dakikalık arama</item>
     <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g> dakikalık arama</item>
@@ -115,11 +125,43 @@
     <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g> saat <xliff:g id="minutes" example="13">%d</xliff:g> dakikalık arama</item>
     <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> saat <xliff:g id="minutes" example="13">%d</xliff:g> dakikalık arama</item>
   </plurals>
+  <string name="call_duration_missed">Cevapsız arama</string>
+  <string name="unknown_caller">Bilinmeyen arayan</string>
+  <string name="clear_call_history">Arama geçmişini temizle</string>
   <string name="search_prompt">Kişileri ara</string>
   <string name="search_places_prompt">Kişileri veya Konumları ara</string>
+  <string name="empty_favorites_hint">Favorileriniz &amp; sık aradığınız kişiler burada sergilenecek.</string>
+  <string name="empty_dialpad_hint">Bir telefon numarasını arayabilir veya kişilerinizi araştırabilirsiniz.</string>
+  <string name="empty_recents_hint">Son aramanız yok.</string>
   <string name="empty_contacts_hint">Kişi yok.</string>
   <string name="all_favorites_label">Tüm favoriler</string>
+  <string name="all_favorites_title">Beğeniler</string>
+  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> engelli arayan listesine eklendi</string>
   <string name="advanced_lookup_title">Gelişmiş</string>
   <string name="silence_spam_title">Spam aramalarını sessize al</string>
   <string name="silence_spam_summary">Spam aramalarının çalmasına asla izin verme</string>
+  <string name="block_hidden_title">Gizli telefon numaralarını engelle</string>
+  <string name="block_hidden_summary">Gizli numaraları spam olarak düşün</string>
+  <string name="block_dialog_title">Bu arayan engellensin mi?</string>
+  <string name="block_dialog_positive">Engelle</string>
+  <string name="block_dialog_negative">İptal</string>
+  <string name="block_dialog_description">Artık bu kişiden çağrı ya da mesaj almayacaksınız.</string>
+  <string name="block_dialog_report_spam"><xliff:g id="provider">%s</xliff:g> sağlayıcısına spam olarak bildir</string>
+  <string name="caller_info_auth_yes">Evet</string>
+  <string name="caller_info_auth_no">Hayır teşekkürler</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> kişilerinize, Me profilinize ve e-posta adresinizin bulunduğu Cyanogenmod OS hesabınıza erişebilecek.</string>
+  <string name="caller_info_auth_learn_more">Daha fazla bilgi edinin</string>
+  <string name="caller_info_auth_desc">Hoş geldiniz! <xliff:g id="provider_name">%s</xliff:g> ile bilinmeyen arayanları bulmak ve istenmeyen çağrıları engellemek ister misiniz?</string>
+  <string name="caller_info_auth_desc_no_spam">Hoş geldiniz! <xliff:g id="provider_name">%s</xliff:g> ile bilinmeyen arayanları bulmak ister misiniz?</string>
+  <string name="caller_info_summary">Bilinmeyen kişileri ve spamcileri bulur</string>
+  <string name="caller_info_summary_no_spam">Bilinmeyen kişileri bulur</string>
+  <string name="edit_contact">Düzenle</string>
+  <string name="add_contact">Kişi ekle</string>
+  <string name="caller_info_loading"><xliff:g id="provider">%s</xliff:g> aranıyor\u2026</string>
+  <string name="powered_by_provider"><xliff:g id="provider">%s</xliff:g> tarafından desteklenmektedir</string>
+  <string name="call_history_empty_view">Arama geçmişi yok</string>
+  <string name="empty_dialpad_t9_example">%1$s için tuşlayarak ara:</string>
+  <string name="provider_disable_title">%1$s devre dışı bırakılsın mı?</string>
+  <string name="provider_disable_message">%1$s sağlayıcısını devre dışı bırakarak, arayan kimliklerini bilemeyeceksiniz.</string>
+  <string name="provider_disable_spam_message">%1$s sağlayıcısını devre dışı bırakarak, arayan kimliklerini bilemeyeceksiniz, spamleri engelleyemeyeceksiniz.</string>
 </resources>
