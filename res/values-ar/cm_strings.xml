@@ -66,6 +66,8 @@
   <string name="call_stats_reset_filter">إعادة تعيين النطاق الزمني</string>
   <string name="call_stats_sort_by_duration">فرز بحسب مدة المكالمة</string>
   <string name="call_stats_sort_by_count">فرز بحسب عدد المكالمات</string>
+  <string name="menu_add_to_blacklist">حظر رقم</string>
+  <string name="menu_remove_from_blacklist">إلغاء حظر رقم</string>
   <string name="speed_dial_settings">الاتصال السريع</string>
   <string name="speed_dial_not_set">(عدم تعيين)</string>
   <string name="speed_dial_replace">استبدال</string>
@@ -96,6 +98,7 @@
   <string name="call_playback_error_message">فشل تشغيل التسجيل</string>
   <string name="smart_dialer_title">المكالمة الذكية</string>
   <string name="smart_dialer_summary">الاتصال تلقائياً بالرقم المتصل به من خلال وضع الجهاز على أذنك</string>
+  <string name="powered_by">مزود بالطاقة بواسطة</string>
   <string name="pretty_format_yesterday">أمس عند <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g>أيام مضت</string>
   <string name="pretty_format_just_now">الآن للتو</string>
@@ -114,6 +117,7 @@
   <string name="unknown_caller">المتصل غير معروف</string>
   <string name="clear_call_history">محو محفوظات المكالمات</string>
   <string name="search_prompt">البحث عن جهات الاتصال</string>
+  <string name="search_places_prompt">البحث عن جهات الاتصال أو أماكن</string>
   <string name="empty_favorites_hint">قائمة المفضلين &amp; الأشخاص الذين تتصل بهم غالباً تظهر أسماؤهم هنا.</string>
   <string name="empty_dialpad_hint">يمكنك الاتصال برقم هاتف أو البحث في جهات اتصالك.</string>
   <string name="empty_recents_hint">ليست لديك مكالمات حديثة.</string>
@@ -129,13 +133,23 @@
   <string name="block_dialog_title">حظر هذا المتصل؟</string>
   <string name="block_dialog_positive">حظر</string>
   <string name="block_dialog_negative">إلغاء</string>
+  <string name="block_dialog_description">لن تصبح قادراً على تلقي المكالمات أو الرسائل من هذا الشخص بعد الآن.</string>
   <string name="block_dialog_report_spam">الإبلاغ عن المكالمات باعتبارها عشوائية إلى <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">نعم</string>
   <string name="caller_info_auth_no">لا شكرًا</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g>سيكون لديك إمكانية الوصول إلى جهات الاتصال الخاصة بك، ملف تعريف Me، وحساب Cyanogen OS بما قد يتضمن عنوان بريدك الإلكتروني.</string>
   <string name="caller_info_auth_learn_more">معرفة المزيد</string>
+  <string name="caller_info_auth_desc">مرحباً! هل ترغب في أن يقوم <xliff:g id="provider_name">%s</xliff:g> بالتعرف على المتصلين المجهولين وحظر المكالمات غير المرغوبة؟</string>
+  <string name="caller_info_auth_desc_no_spam">مرحباً! هل ترغب في أن يقوم <xliff:g id="provider_name">%s</xliff:g> بالتعرف على المتصلين المجهولين؟</string>
+  <string name="caller_info_summary">التعرف على المتصلين غير المعروفين وغير الهامين</string>
+  <string name="caller_info_summary_no_spam">التعرف على المتصلين غير المعروفين</string>
   <string name="edit_contact">تحرير</string>
   <string name="add_contact">إضافة جهة إتصال</string>
   <string name="caller_info_loading">جاري البحث <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">مشغل بواسطة <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">لا توجد محفوظات للمكالمات</string>
+  <string name="empty_dialpad_t9_example">بحث عن %1$s بواسطة الاتصال:</string>
+  <string name="provider_disable_title">تعطيل %1$s؟</string>
+  <string name="provider_disable_message">بتعطيل %1$s، لن يكون لديك هوية متصل.</string>
+  <string name="provider_disable_spam_message">بتعطيل %1$s، لن يكون لديك حماية ضد الاتصالات غير الهامة أو معرف المتصل.</string>
 </resources>
