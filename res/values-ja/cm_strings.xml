@@ -142,7 +142,7 @@
   <string name="block_dialog_title">この発信者を着信拒否しますか？</string>
   <string name="block_dialog_positive">着信拒否</string>
   <string name="block_dialog_negative">キャンセル</string>
-  <string name="block_dialog_description">この人からの着信やメッセージを受け取らないようになりました。</string>
+  <string name="block_dialog_description">この人物からの着信やメッセージを受け取らないようになりました。</string>
   <string name="block_dialog_report_spam">迷惑電話として<xliff:g id="provider">%s</xliff:g>に報告</string>
   <string name="caller_info_auth_yes">はい</string>
   <string name="caller_info_auth_no">いいえ</string>

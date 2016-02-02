@@ -135,7 +135,7 @@
     <item quantity="two">مكالمة مدتها <xliff:g id="hours" example="1">%d</xliff:g>ساعات <xliff:g id="minutes" example="13">%d</xliff:g>دقيقة</item>
     <item quantity="few">مكالمة مدتها <xliff:g id="hours" example="1">%d</xliff:g>ساعات <xliff:g id="minutes" example="13">%d</xliff:g>دقيقة</item>
     <item quantity="many">مكالمة مدتها <xliff:g id="hours" example="1">%d</xliff:g>ساعات <xliff:g id="minutes" example="13">%d</xliff:g>دقيقة</item>
-    <item quantity="other">مكالمة مدتها <xliff:g id="hours" example="1">%d></xliff:g>ساعات <xliff:g id="minutes" example="13">%d</xliff:g>دقيقة</item>
+    <item quantity="other">مكالمة مدتها <xliff:g id="hours" example="1">%d</xliff:g>ساعات <xliff:g id="minutes" example="13">%d</xliff:g>دقيقة</item>
   </plurals>
   <string name="call_duration_missed">مكالمة فائتة</string>
   <string name="unknown_caller">المتصل غير معروف</string>

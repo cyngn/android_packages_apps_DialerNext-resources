@@ -106,7 +106,7 @@
   <string name="recent_calls_yesterday_header">Вчера</string>
   <string name="recent_calls_this_week_header">На этой неделе</string>
   <string name="recent_calls_last_week_header">На прошлой неделе</string>
-  <string name="recent_calls_older_header">Предыдущее письмо</string>
+  <string name="recent_calls_older_header">Предыдущие</string>
   <string name="action_call">Вызов</string>
   <string name="action_details">Детали</string>
   <string name="action_history">История</string>
