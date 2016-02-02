@@ -120,6 +120,11 @@
     <item quantity="few">apel de <xliff:g id="minutes" example="13">%d</xliff:g> minute</item>
     <item quantity="other">apel de <xliff:g id="minutes" example="13">%d</xliff:g> minute</item>
   </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g> hour <xliff:g id="minutes" example="13">%d</xliff:g> minut apel</item>
+    <item quantity="few"><xliff:g id="hours" example="1">%d</xliff:g> hour <xliff:g id="minutes" example="13">%d</xliff:g> minute apel</item>
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> hour <xliff:g id="minutes" example="13">%d</xliff:g> minute apel</item>
+  </plurals>
   <string name="call_duration_missed">Apel pierdut</string>
   <string name="unknown_caller">Apelant necunoscut</string>
   <string name="clear_call_history">Șterge istoricul apelurilor</string>
