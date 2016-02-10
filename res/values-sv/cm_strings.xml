@@ -67,6 +67,7 @@
   <string name="call_stats_sort_by_duration">Sortera efter samtalstid</string>
   <string name="call_stats_sort_by_count">Sortera efter antal samtal</string>
   <string name="menu_add_to_blacklist">Blockera nummer</string>
+  <string name="menu_remove_from_blacklist">Avblockera nummer</string>
   <string name="speed_dial_settings">Inställningar för kortnummer</string>
   <string name="speed_dial_not_set">(ej angivet)</string>
   <string name="speed_dial_replace">Ersätt</string>
@@ -144,16 +145,23 @@
   <string name="block_dialog_title">Blockera denna användare?</string>
   <string name="block_dialog_positive">Blockera</string>
   <string name="block_dialog_negative">Avbryt</string>
+  <string name="block_dialog_description">Du kommer inte längre få samtal eller meddelanden från den här personen.</string>
   <string name="block_dialog_report_spam">Rapportera som spam till <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Ja</string>
   <string name="caller_info_auth_no">Nej tack</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> har tillgång till dina kontakter, ME-profil och Cyanogen OS-konto, vilket kan inkludera din e-postadress.</string>
   <string name="caller_info_auth_learn_more">Läs mer</string>
   <string name="caller_info_auth_desc">Välkommen! Vill du att <xliff:g id="provider_name">%s</xliff:g> ska identifiera okända nummer och blockera oönskade samtal?</string>
+  <string name="caller_info_auth_desc_no_spam">Välkommen! Vill du att <xliff:g id="provider_name">%s</xliff:g> ska identifiera okända nummer?</string>
+  <string name="caller_info_summary">Identifierar okända nummer och spam</string>
   <string name="caller_info_summary_no_spam">Identifierar okända nummer</string>
   <string name="edit_contact">Ändra</string>
   <string name="add_contact">Lägg till kontakt</string>
   <string name="caller_info_loading">Söker <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">Drivs av <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">Ingen samtalshistorik</string>
+  <string name="empty_dialpad_t9_example">Sök efter %1$s genom att ringa:</string>
   <string name="provider_disable_title">Inaktivera %1$s?</string>
+  <string name="provider_disable_message">Genom att avaktivera %1$s, kommer du inte längre ha nummerpresentatör.</string>
+  <string name="provider_disable_spam_message">Genom att avaktivera %1$s, kommer du inte längre ha spam skydd eller nummerpresentatör.</string>
 </resources>
