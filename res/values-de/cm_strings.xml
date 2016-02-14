@@ -19,7 +19,7 @@
   <string name="nearby_places">Orte in der Nähe</string>
   <string name="people">Personen</string>
   <string name="lookup_settings_label">Telefonnummernsuche</string>
-  <string name="lookup_settings_description">Suche von unbekannten Telefonnummern</string>
+  <string name="lookup_settings_description">Suche nach unbekannten Telefonnummern</string>
   <string name="enable_forward_lookup_title">Vorwärtssuche</string>
   <string name="enable_forward_lookup_summary">Bei der Telefonnummernsuche Orte in der Nähe einschließen</string>
   <string name="enable_people_lookup_title">Personensuche</string>
@@ -30,7 +30,7 @@
   <string name="people_lookup_provider_title">Dienst für Personensuche</string>
   <string name="reverse_lookup_provider_title">Dienst für Rückwärtssuche</string>
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinesisch (CN)</string>
-  <string name="preference_category_t9_dialpad_search">T9-Suche</string>
+  <string name="preference_category_t9_dialpad_search">Dialpad T9-Suche</string>
   <string name="t9_search_input_locale">T9-Eingabesprache</string>
   <string name="t9_search_input_locale_default">Standard</string>
   <string name="type_blacklist">Blockierter Anruf</string>
@@ -42,11 +42,11 @@
   <string name="call_stats_nav_all">Alle</string>
   <string name="call_stats_nav_incoming">Eingehend</string>
   <string name="call_stats_nav_outgoing">Ausgehend</string>
-  <string name="call_stats_nav_missed">Entgangen</string>
+  <string name="call_stats_nav_missed">Verpasst</string>
   <string name="call_stats_incoming">Eingehend: <xliff:g id="percent">%d</xliff:g>%%</string>
   <string name="call_stats_outgoing">Ausgehend: <xliff:g id="percent">%d</xliff:g>%%</string>
-  <string name="call_stats_missed">Entgangen</string>
-  <string name="call_stats_missed_percent">Entgangen: <xliff:g id="percent">%d</xliff:g>%%</string>
+  <string name="call_stats_missed">Verpasst</string>
+  <string name="call_stats_missed_percent">Verpasst: <xliff:g id="percent">%d</xliff:g>%%</string>
   <string name="call_stats_blacklist">Blockiert</string>
   <string name="call_stats_blacklist_percent">Blockiert: <xliff:g id="percent">%d</xliff:g>%%</string>
   <string name="call_stats_header_total">Insgesamt: <xliff:g id="call_count">%s</xliff:g> (<xliff:g id="duration">%s</xliff:g>)</string>
@@ -74,7 +74,7 @@
   <string name="speed_dial_delete">Löschen</string>
   <string name="speed_dial_unassigned_dialog_title">Nicht zugewiesene Taste</string>
   <string name="speed_dial_unassigned_dialog_message">Der Wähltaste \"<xliff:g id="number">%s</xliff:g>\" ist keine Kurzwahlaktion zugewiesen. Möchten Sie das jetzt tun?</string>
-  <string name="dialog_speed_dial_airplane_mode_message">Um die Kurzwahl nutzen zu können, deaktivieren Sie vorher den Flugmodus.</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Um die Kurzwahl nutzen zu können, deaktivieren Sie zunächst den Flugmodus.</string>
   <string name="yes">Ja</string>
   <string name="no">Nein</string>
   <string name="incall_vibration_category_title">Vibration während eines Anrufes</string>
@@ -82,22 +82,22 @@
   <string name="vibrate_call_waiting">Beim Anklopfen vibrieren</string>
   <string name="incall_vibrate_hangup_title">Beim Auflegen vibrieren</string>
   <string name="incall_vibrate_45_title">Jede Minute vibrieren</string>
-  <string name="incall_vibrate_45_summary">Während ausgehender Anrufe 15 Sekunden vor dem Ende jeder vollen Minute vibrieren</string>
+  <string name="incall_vibrate_45_summary">Während ausgehender Anrufe 45 Sekunden vor dem Ende jeder vollen Minute vibrieren</string>
   <string name="detailed_incall_info_title">Detaillierte Anruferinformationen</string>
-  <string name="detailed_incall_info_summary">Bei eingehenden Anrufen zusätzliche Informationen über den Anrufer anzeigen</string>
-  <string name="video_call">Video-Anruf</string>
-  <string name="call_duration_active">Aktive Dauer:</string>
+  <string name="detailed_incall_info_summary">Bei eingehenden Anrufen zusätzliche Informationen zum Anrufer anzeigen</string>
+  <string name="video_call">Videoanruf</string>
+  <string name="call_duration_active">Dauer der Aktivität:</string>
   <string name="call_duration_call_out">Gesprächsdauer:</string>
   <string name="call_log_show_all_slots">Alle SIM-Karten</string>
   <string name="call_log_all_calls_header">Alle Anrufe</string>
   <string name="calllog_search_hint">Anrufprotokoll durchsuchen</string>
   <string name="msim_ime_dialog_title">Geräte-Identifikator</string>
-  <string name="call_log_blacklist_header">Nur Blockierte Anrufe</string>
+  <string name="call_log_blacklist_header">Nur blockierte Anrufe</string>
   <string name="start_call_playback">Aufzeichnung abspielen</string>
   <string name="stop_call_playback">Anhalten</string>
   <string name="call_playback_error_message">Wiedergabe der Aufzeichnung fehlgeschlagen</string>
-  <string name="smart_dialer_title">Intelligentes Anruf</string>
-  <string name="smart_dialer_summary">Automatisch den Kontakt anrufen, indem Sie das Gerät an Ihr Ohr nähern</string>
+  <string name="smart_dialer_title">Intelligenter Anruf</string>
+  <string name="smart_dialer_summary">Gewählte Nummer automatisch anrufen, wenn Sie Ihr Gerät zum Ohr führen</string>
   <string name="powered_by">Zur Verfügung gestellt von</string>
   <string name="pretty_format_yesterday">Gestern um <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago">Vor <xliff:g id="n_days">%d</xliff:g> Tagen</string>
@@ -130,29 +130,29 @@
   <string name="clear_call_history">Anrufverlauf löschen</string>
   <string name="search_prompt">Suche nach Kontakten</string>
   <string name="search_places_prompt">Kontakte oder Orte suchen</string>
-  <string name="empty_favorites_hint">Ihre Favoriten &amp; Personen, die Sie häufig anrufen, werden hier angezeigt.</string>
-  <string name="empty_dialpad_hint">Sie können eine Telefonnummer wählen oder durchsuchen Sie Ihre Kontakte.</string>
+  <string name="empty_favorites_hint">Ihre Favoriten und Personen, die Sie häufig anrufen, werden hier angezeigt.</string>
+  <string name="empty_dialpad_hint">Sie können eine Telefonnummer wählen oder Ihre Kontakte durchsuchen.</string>
   <string name="empty_recents_hint">Sie haben keine kürzlichen Anrufe.</string>
   <string name="empty_contacts_hint">Sie haben keine Kontakte.</string>
   <string name="all_favorites_label">Alle Favoriten</string>
   <string name="all_favorites_title">Favoriten</string>
-  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> zur Sperrliste hinzugefügt</string>
+  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> zur Anrufer-Sperrliste hinzugefügt</string>
   <string name="advanced_lookup_title">Erweitert</string>
-  <string name="silence_spam_title">Verstummen von Spam-Anrufen</string>
-  <string name="silence_spam_summary">Lassen Sie niemals Spam-Anrufen durch</string>
+  <string name="silence_spam_title">Spam-Anrufe stummschalten</string>
+  <string name="silence_spam_summary">Spam-Anrufe nie durchlassen</string>
   <string name="block_hidden_title">Unterdrückte Nummern blockieren</string>
   <string name="block_hidden_summary">Unterdrückte Nummern als Spam behandeln</string>
   <string name="block_dialog_title">Diesen Anrufer blockieren?</string>
   <string name="block_dialog_positive">Blockieren</string>
   <string name="block_dialog_negative">Abbrechen</string>
-  <string name="block_dialog_description">Sie werden keine Anrufe oder Nachrichten mehr von dieser Person erhalten.</string>
+  <string name="block_dialog_description">Sie werden von dieser Person keine Anrufe oder Nachrichten mehr empfangen.</string>
   <string name="block_dialog_report_spam">An <xliff:g id="provider">%s</xliff:g> als Spam melden</string>
   <string name="caller_info_auth_yes">Ja</string>
-  <string name="caller_info_auth_no">Nein Danke</string>
-  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> wird Zugriff auf Kontakte, Ich-Profil und Ihr Cyanogen OS-Konto haben, welches Ihre E-Mail-Adresse beinhalten könnte.</string>
+  <string name="caller_info_auth_no">Nein danke!</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> erhält Zugriff auf Ihre Kontakte, Ihr Ich-Profil und Ihr Cyanogen OS-Konto, d. h. möglicherweise auch auf Ihre E-Mail-Adresse.</string>
   <string name="caller_info_auth_learn_more">Mehr erfahren</string>
-  <string name="caller_info_auth_desc">Willkommen! Möchten Sie <xliff:g id="provider_name">%s</xliff:g>, um unbekannte Anrufer zu identifizieren und unerwünschte Anrufe zu blockieren?</string>
-  <string name="caller_info_auth_desc_no_spam">Willkommen! Möchten Sie <xliff:g id="provider_name">%s</xliff:g>, um unbekannte Anrufer zu identifizieren?</string>
+  <string name="caller_info_auth_desc">Willkommen! Soll <xliff:g id="provider_name">%s</xliff:g> für Sie unbekannte Anrufer identifizieren und unerwünschte Anrufe blockieren?</string>
+  <string name="caller_info_auth_desc_no_spam">Willkommen! Soll <xliff:g id="provider_name">%s</xliff:g> für Sie unbekannte Anrufer identifizieren?</string>
   <string name="caller_info_summary">Identifiziert unbekannte Anrufer und Spam</string>
   <string name="caller_info_summary_no_spam">Identifiziert unbekannte Anrufer</string>
   <string name="edit_contact">Bearbeiten</string>

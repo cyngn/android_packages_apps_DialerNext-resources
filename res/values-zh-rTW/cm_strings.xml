@@ -89,4 +89,13 @@
   <string name="start_call_playback">播放錄音</string>
   <string name="stop_call_playback">停止</string>
   <string name="call_playback_error_message">無法播放錄音</string>
+  <plurals name="call_duration_seconds">
+    <item quantity="other"><xliff:g id="seconds" example="28">%d</xliff:g> 秒通話</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g> 分鐘通話</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> 小時 <xliff:g id="minutes" example="13">%d</xliff:g> 分鐘通話</item>
+  </plurals>
 </resources>

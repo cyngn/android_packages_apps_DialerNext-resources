@@ -129,6 +129,7 @@
   <string name="unknown_caller">Apelant necunoscut</string>
   <string name="clear_call_history">Șterge istoricul apelurilor</string>
   <string name="search_prompt">Caută contacte</string>
+  <string name="search_places_prompt">Căutare contacte sau locuri</string>
   <string name="empty_favorites_hint">Ai tăi favoriți &amp; oamenii pe care îi sunați adesea vor apărea aici.</string>
   <string name="empty_dialpad_hint">Puteți forma un număr de telefon sau căuta prin contacte.</string>
   <string name="empty_recents_hint">Nu aveți apeluri recente.</string>

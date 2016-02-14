@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="nearby_places">Kokaleku hurbilak</string>
+  <string name="nearby_places">Inguruko kokalekuak</string>
   <string name="people">Jendea</string>
   <string name="lookup_settings_label">Telefono zenbakien bilaketa</string>
   <string name="lookup_settings_description">Bilatu telefono zenbaki ezezagunak</string>
