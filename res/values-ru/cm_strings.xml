@@ -19,7 +19,7 @@
   <string name="nearby_places">Места рядом</string>
   <string name="people">Люди</string>
   <string name="lookup_settings_label">Поиск номеров телефона</string>
-  <string name="lookup_settings_description">Поиск неизвестных телефонных номеров</string>
+  <string name="lookup_settings_description">Поиск неизвестных номеров телефонов</string>
   <string name="enable_forward_lookup_title">Прямой поиск</string>
   <string name="enable_forward_lookup_summary">Показывать ближайшие организации при поиске в номеронабирателе</string>
   <string name="enable_people_lookup_title">Поиск контактов</string>
