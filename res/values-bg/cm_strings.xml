@@ -137,7 +137,7 @@
   <string name="all_favorites_label">Всички предпочитани</string>
   <string name="all_favorites_title">Любими</string>
   <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> добавя към списъка с блокирани абонати</string>
-  <string name="advanced_lookup_title">За напреднали</string>
+  <string name="advanced_lookup_title">Разширени</string>
   <string name="silence_spam_title">Заглуши спам повикванията</string>
   <string name="silence_spam_summary">Никога не позволявай звънене от спам обаждания</string>
   <string name="block_hidden_title">Блокирай скрити телефонни номера</string>
