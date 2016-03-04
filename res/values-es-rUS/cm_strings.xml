@@ -16,23 +16,28 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Forward lookup -->
   <string name="nearby_places">Lugares cercanos</string>
   <string name="people">Personas</string>
+  <!-- Number lookup -->
   <string name="lookup_settings_label">Búsqueda de números de telefóno</string>
   <string name="lookup_settings_description">Buscar números de teléfono desconocidos</string>
   <string name="enable_forward_lookup_title">Búsqueda de lugares</string>
   <string name="enable_forward_lookup_summary">Mostrar lugares cercanos cuando se busque en el marcador</string>
   <string name="enable_people_lookup_title">Búsqueda de personas</string>
-  <string name="enable_people_lookup_summary">Mostrar resultados de personas al buscar en el marcador</string>
+  <string name="enable_people_lookup_summary">Mostrar resultados de personas en línea al buscar en el marcador</string>
   <string name="enable_reverse_lookup_title">Búsqueda inversa</string>
   <string name="enable_reverse_lookup_summary">Buscar información sobre la persona o lugar para llamadas de números desconocidos</string>
   <string name="forward_lookup_provider_title">Proveedor de búsqueda de lugares</string>
   <string name="people_lookup_provider_title">Proveedor de búsqueda de personas</string>
   <string name="reverse_lookup_provider_title">Proveedor de búsqueda inversa</string>
+  <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chino (CN)</string>
-  <string name="preference_category_t9_dialpad_search">Búsqueda con Teclado T9</string>
+  <!-- dialpad t9 search -->
+  <string name="preference_category_t9_dialpad_search">Búsqueda con teclado T9</string>
   <string name="t9_search_input_locale">Buscar mediante teclado T9</string>
-  <string name="t9_search_input_locale_default">Por defecto</string>
+  <string name="t9_search_input_locale_default">Predeterminado</string>
+  <!-- Description for incoming calls that were blacklisted -->
   <string name="call_log_stats_title">Estadísticas</string>
   <string name="callStatsDetailTitle">Detalles de llamada</string>
   <string name="call_stats">Estadísticas de llamadas</string>
@@ -63,6 +68,7 @@
   <string name="call_stats_reset_filter">Restablecer rango de fechas</string>
   <string name="call_stats_sort_by_duration">Ordenar por duración de llamada</string>
   <string name="call_stats_sort_by_count">Ordenar por núm. de llamadas</string>
+  <!--  for speed dial -->
   <string name="speed_dial_not_set">(no definido)</string>
   <string name="speed_dial_replace">Reemplazar</string>
   <string name="speed_dial_delete">Eliminar</string>
@@ -71,6 +77,8 @@
   <string name="dialog_speed_dial_airplane_mode_message">Para utilizar la marcación rápida primero deshabilita el modo avión.</string>
   <string name="yes">SÍ</string>
   <string name="no">No</string>
+  <!-- The string used to represent an unknown location for a phone number in the call log
+       Do not translate. -->
   <string name="incall_vibration_category_title">Vibración durante la llamada</string>
   <string name="incall_vibrate_outgoing_title">Vibrar al contestar</string>
   <string name="vibrate_call_waiting">Vibrar en llamada de espera</string>
@@ -86,9 +94,13 @@
   <string name="call_log_all_calls_header">Todas las llamadas</string>
   <string name="calllog_search_hint">Buscar en registro de llamadas</string>
   <string name="msim_ime_dialog_title">Identificador de dispositivo</string>
+  <!-- Filter by blacklist calls option -->
   <string name="start_call_playback">Reproducir grabación</string>
   <string name="stop_call_playback">Detener</string>
   <string name="call_playback_error_message">Fallo al reproducir grabación</string>
+  <!-- Smart Call -->
+  <string name="powered_by">Con tecnología</string>
+  <!-- pretty time -->
   <string name="pretty_format_just_now">Ahora</string>
   <string name="recent_calls_today_header">Hoy</string>
   <string name="recent_calls_yesterday_header">Ayer</string>
@@ -96,17 +108,24 @@
   <string name="recent_calls_last_week_header">Última semana</string>
   <string name="recent_calls_older_header">Más antigua</string>
   <string name="action_call">Llamar</string>
-  <string name="action_details">Detallado</string>
+  <string name="action_details">Detalles</string>
   <string name="action_history">Historial</string>
   <string name="action_message">Mensaje</string>
+  <plurals name="call_duration_seconds">
+    <item quantity="one">Llamada de <xliff:g id="seconds" example="1">%d</xliff:g> segundo</item>
+    <item quantity="other">Llamada de <xliff:g id="seconds" example="28">%d</xliff:g> segundos</item>
+  </plurals>
   <string name="call_duration_missed">Llamada perdida</string>
   <string name="search_prompt">Buscar contactos</string>
   <string name="all_favorites_title">Favoritos</string>
+  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> se añadió a la lista de contactos bloqueados</string>
   <string name="advanced_lookup_title">Avanzadas</string>
+  <string name="silence_spam_title">Silenciar llamadas de spam</string>
   <string name="block_dialog_negative">Cancelar</string>
   <string name="caller_info_auth_yes">SÍ</string>
-  <string name="caller_info_auth_no">No gracias</string>
+  <string name="caller_info_auth_no">No, gracias</string>
   <string name="caller_info_auth_learn_more">Leer más</string>
   <string name="edit_contact">Editar</string>
   <string name="add_contact">Agregar contacto</string>
+  <string name="powered_by_provider">Con tecnología <xliff:g id="provider">%s</xliff:g></string>
 </resources>

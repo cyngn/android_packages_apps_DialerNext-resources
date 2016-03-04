@@ -16,8 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Forward lookup -->
   <string name="nearby_places">Близки места</string>
   <string name="people">Хора</string>
+  <!-- Number lookup -->
   <string name="lookup_settings_label">Търсене на телефонен номер</string>
   <string name="lookup_settings_description">Търсене на непознати телефонни номера</string>
   <string name="enable_forward_lookup_title">Пренасочване на търсенето</string>
@@ -29,10 +31,13 @@
   <string name="forward_lookup_provider_title">Доставчик на информация при пренасочване на търсенето</string>
   <string name="people_lookup_provider_title">Доставчик на информация при търсене на хора</string>
   <string name="reverse_lookup_provider_title">Доставчик на информация при обратно търсене</string>
+  <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn китайски (КН)</string>
+  <!-- dialpad t9 search -->
   <string name="preference_category_t9_dialpad_search">Търсене в T9</string>
   <string name="t9_search_input_locale">Вход в T9 търсене</string>
   <string name="t9_search_input_locale_default">Стандартен</string>
+  <!-- Description for incoming calls that were blacklisted -->
   <string name="type_blacklist">Блокирано обаждане</string>
   <string name="call_log_stats_title">Статистика</string>
   <string name="callStatsDetailTitle">Детайли за повикването</string>
@@ -67,16 +72,19 @@
   <string name="call_stats_sort_by_duration">Сортирай по продължителност на разговори</string>
   <string name="call_stats_sort_by_count">Сортирай по брой повиквания</string>
   <string name="menu_add_to_blacklist">Блокиране на номер</string>
-  <string name="menu_remove_from_blacklist">Деблокиране на номер</string>
+  <string name="menu_remove_from_blacklist">Разблокиране на номер</string>
+  <!--  for speed dial -->
   <string name="speed_dial_settings">Бързо набиране</string>
   <string name="speed_dial_not_set">(не е зададен)</string>
   <string name="speed_dial_replace">Замени</string>
   <string name="speed_dial_delete">Изтриване</string>
   <string name="speed_dial_unassigned_dialog_title">Бутон без предназначение</string>
-  <string name="speed_dial_unassigned_dialog_message">Няма зададена бърза команда на бутона\"<xliff:g id="number">%s </xliff:g>\". Искате ли да зададете команда сега?</string>
+  <string name="speed_dial_unassigned_dialog_message">Няма зададена бърза команда на бутон номер \"<xliff:g id="number">%s </xliff:g>\". Искате ли да зададете команда сега?</string>
   <string name="dialog_speed_dial_airplane_mode_message">За да използвате за бързо набиране, първо трябва да изключите самолетния режим.</string>
   <string name="yes">Да</string>
   <string name="no">Не</string>
+  <!-- The string used to represent an unknown location for a phone number in the call log
+       Do not translate. -->
   <string name="incall_vibration_category_title">Вибрация при входящо повикване</string>
   <string name="incall_vibrate_outgoing_title">Вибрирай при отговор</string>
   <string name="vibrate_call_waiting">Вибрирай при изчакващо повикване</string>
@@ -92,13 +100,16 @@
   <string name="call_log_all_calls_header">Всички обаждания</string>
   <string name="calllog_search_hint">Търсене в регистара за повиквания</string>
   <string name="msim_ime_dialog_title">Идентификатор на устройството</string>
+  <!-- Filter by blacklist calls option -->
   <string name="call_log_blacklist_header">Само блокирани обаждания</string>
   <string name="start_call_playback">Възпроизвеждане на запис</string>
   <string name="stop_call_playback">Спри</string>
   <string name="call_playback_error_message">Неуспешно възпроизвеждане на запис</string>
+  <!-- Smart Call -->
   <string name="smart_dialer_title">Smart обаждане</string>
   <string name="smart_dialer_summary">Автоматично да се обажда набран номер чрез преместване на устройството до ухото си</string>
   <string name="powered_by">Изпълнява се от</string>
+  <!-- pretty time -->
   <string name="pretty_format_yesterday">Вчера в <xliff:g id="time">%s </xliff:g></string>
   <string name="pretty_format_x_days_ago">преди <xliff:g id="n_days">%d </xliff:g> дни</string>
   <string name="pretty_format_just_now">Точно сега</string>
@@ -136,7 +147,7 @@
   <string name="empty_contacts_hint">Нямате контакти.</string>
   <string name="all_favorites_label">Всички предпочитани</string>
   <string name="all_favorites_title">Любими</string>
-  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> добавя към списъка с блокирани абонати</string>
+  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> се добавя към списъка с блокирани контакти</string>
   <string name="advanced_lookup_title">Разширени</string>
   <string name="silence_spam_title">Заглуши спам повикванията</string>
   <string name="silence_spam_summary">Никога не позволявай звънене от спам обаждания</string>
@@ -145,7 +156,7 @@
   <string name="block_dialog_title">Блокиране на този абонат?</string>
   <string name="block_dialog_positive">Блокирай</string>
   <string name="block_dialog_negative">Отказ</string>
-  <string name="block_dialog_description">Вие няма повече да получавате обаждания или съобщения от това лице.</string>
+  <string name="block_dialog_description">Вие няма повече да получавате обаждания или съобщения от този контакт.</string>
   <string name="block_dialog_report_spam">Доклад за спам за <xliff:g id="provider">%s </xliff:g></string>
   <string name="caller_info_auth_yes">Да</string>
   <string name="caller_info_auth_no">Не, благодаря</string>

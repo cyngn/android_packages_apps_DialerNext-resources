@@ -16,8 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Forward lookup -->
   <string name="nearby_places">附近的地點</string>
   <string name="people">人員</string>
+  <!-- Number lookup -->
   <string name="lookup_settings_label">搜尋電話號碼</string>
   <string name="lookup_settings_description">搜尋未知的電話號碼</string>
   <string name="enable_forward_lookup_title">正向搜尋</string>
@@ -29,10 +31,13 @@
   <string name="forward_lookup_provider_title">正向搜尋供應商</string>
   <string name="people_lookup_provider_title">人名搜尋供應商</string>
   <string name="reverse_lookup_provider_title">反向搜尋供應商</string>
+  <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn 中國 (CN)</string>
+  <!-- dialpad t9 search -->
   <string name="preference_category_t9_dialpad_search">T9 撥號鍵盤</string>
   <string name="t9_search_input_locale">T9 搜尋輸入</string>
   <string name="t9_search_input_locale_default">預設</string>
+  <!-- Description for incoming calls that were blacklisted -->
   <string name="call_log_stats_title">統計資料</string>
   <string name="callStatsDetailTitle">通話統計詳細資料</string>
   <string name="call_stats">通話統計</string>
@@ -63,6 +68,7 @@
   <string name="call_stats_reset_filter">重設時間範圍</string>
   <string name="call_stats_sort_by_duration">按通話時間排列</string>
   <string name="call_stats_sort_by_count">按通話次數排列</string>
+  <!--  for speed dial -->
   <string name="speed_dial_settings">快速撥號設定</string>
   <string name="speed_dial_not_set">(未設定)</string>
   <string name="speed_dial_replace">取代</string>
@@ -72,6 +78,8 @@
   <string name="dialog_speed_dial_airplane_mode_message">若要使用快速撥號，請先關閉飛行模式。</string>
   <string name="yes">是</string>
   <string name="no">否</string>
+  <!-- The string used to represent an unknown location for a phone number in the call log
+       Do not translate. -->
   <string name="incall_vibration_category_title">來電震動</string>
   <string name="incall_vibrate_outgoing_title">接通時震動</string>
   <string name="incall_vibrate_hangup_title">掛斷時震動</string>
@@ -86,9 +94,12 @@
   <string name="call_log_all_calls_header">所有通話</string>
   <string name="calllog_search_hint">搜尋通話紀錄</string>
   <string name="msim_ime_dialog_title">裝置識別碼</string>
+  <!-- Filter by blacklist calls option -->
   <string name="start_call_playback">播放錄音</string>
   <string name="stop_call_playback">停止</string>
   <string name="call_playback_error_message">無法播放錄音</string>
+  <!-- Smart Call -->
+  <!-- pretty time -->
   <plurals name="call_duration_seconds">
     <item quantity="other"><xliff:g id="seconds" example="28">%d</xliff:g> 秒通話</item>
   </plurals>

@@ -16,8 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Forward lookup -->
   <string name="nearby_places">Mjesta u blizini</string>
   <string name="people">Osobe</string>
+  <!-- Number lookup -->
   <string name="lookup_settings_label">Pretraživanje po telefonskom broju</string>
   <string name="lookup_settings_description">Pretraživanje nepoznatih telefonskih brojeva</string>
   <string name="enable_forward_lookup_title">Pretraživanje po informacijama</string>
@@ -29,10 +31,13 @@
   <string name="forward_lookup_provider_title">Pretraživanja po informacijama</string>
   <string name="people_lookup_provider_title">Pretraživanja ljudi</string>
   <string name="reverse_lookup_provider_title">Obrnuto pretraživanje</string>
+  <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Kineski Cyngn (CN)</string>
+  <!-- dialpad t9 search -->
   <string name="preference_category_t9_dialpad_search">T9 pretraživanje u biraču brojeva</string>
   <string name="t9_search_input_locale">T9 unos za pretraživanje</string>
   <string name="t9_search_input_locale_default">Zadano</string>
+  <!-- Description for incoming calls that were blacklisted -->
   <string name="type_blacklist">Blokirani poziv</string>
   <string name="call_log_stats_title">Satatistike</string>
   <string name="callStatsDetailTitle">Detalji statistike poziva</string>
@@ -68,6 +73,7 @@
   <string name="call_stats_sort_by_count">Sortiraj po broju poziva</string>
   <string name="menu_add_to_blacklist">Blokiraj broj</string>
   <string name="menu_remove_from_blacklist">Deblokiraj broj</string>
+  <!--  for speed dial -->
   <string name="speed_dial_settings">Brzo biranje</string>
   <string name="speed_dial_not_set">(nije postavljeno)</string>
   <string name="speed_dial_replace">Zamijeni</string>
@@ -77,6 +83,8 @@
   <string name="dialog_speed_dial_airplane_mode_message">Da biste koristili brzo biranje morate isključiti zrakoplovni način rada.</string>
   <string name="yes">Da</string>
   <string name="no">Ne</string>
+  <!-- The string used to represent an unknown location for a phone number in the call log
+       Do not translate. -->
   <string name="incall_vibration_category_title">Vibracija za vrijeme poziva</string>
   <string name="incall_vibrate_outgoing_title">Vibriraj prilikom javljanja</string>
   <string name="vibrate_call_waiting">Vibriraj prilikom poziva na čekanju</string>
@@ -92,7 +100,16 @@
   <string name="call_log_all_calls_header">Svi pozivi</string>
   <string name="calllog_search_hint">Pretraži zapisnik poziva</string>
   <string name="msim_ime_dialog_title">Identifikator uređaja</string>
+  <!-- Filter by blacklist calls option -->
   <string name="call_log_blacklist_header">Samo blokirani pozivi</string>
+  <string name="start_call_playback">Pusti snimak</string>
+  <string name="stop_call_playback">Zaustavi</string>
+  <string name="call_playback_error_message">Reprodukcija snimke nije uspjela</string>
+  <!-- Smart Call -->
+  <string name="smart_dialer_title">Pametan poziv</string>
+  <string name="smart_dialer_summary">Automatski pozovi birani broj pomicanjem uređaja prema uhu</string>
+  <string name="powered_by">Omogućuje</string>
+  <!-- pretty time -->
   <string name="pretty_format_yesterday">Jučer u<xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago">Prije<xliff:g id="n_days">%d</xliff:g> dana</string>
   <string name="pretty_format_just_now">Sada</string>
@@ -105,6 +122,8 @@
   <string name="action_details">Pojedinosti</string>
   <string name="action_history">Povijest</string>
   <string name="action_message">Poruka</string>
+  <string name="quick_action_contacts">Stvori kontakt za <xliff:g id="number">%s</xliff:g></string>
+  <string name="quick_action_sms">Pošalji SMS na <xliff:g id="number">%s</xliff:g></string>
   <plurals name="call_duration_seconds">
     <item quantity="one"><xliff:g id="seconds" example="1">%d</xliff:g> sekunda poziva</item>
     <item quantity="few"><xliff:g id="seconds" example="2">%d</xliff:g> sekunde poziva</item>
@@ -120,12 +139,43 @@
     <item quantity="few"><xliff:g id="hours" example="2">%d</xliff:g> sata <xliff:g id="minutes" example="13">%d</xliff:g> minute poziva</item>
     <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> sati <xliff:g id="minutes" example="13">%d</xliff:g> minuta poziva</item>
   </plurals>
+  <string name="call_duration_missed">Propušteni poziv</string>
+  <string name="unknown_caller">Nepoznati pozivatelj</string>
+  <string name="clear_call_history">Obriši povijest poziva</string>
+  <string name="search_prompt">Traži kontakte</string>
+  <string name="search_places_prompt">Pretraži kontakte ili mjesta</string>
+  <string name="empty_favorites_hint">Vaše favorite &amp; osobe koje češće zovete prikazat će se ovdje.</string>
+  <string name="empty_dialpad_hint">Možete birati telefonski broj ili pretražiti kontakte.</string>
+  <string name="empty_recents_hint">Nema nedavnih poziva.</string>
+  <string name="empty_contacts_hint">Nemate nijedan kontakt.</string>
+  <string name="all_favorites_label">Svi favoriti</string>
   <string name="all_favorites_title">Favoriti</string>
+  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> dodan na popis blokiranih poziva</string>
   <string name="advanced_lookup_title">Napredno</string>
+  <string name="silence_spam_title">Utišaj neželjene pozive</string>
+  <string name="silence_spam_summary">Ne dozvoli da neželjeni pozivi zvone</string>
+  <string name="block_hidden_title">Blokiraj skrivene telefonske brojeve</string>
+  <string name="block_hidden_summary">Smatraj skrivene brojeve neželjenim</string>
+  <string name="block_dialog_title">Blokirati ovog pozivatelja?</string>
+  <string name="block_dialog_positive">Blokiraj</string>
   <string name="block_dialog_negative">Odustani</string>
   <string name="block_dialog_description">Više nećete primati pozive ili poruke od ove osobe.</string>
+  <string name="block_dialog_report_spam">Prijavi kao neželjeno u <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Da</string>
   <string name="caller_info_auth_no">Ne, hvala</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> će imati pristup vašim kontaktima, profilu i Cyanogen OS računu što može uključiti i vašu adresu E-pošte.</string>
   <string name="caller_info_auth_learn_more">Nauči više</string>
+  <string name="caller_info_auth_desc">Dobrodošli! Želite li da <xliff:g id="provider_name">%s</xliff:g> identificira nepoznate pozivatelje i blokira neželjene pozive?</string>
+  <string name="caller_info_auth_desc_no_spam">Dobrodošli! Želite li da <xliff:g id="provider_name">%s</xliff:g> identificira nepoznate pozivatelje?</string>
+  <string name="caller_info_summary">Otkriva nepoznate pozivatelje i neželjeno</string>
+  <string name="caller_info_summary_no_spam">Identificira nepoznate pozivatelje</string>
   <string name="edit_contact">Uredi</string>
+  <string name="add_contact">Dodaj kontakt</string>
+  <string name="caller_info_loading">Traženje <xliff:g id="provider">%s</xliff:g>\u2026</string>
+  <string name="powered_by_provider">Powered by <xliff:g id="provider">%s</xliff:g></string>
+  <string name="call_history_empty_view">Nema poziva</string>
+  <string name="empty_dialpad_t9_example">Traži %1$s pozivanjem broja:</string>
+  <string name="provider_disable_title">Onemogućiti %1$s?</string>
+  <string name="provider_disable_message">Onemogućavanjem %1$s, nećete imati identifikaciju poziva.</string>
+  <string name="provider_disable_spam_message">Onemogućavanjem %1$s, nećete imati zaštitu od spama ili identifikaciju poziva.</string>
 </resources>

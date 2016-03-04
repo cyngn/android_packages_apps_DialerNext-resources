@@ -16,8 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Forward lookup -->
   <string name="nearby_places">Lieux à proximité</string>
   <string name="people">Personnes</string>
+  <!-- Number lookup -->
   <string name="lookup_settings_label">Recherche de numéro de téléphone</string>
   <string name="enable_forward_lookup_title">Recherche directe</string>
   <string name="enable_forward_lookup_summary">Afficher les lieux à proximité lors de la recherche dans le composeur</string>
@@ -28,10 +30,13 @@
   <string name="forward_lookup_provider_title">Fournisseur direct de données</string>
   <string name="people_lookup_provider_title">Fournisseur de données sur les appelants</string>
   <string name="reverse_lookup_provider_title">Changer le fournisseur de données</string>
+  <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn chinois (CN)</string>
+  <!-- dialpad t9 search -->
   <string name="preference_category_t9_dialpad_search">Recherche clavier T9</string>
   <string name="t9_search_input_locale">Champ de recherche T9</string>
   <string name="t9_search_input_locale_default">Défaut</string>
+  <!-- Description for incoming calls that were blacklisted -->
   <string name="call_log_stats_title">Statistiques</string>
   <string name="callStatsDetailTitle">Détails des statistiques d\'appels</string>
   <string name="call_stats_refresh">Actualiser</string>
@@ -60,12 +65,15 @@
   <string name="call_stats_reset_filter">Réinitialiser l\'intervalle de temps</string>
   <string name="call_stats_sort_by_duration">Trier par durée d\'appel</string>
   <string name="call_stats_sort_by_count">Trier par nombre d\'appels</string>
+  <!--  for speed dial -->
   <string name="speed_dial_not_set">(non défini)</string>
   <string name="speed_dial_replace">Remplacer</string>
   <string name="speed_dial_delete">suppr</string>
   <string name="speed_dial_unassigned_dialog_title">Numéro non assigné</string>
   <string name="yes">Oui</string>
   <string name="no">Non</string>
+  <!-- The string used to represent an unknown location for a phone number in the call log
+       Do not translate. -->
   <string name="incall_vibration_category_title">Vibrations durant un appel</string>
   <string name="incall_vibrate_outgoing_title">Vibrer à la réponse</string>
   <string name="vibrate_call_waiting">Vibrer quand l\'appel est en attente</string>
@@ -79,9 +87,12 @@
   <string name="call_log_all_calls_header">Tous les appels</string>
   <string name="calllog_search_hint">Recherche du journal d\'appels</string>
   <string name="msim_ime_dialog_title">Identifiant de l\'appareil</string>
+  <!-- Filter by blacklist calls option -->
   <string name="start_call_playback">Lire l\'enregistrement</string>
   <string name="stop_call_playback">Arrêter</string>
   <string name="call_playback_error_message">Impossible de lire l\'enregistrement</string>
+  <!-- Smart Call -->
+  <!-- pretty time -->
   <string name="pretty_format_just_now">À l\'instant</string>
   <string name="recent_calls_today_header">Aujourd\'hui</string>
   <string name="recent_calls_yesterday_header">Hier</string>
