@@ -168,6 +168,7 @@
 
     <string name="unknown_caller">Unknown caller</string>
     <string name="clear_call_history">Clear call history</string>
+    <string name="recents_footer_text">View full call history</string>
     <string name="search_prompt">Search contacts</string>
     <string name="search_places_prompt">Search Contacts or Places</string>
 
@@ -219,4 +220,13 @@
     <string name="provider_disable_title">Disable %1$s?</string>
     <string name="provider_disable_message">By disabling %1$s, you will not have caller ID.</string>
     <string name="provider_disable_spam_message">By disabling %1$s, you will not have spam protection or caller ID.</string>
+
+    <string name="call_method_spinner_volte_drop_down_tag">Spinner Volte Drop Down Tag</string>
+    <string name="call_method_spinner_drop_down_tag">Spinner Drop Down Tag</string>
+
+    <string name="snackbar_storage_permission_denied">DialerNext requires STORAGE permissions in order to use record calls.</string>
+    <string name="snackbar_storage_permission_denied_explanation">Go to Settings, and tap Permissions to grant permission.</string>
+
+    <string name="snackbar_settings">Settings</string>
+
 </resources>
