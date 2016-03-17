@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Nem fogadott hívás</string>
   <string name="unknown_caller">Ismeretlen hívó</string>
   <string name="clear_call_history">Híváslista törlése</string>
+  <string name="recents_footer_text">Teljes híváslista megtekintése</string>
   <string name="search_prompt">Keresés a névjegyzékben</string>
   <string name="search_places_prompt">Névjegyek vagy helyek keresése</string>
   <string name="empty_favorites_hint">Kedvencei &amp; gyakran hívott névjegyei itt fognak megjelenni.</string>
@@ -175,4 +176,6 @@
   <string name="provider_disable_title">%1$s tiltása?</string>
   <string name="provider_disable_message">%1$s letiltásával nem lesz hívó azonosítója.</string>
   <string name="provider_disable_spam_message">%1$s letiltásával nem lesz spam védelme vagy hívó azonosítója.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Menjen a Beállításokba, majd koppintson a Jogosultságokra az engedély megadásához.</string>
+  <string name="snackbar_settings">Beállítások</string>
 </resources>

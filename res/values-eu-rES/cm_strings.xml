@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Dei galdua</string>
   <string name="unknown_caller">Deitzaile ezezaguna</string>
   <string name="clear_call_history">Garbitu deien historia</string>
+  <string name="recents_footer_text">Ikusi deien historia osoa</string>
   <string name="search_prompt">Bilatu kontaktuak</string>
   <string name="search_places_prompt">Bilatu kontaktuak edo lekuak</string>
   <string name="empty_favorites_hint">Zure gogokoak eta maiz deitzen dituzun kontaktuak hemen agertuko dira.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">%1$s desgaitu?</string>
   <string name="provider_disable_message">%1$s desgaituz ez duzu deitzailearen identifikazioa izango.</string>
   <string name="provider_disable_spam_message">%1$s desgaituz ez duzu smap deien aurkako babesa edo dei identifikazioa izango.</string>
+  <string name="snackbar_storage_permission_denied">Markatzaileak biltegiratze baimena behar du deiak grabatu ahal izateko.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Zoaz ezarpenetara eta sakatu Baimenak baimena emateko.</string>
+  <string name="snackbar_settings">Ezarpenak</string>
 </resources>

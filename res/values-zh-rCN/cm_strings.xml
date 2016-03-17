@@ -136,6 +136,7 @@
   <string name="call_duration_missed">未接来电</string>
   <string name="unknown_caller">未知呼叫人</string>
   <string name="clear_call_history">清除通话记录</string>
+  <string name="recents_footer_text">查看完整通话记录</string>
   <string name="search_prompt">搜索联系人</string>
   <string name="search_places_prompt">搜索联系人或位置</string>
   <string name="empty_favorites_hint">您的收藏夹和经常给您打电话的人将会出现在这里。</string>
@@ -172,4 +173,7 @@
   <string name="provider_disable_title">禁用 %1$s 吗？</string>
   <string name="provider_disable_message">通过禁用 %1$s，您将不会再有呼叫者身份识别。</string>
   <string name="provider_disable_spam_message">通过禁用 %1$s，您将不再获得垃圾电话保护或呼叫者身份识别。</string>
+  <string name="snackbar_storage_permission_denied">拨号器需要存储权限来进行通话录音。</string>
+  <string name="snackbar_storage_permission_denied_explanation">进入设置，然后点击权限以授予权限。</string>
+  <string name="snackbar_settings">设置</string>
 </resources>

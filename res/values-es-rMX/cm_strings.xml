@@ -27,4 +27,20 @@
   <!-- Filter by blacklist calls option -->
   <!-- Smart Call -->
   <!-- pretty time -->
+  <plurals name="call_duration_seconds">
+    <item quantity="one">Llamada de <xliff:g id="seconds" example="1">%d</xliff:g> segundo</item>
+    <item quantity="other">Llamada de <xliff:g id="seconds" example="28">%d</xliff:g> segundos</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="one">Llamada de <xliff:g id="minutes" example="1">%d</xliff:g> minuto</item>
+    <item quantity="other">Llamada de <xliff:g id="minutes" example="13">%d</xliff:g> minutos</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="one">Llamada de <xliff:g id="hours" example="1">%d</xliff:g> hora y <xliff:g id="minutes" example="13">%d</xliff:g> minutos</item>
+    <item quantity="other">Llamada de <xliff:g id="hours" example="1">%d</xliff:g> horas y <xliff:g id="minutes" example="13">%d</xliff:g> minutos</item>
+  </plurals>
+  <string name="recents_footer_text">Ver el historial de llamadas completo</string>
+  <string name="snackbar_storage_permission_denied">Se necesita permiso de almacenamiento de información para realizar la grabación de la llamada.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Ve a Ajustes y pulsa en Permisos para otorgar el permiso.</string>
+  <string name="snackbar_settings">Ajustes</string>
 </resources>

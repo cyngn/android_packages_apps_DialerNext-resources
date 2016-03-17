@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Appel manqué</string>
   <string name="unknown_caller">Numéro inconnu</string>
   <string name="clear_call_history">Effacer l\'historique des appels</string>
+  <string name="recents_footer_text">Afficher l\'historique complet des appels</string>
   <string name="search_prompt">Rechercher des contacts</string>
   <string name="search_places_prompt">Rechercher des contacts ou des lieux</string>
   <string name="empty_favorites_hint">Vos favoris et les personnes que vous appelez souvent apparaitront ici.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">Désactiver %1$s ?</string>
   <string name="provider_disable_message">En désactivant %1$s, vous ne disposerez plus de l\'identification de l\'appelant.</string>
   <string name="provider_disable_spam_message">En désactivant %1$s, vous ne disposerez plus de la fonctionnalité d\'identification de l\'appelant ou de protection contre le spam.</string>
+  <string name="snackbar_storage_permission_denied">Le composeur nécessite des autorisations sur le stockage pour utiliser l\'enregistrement d\'appels.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Aller dans Paramètres et cliquer sur Autorisations pour accorder l\'autorisation.</string>
+  <string name="snackbar_settings">Paramètres</string>
 </resources>

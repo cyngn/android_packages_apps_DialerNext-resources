@@ -136,6 +136,7 @@
   <string name="call_duration_missed">Cuộc gọi nhỡ</string>
   <string name="unknown_caller">Người gọi không biết</string>
   <string name="clear_call_history">Xóa lịch sử cuộc gọi</string>
+  <string name="recents_footer_text">Xem lịch sử toàn bộ cuộc gọi</string>
   <string name="search_prompt">Tìm kiếm số liên lạc</string>
   <string name="search_places_prompt">Tìm kiếm số liên lạc hoặc địa điểm</string>
   <string name="empty_favorites_hint">Số yêu thích của bạn &amp; người mà bạn gọi thường xuyên sẽ xuất hiện ở đây.</string>
@@ -172,4 +173,7 @@
   <string name="provider_disable_title">Vô hiệu hóa %1$s?</string>
   <string name="provider_disable_message">Bằng cách vô hiệu hoá %1$s, bạn sẽ không có ID người gọi.</string>
   <string name="provider_disable_spam_message">Bằng cách vô hiệu hoá %1$s, bạn sẽ không có tính năng chống cuộc gọi hay tin nhắn rác hoặc ID người gọi.</string>
+  <string name="snackbar_storage_permission_denied">Trình quay số yêu cầu phải có quyền truy cập bộ nhớ để sử dụng chế độ ghi âm cuộc gọi.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Đi đến Cài đặt và chạm vào Quyền truy cập để cấp quyền.</string>
+  <string name="snackbar_settings">Cài đặt</string>
 </resources>

@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Oproep gemis</string>
   <string name="unknown_caller">Onbekende persoon</string>
   <string name="clear_call_history">Maak oproep geskiedenis skoon</string>
+  <string name="recents_footer_text">Kyk na volledige oproep geskiedenis</string>
   <string name="search_prompt">Soek kontakte</string>
   <string name="search_places_prompt">Deursoek Kontakte of Plekke</string>
   <string name="empty_favorites_hint">Jou gunstelinge &amp; persone wat gereeld geskakel word sal hier wys.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">Deaktiveer %1$s?</string>
   <string name="provider_disable_message">Deur die deaktivering van %1$s, gaan jy nie \'n oproep ID hê nie.</string>
   <string name="provider_disable_spam_message">Deur die deaktivering van %1$s, sal jy nie gemors/oproep ID beskerming hê nie.</string>
+  <string name="snackbar_storage_permission_denied">Beller benodig Program toestemming na stoor spasie om \'n oproep op te neem.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Gaan na Instellings en raak Program toestemmings om toestemming te verleen.</string>
+  <string name="snackbar_settings">Instellings</string>
 </resources>

@@ -98,7 +98,7 @@
   <string name="call_duration_call_out">Времетраене на повикването:</string>
   <string name="call_log_show_all_slots">Всички СИМ карти</string>
   <string name="call_log_all_calls_header">Всички обаждания</string>
-  <string name="calllog_search_hint">Търсене в регистара за повиквания</string>
+  <string name="calllog_search_hint">Търсене в регистара с повиквания</string>
   <string name="msim_ime_dialog_title">Идентификатор на устройството</string>
   <!-- Filter by blacklist calls option -->
   <string name="call_log_blacklist_header">Само блокирани обаждания</string>
@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Пропуснато повикване</string>
   <string name="unknown_caller">Непознат номер</string>
   <string name="clear_call_history">Изтрий историята на повикванията</string>
+  <string name="recents_footer_text">Историята на всички повиквания</string>
   <string name="search_prompt">Търсене на контакти</string>
   <string name="search_places_prompt">Търсене на контакти или места</string>
   <string name="empty_favorites_hint">Вашите предпочитани контакти &amp; и хора на който звъните често ще се появят тук.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">Забраняване %1$s?</string>
   <string name="provider_disable_message">От изключването на %1$s, няма да имате идентификация на обаждания.</string>
   <string name="provider_disable_spam_message">От изключването на %1$s, няма да има спам защита или идентификация на обаждания.</string>
+  <string name="snackbar_storage_permission_denied">Телефон изисква разрешение да поддържа запис на разговор.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Отидете в Настройки и кликнете върху \" Разрешения \" за да дадете разрешение за достъп.</string>
+  <string name="snackbar_settings">Настройки</string>
 </resources>

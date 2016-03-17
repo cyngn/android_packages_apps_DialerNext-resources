@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Chiamata persa</string>
   <string name="unknown_caller">Chiamante sconosciuto</string>
   <string name="clear_call_history">Pulisci cronologia chiamate</string>
+  <string name="recents_footer_text">Vedi cronologia chiamate completa</string>
   <string name="search_prompt">Cerca contatti</string>
   <string name="search_places_prompt">Cerca Contatti o Luoghi</string>
   <string name="empty_favorites_hint">Tuoi preferiti &amp; le persone che chiami spesso appariranno qui.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">Disattivare %1$s?</string>
   <string name="provider_disable_message">Disattivando %1$s, non avrai un ID chiamante.</string>
   <string name="provider_disable_spam_message">Disattivando %1$s, non avrai protezione da spam o ID chiamante.</string>
+  <string name="snackbar_storage_permission_denied">Il dialer necessita dell\'accesso alla memoria interna per registrare le chiamate.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Vai in Impostazioni e seleziona Permessi per concedere l\'autorizzazione.</string>
+  <string name="snackbar_settings">Impostazioni</string>
 </resources>

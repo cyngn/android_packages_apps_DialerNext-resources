@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Trucada perduda</string>
   <string name="unknown_caller">Trucada desconeguda</string>
   <string name="clear_call_history">Neteja l\'historial de trucades</string>
+  <string name="recents_footer_text">Mostra l\'historial de trucades complet</string>
   <string name="search_prompt">Cerca als contactes</string>
   <string name="search_places_prompt">Cerca contactes o llocs</string>
   <string name="empty_favorites_hint">Els teus preferits i la gent que et truqui sovint apareixerà aquí.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">Vols desactivar %1$s?</string>
   <string name="provider_disable_message">Si desactives %1$s, no tindràs ID de trucada.</string>
   <string name="provider_disable_spam_message">Si desactives %1$s, no tindràs protecció contra brossa o ID de trucada.</string>
+  <string name="snackbar_storage_permission_denied">El telèfon necessita permís d\'emmagatzematge per poder utilitzar l\'enregistrament de trucades.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Ves a la Configuració, i prem a Permisos per concedir el permís.</string>
+  <string name="snackbar_settings">Configuració</string>
 </resources>

@@ -137,6 +137,7 @@
   <string name="call_duration_missed">Пропущенный вызов</string>
   <string name="unknown_caller">Неизвестный абонент</string>
   <string name="clear_call_history">Очистить историю вызовов</string>
+  <string name="recents_footer_text">Просмотреть историю всех вызовов</string>
   <string name="search_prompt">Поиск контактов</string>
   <string name="search_places_prompt">Поиск контактов или мест</string>
   <string name="empty_favorites_hint">Избранные и те, кому вы часто звоните, будут показаны здесь.</string>
@@ -173,4 +174,7 @@
   <string name="provider_disable_title">Отключить %1$s?</string>
   <string name="provider_disable_message">Отключив %1$s, вы не сможете узнать номер вызывающего абонента.</string>
   <string name="provider_disable_spam_message">Отключив %1$s, вы останетесь без защиты от спама и не сможете узнать номер вызывающего абонента.</string>
+  <string name="snackbar_storage_permission_denied">Телефону требуется разрешение на доступ к памяти устройства для сохранения записей разговоров.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Перейдите в Настройки и нажмите «Разрешения», чтобы предоставить доступ.</string>
+  <string name="snackbar_settings">Настройки</string>
 </resources>

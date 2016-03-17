@@ -124,6 +124,30 @@
   <string name="action_message">رسالة </string>
   <string name="quick_action_contacts">إنشاء جهة اتصال من أجل<xliff:g id="number">%s </xliff:g></string>
   <string name="quick_action_sms">إرسال رسالة نصية قصيرة إلى <xliff:g id="number">%s </xliff:g></string>
+  <plurals name="call_duration_seconds">
+    <item quantity="zero">مكالمة مدتها <xliff:g id="seconds" example="1">%d</xliff:g>ثوانٍ</item>
+    <item quantity="one">مكالمة مدتها <xliff:g id="seconds" example="1">%d</xliff:g>ثوانٍ</item>
+    <item quantity="two">مكالمة مدتها <xliff:g id="seconds" example="1">%d</xliff:g>ثوانٍ</item>
+    <item quantity="few">مكالمة مدتها <xliff:g id="seconds" example="1">%d</xliff:g>ثوانٍ</item>
+    <item quantity="many">مكالمة مدتها <xliff:g id="seconds" example="1">%d</xliff:g>ثوانٍ</item>
+    <item quantity="other">مكالمة مدتها <xliff:g id="seconds" example="1">%d</xliff:g>ثوانٍ</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="zero">مكالمة مدتها <xliff:g id="minutes" example="1">%d</xliff:g>دقائق</item>
+    <item quantity="one">مكالمة مدتها <xliff:g id="minutes" example="1">%d</xliff:g>دقائق</item>
+    <item quantity="two">مكالمة مدتها <xliff:g id="minutes" example="1">%d</xliff:g>دقائق</item>
+    <item quantity="few">مكالمة مدتها <xliff:g id="minutes" example="1">%d</xliff:g>دقائق</item>
+    <item quantity="many">مكالمة مدتها <xliff:g id="minutes" example="1">%d</xliff:g>دقائق</item>
+    <item quantity="other">مكالمة مدتها <xliff:g id="minutes" example="1">%d</xliff:g>دقائق</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="zero">مكالمة مدتها <xliff:g id="hours" example="1">%d</xliff:g>ساعات <xliff:g id="minutes" example="13">%d</xliff:g>دقيقة</item>
+    <item quantity="one">مكالمة مدتها <xliff:g id="hours" example="1">%d</xliff:g>ساعات <xliff:g id="minutes" example="13">%d</xliff:g>دقيقة</item>
+    <item quantity="two">مكالمة مدتها <xliff:g id="hours" example="1">%d</xliff:g>ساعات <xliff:g id="minutes" example="13">%d</xliff:g>دقيقة</item>
+    <item quantity="few">مكالمة مدتها <xliff:g id="hours" example="1">%d</xliff:g>ساعات <xliff:g id="minutes" example="13">%d</xliff:g>دقيقة</item>
+    <item quantity="many">مكالمة مدتها <xliff:g id="hours" example="1">%d</xliff:g>ساعات <xliff:g id="minutes" example="13">%d</xliff:g>دقيقة</item>
+    <item quantity="other">مكالمة مدتها <xliff:g id="hours" example="1">%d</xliff:g>ساعات <xliff:g id="minutes" example="13">%d</xliff:g>دقيقة</item>
+  </plurals>
   <string name="call_duration_missed">مكالمة فائتة</string>
   <string name="unknown_caller">المتصل غير معروف</string>
   <string name="clear_call_history">محو محفوظات المكالمات</string>

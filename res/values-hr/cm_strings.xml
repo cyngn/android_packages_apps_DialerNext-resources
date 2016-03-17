@@ -142,6 +142,7 @@
   <string name="call_duration_missed">Propušteni poziv</string>
   <string name="unknown_caller">Nepoznati pozivatelj</string>
   <string name="clear_call_history">Obriši povijest poziva</string>
+  <string name="recents_footer_text">Prikaži cijelu povijest poziva</string>
   <string name="search_prompt">Traži kontakte</string>
   <string name="search_places_prompt">Pretraži kontakte ili mjesta</string>
   <string name="empty_favorites_hint">Vaše favorite &amp; osobe koje češće zovete prikazat će se ovdje.</string>
@@ -178,4 +179,7 @@
   <string name="provider_disable_title">Onemogućiti %1$s?</string>
   <string name="provider_disable_message">Onemogućavanjem %1$s, nećete imati identifikaciju poziva.</string>
   <string name="provider_disable_spam_message">Onemogućavanjem %1$s, nećete imati zaštitu od spama ili identifikaciju poziva.</string>
+  <string name="snackbar_storage_permission_denied">Biratelj zahtijeva dopuštenje za pohranu da biste mogli koristiti snimanja poziva.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Idite u Postavke i dodirnite Dozvole za odobravanje dopuštenja.</string>
+  <string name="snackbar_settings">Postavke</string>
 </resources>

@@ -145,6 +145,7 @@
   <string name="call_duration_missed">Neodgovorjen klic</string>
   <string name="unknown_caller">Neznan klicatelj</string>
   <string name="clear_call_history">Počisti zgodovino klicev</string>
+  <string name="recents_footer_text">Pokaži celotno zgodovino klicev</string>
   <string name="search_prompt">Išči po stikih</string>
   <string name="search_places_prompt">Išči po stikih ali mestih</string>
   <string name="empty_favorites_hint">Tu se bodo prikazali vaši priljubljeni in ljudje, ki jih največkrat kličete.</string>
@@ -181,4 +182,7 @@
   <string name="provider_disable_title">Onemogoči %1$s?</string>
   <string name="provider_disable_message">Z onemogočanjem %1$s ne boste imeli prepoznavanja klicatelja.</string>
   <string name="provider_disable_spam_message">Z onemogočanjem %1$s ne boste imeli zaščite pred neželenimi klici ali prepoznavanja klicatelja.</string>
+  <string name="snackbar_storage_permission_denied">Klicalnik za snemanje klicev zahteva dovoljenje za pomnilniško napravo.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Pojdite v Nastavitve in tapnite Dovoljenja za odobritev dovoljenja.</string>
+  <string name="snackbar_settings">Nastavitve</string>
 </resources>

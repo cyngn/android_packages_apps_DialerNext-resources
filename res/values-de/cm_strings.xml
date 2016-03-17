@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Verpasster Anruf</string>
   <string name="unknown_caller">Unbekannter Anrufer</string>
   <string name="clear_call_history">Anrufverlauf löschen</string>
+  <string name="recents_footer_text">Kompletten Anrufverlauf anzeigen</string>
   <string name="search_prompt">Kontakte suchen</string>
   <string name="search_places_prompt">Kontakte oder Orte suchen</string>
   <string name="empty_favorites_hint">Ihre Favoriten und Personen, die Sie häufig anrufen, werden hier angezeigt.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">%1$s deaktivieren?</string>
   <string name="provider_disable_message">Wenn Sie %1$s deaktivieren, werden Sie keine Anruferinformationen haben.</string>
   <string name="provider_disable_spam_message">Wenn Sie %1$s deaktivieren, werden Sie weder Spam-Schutz noch Anruferinformationen haben.</string>
+  <string name="snackbar_storage_permission_denied">Telefon erfordert die Berechtigung zum Zugriff auf den Speicher, um Anrufe aufzuzeichnen.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Rufen Sie die Einstellungen auf und tippen Sie auf Berechtigungen, um die Berechtigung zu erteilen.</string>
+  <string name="snackbar_settings">Einstellungen</string>
 </resources>

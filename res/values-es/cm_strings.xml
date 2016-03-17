@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Llamada perdida</string>
   <string name="unknown_caller">Origen desconocido</string>
   <string name="clear_call_history">Borrar historial de llamadas</string>
+  <string name="recents_footer_text">Ver el historial de llamadas completo</string>
   <string name="search_prompt">Buscar contactos</string>
   <string name="search_places_prompt">Buscar contactos o lugares</string>
   <string name="empty_favorites_hint">Tus favoritos y la gente a la que llamas a menudo se mostrarán aquí.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">¿Desactivar %1$s?</string>
   <string name="provider_disable_message">Al desactivar %1$s, no tendrás un identificador de llamada.</string>
   <string name="provider_disable_spam_message">Al desactivar %1$s, no tendrás protección contra spam ni un identificador de llamada.</string>
+  <string name="snackbar_storage_permission_denied">Se necesita permiso de almacenamiento de información para realizar la grabación de la llamada.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Ve a Ajustes y pulsa Permisos para otorgar permiso.</string>
+  <string name="snackbar_settings">Ajustes</string>
 </resources>

@@ -142,6 +142,7 @@
   <string name="call_duration_missed">Nieodebr. poł.</string>
   <string name="unknown_caller">Nieznany rozmówca</string>
   <string name="clear_call_history">Skasuj historię poł.</string>
+  <string name="recents_footer_text">Pokaż pełną historię połączeń</string>
   <string name="search_prompt">Szukaj kontaktów</string>
   <string name="search_places_prompt">Wyszukiwanie kontaktów lub miejsc</string>
   <string name="empty_favorites_hint">Twoje ulubione &amp; osoby, do których często dzwonisz pojawią się tutaj.</string>
@@ -178,4 +179,6 @@
   <string name="provider_disable_title">Wyłączyć %1$s?</string>
   <string name="provider_disable_message">Wyłączając %1$s, pozbawisz się identyfikacji rozmówcy.</string>
   <string name="provider_disable_spam_message">Wyłączając %1$s, pozbawisz się ochrony przed spamem lub identyfikacji rozmówcy.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Przejdź do Ustawień i dotknij Uprawnienia, aby przyznać dostęp.</string>
+  <string name="snackbar_settings">Ustawienia</string>
 </resources>

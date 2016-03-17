@@ -142,6 +142,7 @@
   <string name="call_duration_missed">Zmeškaný hovor</string>
   <string name="unknown_caller">Neznámý volající</string>
   <string name="clear_call_history">Vymazat historii hovorů</string>
+  <string name="recents_footer_text">Zobrazit historii hovorů</string>
   <string name="search_prompt">Prohledávat kontakty</string>
   <string name="search_places_prompt">Hledat kontakty nebo místa</string>
   <string name="empty_favorites_hint">Zde budou zobrazeny oblíbené kontakty a kontakty, které Vám nejčastěji volají.</string>
@@ -178,4 +179,7 @@
   <string name="provider_disable_title">Zakázat %1$s?</string>
   <string name="provider_disable_message">Zakázáním %1$s nebudete mít identifikaci volajícího.</string>
   <string name="provider_disable_spam_message">Zakázáním %1$s nebudete mít ochranu před spamem a identifikaci volajícího.</string>
+  <string name="snackbar_storage_permission_denied">Aplikace telefonu vyžaduje pro ukládání hovorů oprávnění „Úložiště“.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Přejděte na „Nastavení“ a volbou „Oprávnění“ provedete udělení požadovaného oprávnění.</string>
+  <string name="snackbar_settings">Nastavení</string>
 </resources>

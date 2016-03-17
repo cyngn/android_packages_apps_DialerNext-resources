@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Missat samtal</string>
   <string name="unknown_caller">Okänt nummer</string>
   <string name="clear_call_history">Rensa samtalshistorik</string>
+  <string name="recents_footer_text">Visa full samtalshistorik</string>
   <string name="search_prompt">Sök bland kontakter</string>
   <string name="search_places_prompt">Sök kontakter eller platser</string>
   <string name="empty_favorites_hint">Dina favoriter &amp; personer som du ofta ringer kommer visas här.</string>
@@ -175,4 +176,6 @@
   <string name="provider_disable_title">Inaktivera %1$s?</string>
   <string name="provider_disable_message">Genom att avaktivera %1$s, kommer du inte längre ha nummerpresentatör.</string>
   <string name="provider_disable_spam_message">Genom att avaktivera %1$s, kommer du inte längre ha spam skydd eller nummerpresentatör.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Gå till inställningar och tryck på behörigheter för att bevilja behörighet.</string>
+  <string name="snackbar_settings">Inställningar</string>
 </resources>

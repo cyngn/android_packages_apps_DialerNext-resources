@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Vastaamaton puhelu</string>
   <string name="unknown_caller">Tuntematon soittaja</string>
   <string name="clear_call_history">Tyhjennä puheluhistoria</string>
+  <string name="recents_footer_text">Näytä koko puheluhistoria</string>
   <string name="search_prompt">Etsi yhteystietoja</string>
   <string name="search_places_prompt">Etsi yhteystietoja tai paikkoja</string>
   <string name="empty_favorites_hint">Suosikkisi &amp; ihmiset joille soitat usein näkyy tässä.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">Poista %1$s käytöstä?</string>
   <string name="provider_disable_message">Poistamalla palvelun %1$s käytöstä, sinulla ei ole soittajan tunnusta.</string>
   <string name="provider_disable_spam_message">Poistamalla palvelun %1$s käytöstä, sinulla ei ole spam-puheluiden estoa eikä soittajan tunnusta.</string>
+  <string name="snackbar_storage_permission_denied">Puhelin tarvitsee käyttöoikeuden tallennustilaan nauhoittaakseen puheluita.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Mene Asetuksiin, ja valitse Käyttöoikeudet myöntääksesi luvan.</string>
+  <string name="snackbar_settings">Asetukset</string>
 </resources>

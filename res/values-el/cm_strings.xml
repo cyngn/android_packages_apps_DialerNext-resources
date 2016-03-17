@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Αναπάντητη κλήση</string>
   <string name="unknown_caller">Άγνωστος</string>
   <string name="clear_call_history">Εκκαθάριση ιστορικού κλήσεων</string>
+  <string name="recents_footer_text">Προβολή πλήρους ιστορικού κλήσεων</string>
   <string name="search_prompt">Αναζήτηση επαφών</string>
   <string name="search_places_prompt">Αναζήτηση επαφών ή τοποθεσιών</string>
   <string name="empty_favorites_hint">Τα αγαπημένα σας &amp; οι άνθρωποι που καλείτε συχνά θα εμφανίζονται εδώ.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">Απενεργοποίηση %1$s;</string>
   <string name="provider_disable_message">Απενεργοποιώντας το %1$s, δεν θα έχετε αναγνώριση κλήσης.</string>
   <string name="provider_disable_spam_message">Απενεργοποιώντας το %1$s, δεν θα έχετε προστασία spam ή αναγνώριση κλήσης.</string>
+  <string name="snackbar_storage_permission_denied">Το Τηλέφωνο απαιτεί δικαιώματα αποθ. χώρου για να είναι δυνατή η καταγραφή κλήσεων.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Μεταβείτε στις Ρυθμίσεις και πατήστε Δικαιώματα για να εκχωρήσετε τα δικαιώματα.</string>
+  <string name="snackbar_settings">Ρυθμίσεις</string>
 </resources>

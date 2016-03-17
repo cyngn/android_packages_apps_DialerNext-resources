@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Chamada perdida</string>
   <string name="unknown_caller">Chamada desconhecida</string>
   <string name="clear_call_history">Limpar histórico de chamada</string>
+  <string name="recents_footer_text">Exibir todo o histórico de chamadas</string>
   <string name="search_prompt">Procurar contatos</string>
   <string name="search_places_prompt">Pesquisar contatos ou lugares</string>
   <string name="empty_favorites_hint">Seus favoritos &amp; as pessoas quem você liga frequentemente aparecerá aqui.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">Desativar %1$s?</string>
   <string name="provider_disable_message">Ao desativar %1$s, você não terá a identificação de quem te liga.</string>
   <string name="provider_disable_spam_message">Ao desativar %1$s, não terá proteção de spam ou identificação de quem te liga.</string>
+  <string name="snackbar_storage_permission_denied">O Telefone necessita de permissões de armazenamento para poder gravar as chamadas.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Vá até o menu configurações e toque em permissões para conceder a permissão.</string>
+  <string name="snackbar_settings">Configurações</string>
 </resources>

@@ -80,7 +80,7 @@
   <string name="speed_dial_delete">Apagar</string>
   <string name="speed_dial_unassigned_dialog_title">Tecla não atribuída</string>
   <string name="speed_dial_unassigned_dialog_message">Nenhuma ação de marcação rápida está atribuída à tecla número \'<xliff:g id="number">%s</xliff:g>\'. Quer atribuir uma ação agora?</string>
-  <string name="dialog_speed_dial_airplane_mode_message">Para utilizar a marcação rápida, primeiro desligue o modo avião.</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Para utilizar a marcação rápida, primeiro desligue o modo de voo.</string>
   <string name="yes">Sim</string>
   <string name="no">Não</string>
   <!-- The string used to represent an unknown location for a phone number in the call log
@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Chamada perdida</string>
   <string name="unknown_caller">Chamada desconhecida</string>
   <string name="clear_call_history">Limpar o histórico de chamadas</string>
+  <string name="recents_footer_text">Ver o histórico completo de chamadas</string>
   <string name="search_prompt">Procurar contactos</string>
   <string name="search_places_prompt">Pesquisar contactos ou lugares</string>
   <string name="empty_favorites_hint">Os seus favoritos &amp; pessoas a quem telefone muitas vezes vão aparecer aqui.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">Desativar %1$s?</string>
   <string name="provider_disable_message">Ao desativar %1$s, não terá a identificação de quem lhe telefona.</string>
   <string name="provider_disable_spam_message">Ao desativar %1$s, não terá proteção de spam ou idenficação de quem lhe telefona.</string>
+  <string name="snackbar_storage_permission_denied">O Telefone necessita de permissões de armazenamento para poder gravar as chamadas.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Vá a Definições e toque em Permissões para conceder permissão.</string>
+  <string name="snackbar_settings">Definições</string>
 </resources>

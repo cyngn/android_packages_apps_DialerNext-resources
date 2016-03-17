@@ -17,14 +17,162 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Forward lookup -->
+  <string name="nearby_places">സമീപത്തുള്ള ഇടങ്ങൾ</string>
+  <string name="people">ആളുകൾ</string>
   <!-- Number lookup -->
+  <string name="lookup_settings_label">ഫോൺ നമ്പര്‍ ലുക്കപ്പ്</string>
+  <string name="lookup_settings_description">അജ്ഞാത ഫോൺ നമ്പറുകളുടെ ലുക്കപ്പ്</string>
+  <string name="enable_forward_lookup_title">ഫോർവേഡ് ലുക്കപ്പ്</string>
+  <string name="enable_forward_lookup_summary">ഡയലറില്‍ തിരയുമ്പോള്‍ സമീപത്തുള്ള ഇടങ്ങൾ കാണിക്കുക</string>
+  <string name="enable_people_lookup_title">ആളുകൾ ലുക്കപ്പ്</string>
+  <string name="enable_people_lookup_summary">ഡയലറില്‍ തിരയുമ്പോൾ ആളുകൾക്ക് ഓൺലൈൻ ഫലങ്ങൾ കാണിക്കുക</string>
+  <string name="enable_reverse_lookup_title">പിന്നോട്ടാക്കൽ നോക്കൽ</string>
+  <string name="enable_reverse_lookup_summary">അജ്ഞാതമായ ഇൻകമിംഗ് കോള്‍ നമ്പറുകൾക്ക് വ്യക്തി അല്ലെങ്കില്‍ സ്ഥലങ്ങളെക്കുറിച്ചുള്ള വിവരങ്ങളുടെ തിരഞ്ഞു നോട്ടം</string>
+  <string name="forward_lookup_provider_title">ഫോർവേഡ് ലുക്കപ്പ് ദാതാവ്</string>
+  <string name="people_lookup_provider_title">ആളുകൾ ലുക്കപ്പ് ദാതാവ്</string>
+  <string name="reverse_lookup_provider_title">പിന്നോട്ടാക്കൽ ലുക്കപ്പ് ദാതാവ്</string>
   <!-- Chinese Reverse Lookup Provider -->
+  <string name="cyngn_reverse_lookup_provider_name">Cyngn ചൈനീസ് (CN)</string>
   <!-- dialpad t9 search -->
+  <string name="preference_category_t9_dialpad_search">ഡയൽപ്പാഡ് T9 തിരയൽ</string>
+  <string name="t9_search_input_locale">T9 തിരയൽ ഇൻപുട്ട്</string>
+  <string name="t9_search_input_locale_default">സ്ഥിരമായത്</string>
   <!-- Description for incoming calls that were blacklisted -->
+  <string name="type_blacklist">തടഞ്ഞ കോൾ</string>
+  <string name="call_log_stats_title">സ്ഥിതിവിവരക്കണക്കുകൾ</string>
+  <string name="callStatsDetailTitle">കോള്‍ സ്ഥിതി വിശദാംശങ്ങള്‍</string>
+  <string name="call_stats">കോള്‍ സ്ഥിതിവിവരക്കണക്കുകൾ</string>
+  <string name="call_stats_refresh">പുതുക്കുക</string>
+  <string name="activity_title_call_stats">കോള്‍ സ്ഥിതിവിവരക്കണക്കുകൾ</string>
+  <string name="call_stats_nav_all">എല്ലാം</string>
+  <string name="call_stats_nav_incoming">ഇൻകമിംഗ്</string>
+  <string name="call_stats_nav_outgoing">ഔട്ട്ഗോയിംഗ്</string>
+  <string name="call_stats_nav_missed">മിസ്ഡ്</string>
+  <string name="call_stats_incoming">ഇൻകമിംഗ്: <xliff:g id="percent">%d</xliff:g>%%</string>
+  <string name="call_stats_outgoing">ഔട്ട്‌ഗോയിംഗ് <xliff:g id="percent">%d</xliff:g>%%</string>
+  <string name="call_stats_missed">മിസ്ഡ്</string>
+  <string name="call_stats_missed_percent">മിസ്സ്ഡ്: <xliff:g id="percent">%d</xliff:g>%%</string>
+  <string name="call_stats_blacklist">തടഞ്ഞിരിക്കുന്നു</string>
+  <string name="call_stats_blacklist_percent">തടഞ്ഞു: <xliff:g id="percent">%d</xliff:g>%%</string>
+  <string name="call_stats_header_total">മൊത്തം: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
+  <string name="call_stats_header_total_callsonly">മൊത്തം: <xliff:g id="call_count">%s</xliff:g></string>
+  <string name="call_stats_filter_from">ആരംഭിക്കുന്ന തീയതി</string>
+  <string name="call_stats_filter_to">അവസാനിക്കുന്ന തീയതി</string>
+  <string name="call_stats_filter_picker_title">ഫിൽറ്റർ ശ്രേണി</string>
+  <string name="date_quick_selection">ദ്രുത തിരഞ്ഞെടുപ്പ്</string>
+  <string name="date_qs_currentmonth">നിലവിലെ മാസം</string>
+  <string name="date_qs_currentquarter">നിലവിലെ പാദം</string>
+  <string name="date_qs_currentyear">നിലവിലെ വർഷം</string>
+  <string name="date_qs_lastweek">അവസാന ആഴ്‌ച</string>
+  <string name="date_qs_lastmonth">കഴിഞ്ഞ മാസം</string>
+  <string name="date_qs_lastquarter">അവസാന പാദം</string>
+  <string name="date_qs_lastyear">കഴിഞ്ഞ വർഷം</string>
+  <string name="call_stats_date_filter">സമയ പരിധി ക്രമീകരിക്കുക</string>
+  <string name="call_stats_reset_filter">സമയ പരിധി പുനക്രമീകരിക്കുക</string>
+  <string name="call_stats_sort_by_duration">കോൾ ദൈർഘ്യം പ്രകാരം അടുക്കുക</string>
+  <string name="call_stats_sort_by_count">കോൾ എണ്ണം പ്രകാരം അടുക്കുക</string>
+  <string name="menu_add_to_blacklist">ബ്ലോക്ക് നമ്പർ</string>
+  <string name="menu_remove_from_blacklist">നമ്പർ തടഞ്ഞത്</string>
   <!--  for speed dial -->
+  <string name="speed_dial_settings">വേഗ ഡയൽ</string>
+  <string name="speed_dial_not_set">(സജ്ജമാക്കിയിട്ടില്ല)</string>
+  <string name="speed_dial_replace">മാറ്റി പകരം വയ്ക്കുക</string>
+  <string name="speed_dial_delete">ഇല്ലാതാക്കുക</string>
+  <string name="speed_dial_unassigned_dialog_title">കീ നിയോഗിച്ചിട്ടില്ല</string>
+  <string name="speed_dial_unassigned_dialog_message">\'<xliff:g id="number">%s</xliff:g>\' നമ്പർ കീയില്‍ വേഗ ഡയൽ നടപടി നിയോഗിച്ചിട്ടില്ല. നിങ്ങൾക്ക് ഇപ്പോൾ ഒരു പ്രവർത്തനം നിയോഗിക്കണോ?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">വേഗ ഡയൽ ഉപയോഗിക്കുന്നതിന്, ആദ്യം എയർപ്ലെയിൻ മോഡ് ഓഫ് ചെയ്യുക.</string>
+  <string name="yes">ഉണ്ട്</string>
+  <string name="no">ഇല്ല</string>
   <!-- The string used to represent an unknown location for a phone number in the call log
        Do not translate. -->
+  <string name="incall_vibration_category_title">ഇൻ-കോൾ വൈബ്രേഷൻ</string>
+  <string name="incall_vibrate_outgoing_title">മറുപടി നല്‍കുമ്പോള്‍ വൈബ്രേറ്റ് ചെയ്യുക</string>
+  <string name="vibrate_call_waiting">കോൾ വെയ്റ്റിംഗ് ചെയ്യുമ്പോള്‍ വൈബ്രേറ്റ് ചെയ്യുക</string>
+  <string name="incall_vibrate_hangup_title">മാറ്റിവയ്ക്കുമ്പോള്‍ വൈബ്രേറ്റ് ചെയ്യുക</string>
+  <string name="incall_vibrate_45_title">ഓരോ മിനിറ്റിലും വൈബ്രേറ്റ് ചെയ്യുക</string>
+  <string name="incall_vibrate_45_summary">ഔട്ട്ഗോയിംഗ് കോളുകളില്‍ ഓരോ  മിനിറ്റിലും 45 മത്തെ   സെക്കന്‍ഡില്‍ വൈബ്രേറ്റ് ചെയ്യുക</string>
+  <string name="detailed_incall_info_title">വിശദമായ കോളർ വിവരങ്ങൾ</string>
+  <string name="detailed_incall_info_summary">ഇൻകമിംഗ് കോൾ സ്ക്രീനിൽ കോളറിനെ കുറിച്ചുള്ള കൂടുതൽ വിവരങ്ങൾ പ്രദർശിപ്പിക്കുക</string>
+  <string name="video_call">വീഡിയോ കോൾ</string>
+  <string name="call_duration_active">സജീവ ദൈർഘ്യം:</string>
+  <string name="call_duration_call_out">കോൾ ദൈർഘ്യം:</string>
+  <string name="call_log_show_all_slots">എല്ലാ SIM കളും</string>
+  <string name="call_log_all_calls_header">എല്ലാ കോളുകളും</string>
+  <string name="calllog_search_hint">തിരയൽ കോൾ ലോഗ്</string>
+  <string name="msim_ime_dialog_title">ഉപകരണ ഐഡന്റിഫയർ</string>
   <!-- Filter by blacklist calls option -->
+  <string name="call_log_blacklist_header">തടഞ്ഞ കോളുകൾ മാത്രം</string>
+  <string name="start_call_playback">റെക്കോർഡിംഗ് പ്ലേ ചെയ്യുക</string>
+  <string name="stop_call_playback">നിര്‍ത്തുക</string>
+  <string name="call_playback_error_message">റെക്കോർഡിംഗ് പ്ലേ ചെയ്യുന്നത് പരാജയപ്പെട്ടു</string>
   <!-- Smart Call -->
+  <string name="smart_dialer_title">സ്മാർട്ട് കോൾ</string>
+  <string name="smart_dialer_summary">നിങ്ങളുടെ ഉപകരണം നിങ്ങളുടെ ചെവിയുടെ സമീപത്തേക്ക് നീക്കിക്കൊണ്ട് ഡയൽ ചെയ്ത നമ്പറിലേക്ക് ആട്ടോമാറ്റിക്കായി  വിളിക്കുക</string>
+  <string name="powered_by">പ്രാവര്‍ത്തികമാക്കുന്നത്</string>
   <!-- pretty time -->
+  <string name="pretty_format_yesterday">ഇന്നലെ <xliff:g id="time">%s</xliff:g> ല്‍</string>
+  <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> ദിവസങ്ങള്‍ക്ക് മുമ്പ്</string>
+  <string name="pretty_format_just_now">ഇപ്പോൾ</string>
+  <string name="recent_calls_today_header">ഇന്ന്</string>
+  <string name="recent_calls_yesterday_header">ഇന്നലെ</string>
+  <string name="recent_calls_this_week_header">ഈ ആഴ്ച</string>
+  <string name="recent_calls_last_week_header">അവസാന ആഴ്‌ച</string>
+  <string name="recent_calls_older_header">പഴയത്</string>
+  <string name="action_call">ഫോൺ വിളിക്കുക</string>
+  <string name="action_details">വിശദാംശങ്ങള്‍‌</string>
+  <string name="action_history">ചരിത്രം</string>
+  <string name="action_message">സന്ദേശങ്ങൾ</string>
+  <string name="quick_action_contacts"><xliff:g id="number">%s</xliff:g> ന് വേണ്ടി കോൺടാക്ട് സൃഷ്ടിക്കുക</string>
+  <string name="quick_action_sms"><xliff:g id="number">%s</xliff:g> ലേക്ക് SMS അയയ്ക്കുക</string>
+  <plurals name="call_duration_seconds">
+    <item quantity="one"><xliff:g id="seconds" example="1">%d</xliff:g>സെക്കൻഡ് വിളി</item>
+    <item quantity="other"><xliff:g id="seconds" example="1">%d</xliff:g>സെക്കൻഡ് വിളി</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="one"><xliff:g id="minutes" example="1">%d</xliff:g> മിനിറ്റ് കോൾ</item>
+    <item quantity="other"><xliff:g id="minutes" example="1">%d</xliff:g> മിനിറ്റ് കോൾ</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g> മണിക്കൂർ<xliff:g id="minutes" example="13">%d</xliff:g> മിനിറ്റ് കോൾ</item>
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> മണിക്കൂർ<xliff:g id="minutes" example="13">%d</xliff:g> മിനിറ്റ് കോൾ</item>
+  </plurals>
+  <string name="call_duration_missed">മിസ്ഡ് കോൾ</string>
+  <string name="unknown_caller">അജ്ഞാത കോളർ</string>
+  <string name="clear_call_history">തിരയൽ ചരിത്രം മായ്ക്കുക</string>
+  <string name="search_prompt">തിരയൽ സമ്പര്‍ക്കങ്ങള്‍</string>
+  <string name="search_places_prompt">കോണ്‍ടാക്റ്റുകള്‍ അല്ലെങ്കിൽ ഇടങ്ങൾ തിരയുക</string>
+  <string name="empty_favorites_hint">നിങ്ങളുടെ പ്രിയപ്പെട്ടതും നിങ്ങൾ പതിവായി വിളിക്കുന്ന ആളുകളെ ഇവിടെ പ്രദർശിപ്പിക്കുന്നതാണ്.</string>
+  <string name="empty_dialpad_hint">ഒരു ഫോൺ നമ്പർ ഡയൽ ചെയ്യാന്‍ അല്ലെങ്കിൽ നിങ്ങളുടെ കോണ്‍ടാക്റ്റുകള്‍ തിരയാൻ നിങ്ങള്‍ക്ക് കഴിയുന്നതാണ്.</string>
+  <string name="empty_recents_hint">നിങ്ങൾക്ക് സമീപകാല കോളുകൾ ഇല്ല.</string>
+  <string name="empty_contacts_hint">നിങ്ങൾക്ക് കോൺടാക്റ്റുകള്‍ ഇല്ല.</string>
+  <string name="all_favorites_label">പ്രിയപ്പെട്ടവ എല്ലാം</string>
+  <string name="all_favorites_title">പ്രിയപ്പെട്ടവ</string>
+  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> തടഞ്ഞ കോളർ ലിസ്റ്റിൽ ചേർത്തു</string>
+  <string name="advanced_lookup_title">വിപുലം</string>
+  <string name="silence_spam_title">സ്പാം കോളുകൾ നിശബ്ദമാക്കുക</string>
+  <string name="silence_spam_summary">സ്പാം കോളുകൾ ഒരിക്കലും റിംഗ് ചെയ്യാന്‍ അനുവദിക്കരുത്</string>
+  <string name="block_hidden_title">മറച്ച ഫോൺ നമ്പറുകൾ തടയുക</string>
+  <string name="block_hidden_summary">മറച്ച നമ്പറുകൾ സ്പാം ആയി പരിഗണിക്കുക</string>
+  <string name="block_dialog_title">ഈ കോളറെ തടയണോ?</string>
+  <string name="block_dialog_positive">തടയുക</string>
+  <string name="block_dialog_negative">റദ്ദാക്കുക</string>
+  <string name="block_dialog_description">ഈ വ്യക്തിയിൽ നിന്ന് ഇനിമേല്‍ കോളുകൾ അല്ലെങ്കിൽ സന്ദേശങ്ങൾ നിങ്ങള്‍ക്ക് ലഭിക്കില്ല.</string>
+  <string name="block_dialog_report_spam"><xliff:g id="provider">%s</xliff:g> ലേക്ക് സ്പാം ആയി റിപ്പോർട്ട് ചെയ്യുക</string>
+  <string name="caller_info_auth_yes">ഉണ്ട്</string>
+  <string name="caller_info_auth_no">വേണ്ട, നന്ദി</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> ന് നിങ്ങളുടെ കോണ്‍ടാക്റ്റുകള്‍, എന്റെ പ്രൊഫൈൽ, നിങ്ങളുടെ ഇമെയിൽ വിലാസവും ഉൾപ്പെടുന്ന Cyanogen OS അക്കൗണ്ട് എന്നിവയിലേക്ക് പ്രവേശനം ഉണ്ടായിരിക്കുന്നതാണ്.</string>
+  <string name="caller_info_auth_learn_more">കൂടുതലറിയുക</string>
+  <string name="caller_info_auth_desc">സ്വാഗതം! അജ്ഞാത കോളര്‍മാരെ തിരിച്ചറിയാനും അനാവശ്യ കോളുകൾ തടയാനും നിങ്ങള്‍ക്ക് <xliff:g id="provider_name">%s</xliff:g> ഇഷ്ടമാണോ?</string>
+  <string name="caller_info_auth_desc_no_spam">സ്വാഗതം! അജ്ഞാത കോളര്‍മാരെ തിരിച്ചറിയാന്‍ നിങ്ങള്‍ക്ക് <xliff:g id="provider_name">%s</xliff:g> ഇഷ്ടമാണോ?</string>
+  <string name="caller_info_summary">അജ്ഞാത കോളര്‍മാരെയും സ്പാമും തിരിച്ചറിയുന്നു</string>
+  <string name="caller_info_summary_no_spam">അജ്ഞാത കോളര്‍മാര്‍ തിരിച്ചറിയുന്നു</string>
+  <string name="edit_contact">എഡിറ്റുചെയ്യുക</string>
+  <string name="add_contact">കോൺടാക്റ്റ് ചേർക്കുക</string>
+  <string name="caller_info_loading">തിരയുന്നു <xliff:g id="provider">%s</xliff:g>\u2026</string>
+  <string name="powered_by_provider">പ്രാവര്‍ത്തികമാക്കുന്നത് <xliff:g id="provider">%s</xliff:g></string>
+  <string name="call_history_empty_view">കോൾ ചരിത്രം</string>
+  <string name="empty_dialpad_t9_example">ഡയൽ ചെയ്തുകൊണ്ട് %1$s തിരയുക:</string>
+  <string name="provider_disable_title">%1$s അപ്രാപ്തമാക്കണോ?</string>
+  <string name="provider_disable_message">%1$s അപ്രാപ്തമാക്കുന്നതിലൂടെ, കോളർ ID ഉണ്ടായിരിക്കില്ല.</string>
+  <string name="provider_disable_spam_message">%1$s അപ്രാപ്തമാക്കുന്നതിലൂടെ, നിങ്ങൾക്ക് സ്പാം പരിരക്ഷയോ അല്ലെങ്കിൽ കോളർ ID-യോ ഉണ്ടായിരിക്കില്ല.</string>
 </resources>
