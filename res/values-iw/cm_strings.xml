@@ -125,15 +125,15 @@
   <string name="quick_action_contacts">צור איש קשר עבור <xliff:g id="number">%s</xliff:g></string>
   <string name="quick_action_sms">שלח SMS אל <xliff:g id="number">%s</xliff:g></string>
   <plurals name="call_duration_seconds">
-    <item quantity="one"><xliff:g id="seconds" example="28">%d</xliff:g> שניות שיחה</item>
+    <item quantity="one">שניית שיחה <xliff:g id="seconds" example="1">%d</xliff:g></item>
     <item quantity="other"><xliff:g id="seconds" example="28">%d</xliff:g> שניות שיחה</item>
   </plurals>
   <plurals name="call_duration_minutes">
-    <item quantity="one"><xliff:g id="minutes" example="13">%d</xliff:g> דקות שיחה</item>
+    <item quantity="one">דקת שיחה <xliff:g id="minutes" example="1">%d</xliff:g></item>
     <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g> דקות שיחה</item>
   </plurals>
   <plurals name="call_duration_hours_minutes">
-    <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g> שעות ו-<xliff:g id="minutes" example="13">%d</xliff:g> דקות שיחה</item>
+    <item quantity="one">דקת שיחה <xliff:g id="hours" example="1">%d</xliff:g> שעות ו-<xliff:g id="minutes" example="13">%d</xliff:g></item>
     <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> שעות ו-<xliff:g id="minutes" example="13">%d</xliff:g> דקות שיחה</item>
   </plurals>
   <string name="call_duration_missed">שיחה שלא נענתה</string>
@@ -177,5 +177,6 @@
   <string name="provider_disable_message">עקב השבתת %1$s, לא תהיה לך יותר שיחה מזוהה.</string>
   <string name="provider_disable_spam_message">עקב השבתת %1$s, לא יהיה לך יותר סינון זבל או שיחה מזוהה.</string>
   <string name="snackbar_storage_permission_denied">לחייגן דרושה הרשאת אחסון כדי להשתמש בהקלטת השיחה.</string>
+  <string name="snackbar_storage_permission_denied_explanation">עבור אל הגדרות, והקש על הרשאות כדי להעניק הרשאה.</string>
   <string name="snackbar_settings">הגדרות</string>
 </resources>

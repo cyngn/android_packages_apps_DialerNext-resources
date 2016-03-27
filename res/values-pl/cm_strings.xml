@@ -179,6 +179,7 @@
   <string name="provider_disable_title">Wyłączyć %1$s?</string>
   <string name="provider_disable_message">Wyłączając %1$s, pozbawisz się identyfikacji rozmówcy.</string>
   <string name="provider_disable_spam_message">Wyłączając %1$s, pozbawisz się ochrony przed spamem lub identyfikacji rozmówcy.</string>
+  <string name="snackbar_storage_permission_denied">Telefon wymaga zezwolenia na dostęp do nośnika, aby nagrywać połączenia</string>
   <string name="snackbar_storage_permission_denied_explanation">Przejdź do Ustawień i dotknij Uprawnienia, aby przyznać dostęp.</string>
   <string name="snackbar_settings">Ustawienia</string>
 </resources>

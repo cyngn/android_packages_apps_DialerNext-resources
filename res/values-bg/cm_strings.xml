@@ -70,7 +70,7 @@
   <string name="call_stats_date_filter">Филтър за период от време</string>
   <string name="call_stats_reset_filter">Възстанови по подразбиране периода от време</string>
   <string name="call_stats_sort_by_duration">Сортирай по продължителност на разговори</string>
-  <string name="call_stats_sort_by_count">Сортирай по брой повиквания</string>
+  <string name="call_stats_sort_by_count">Сортирай по брой на обаждания</string>
   <string name="menu_add_to_blacklist">Блокиране на номер</string>
   <string name="menu_remove_from_blacklist">Разблокиране на номер</string>
   <!--  for speed dial -->

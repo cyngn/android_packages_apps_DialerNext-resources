@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Cevapsız arama</string>
   <string name="unknown_caller">Bilinmeyen arayan</string>
   <string name="clear_call_history">Arama geçmişini temizle</string>
+  <string name="recents_footer_text">Tam arama geçmişini görüntüle</string>
   <string name="search_prompt">Kişileri ara</string>
   <string name="search_places_prompt">Kişileri veya Konumları ara</string>
   <string name="empty_favorites_hint">Favorileriniz &amp; sık aradığınız kişiler burada sergilenecek.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">%1$s devre dışı bırakılsın mı?</string>
   <string name="provider_disable_message">%1$s sağlayıcısını devre dışı bırakarak, arayan kimliklerini bilemeyeceksiniz.</string>
   <string name="provider_disable_spam_message">%1$s sağlayıcısını devre dışı bırakarak, arayan kimliklerini bilemeyeceksiniz, spamleri engelleyemeyeceksiniz.</string>
+  <string name="snackbar_storage_permission_denied">Arayıcının arama kaydetme özelliğini kullanması için depolama izinine ihtiyacı var.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Ayarlar\'a gidin ve izin vermek için İzinler\'e dokunun.</string>
+  <string name="snackbar_settings">Ayarlar</string>
 </resources>

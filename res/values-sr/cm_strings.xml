@@ -142,6 +142,7 @@
   <string name="call_duration_missed">Пропуштен позив</string>
   <string name="unknown_caller">Непознати позиваоц</string>
   <string name="clear_call_history">Обриши историју позива</string>
+  <string name="recents_footer_text">Приказ пуне историје позива</string>
   <string name="search_prompt">Претражи контакте</string>
   <string name="search_places_prompt">Претражи контакте и места</string>
   <string name="empty_favorites_hint">Твоје омиљене &amp; особе које чешће зовеш приказаће се овде.</string>
@@ -178,4 +179,7 @@
   <string name="provider_disable_title">Онемогући %1$s?</string>
   <string name="provider_disable_message">Онемогућавањем %1$s, нећеш имати идентификацију позива.</string>
   <string name="provider_disable_spam_message">Онемогућавањем %1$s, нећеш имати заштиту од спама или идентификацију позива.</string>
+  <string name="snackbar_storage_permission_denied">Бирач треба дозволу за складиште да би користио снимање позива.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Иди у подешавања и кликни не Дозволе да одобриш дозволу.</string>
+  <string name="snackbar_settings">Подешавања</string>
 </resources>

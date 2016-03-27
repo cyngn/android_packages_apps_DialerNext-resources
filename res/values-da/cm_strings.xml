@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Ubesvaret opkald</string>
   <string name="unknown_caller">Ukendt nummer</string>
   <string name="clear_call_history">Slet opkaldsoversigt</string>
+  <string name="recents_footer_text">Vis hele opkaldshistorikken</string>
   <string name="search_prompt">Søg i kontakter</string>
   <string name="search_places_prompt">Søg efter kontaktpersoner eller steder</string>
   <string name="empty_favorites_hint">Dine favoritter &amp; folk du ofte ringer til vil blive vist her.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">Deaktiver %1$s?</string>
   <string name="provider_disable_message">Ved at deaktivere %1$s, vil du ikke have opkalds-ID.</string>
   <string name="provider_disable_spam_message">Ved at deaktivere %1$s, vil du ikke have beskyttelse mod spam eller opkalds-ID.</string>
+  <string name="snackbar_storage_permission_denied">Opkaldsappen kræver tilladelse til lageret for at kunne optage opkald.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Gå til Indstillinger og tryk på Tilladelser for at give tilladelse.</string>
+  <string name="snackbar_settings">Indstillinger</string>
 </resources>

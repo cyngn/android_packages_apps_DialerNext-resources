@@ -136,6 +136,7 @@
   <string name="call_duration_missed">สายที่ไม่ได้รับ</string>
   <string name="unknown_caller">เบอร์ที่ไม่รู้จัก</string>
   <string name="clear_call_history">ล้างประวัติการโทร</string>
+  <string name="recents_footer_text">ดูประวัติการโทรทั้งหมด</string>
   <string name="search_prompt">ค้นหารายชื่อติดต่อ</string>
   <string name="search_places_prompt">ค้นหารายชื่อหรือสถานที่</string>
   <string name="empty_favorites_hint">รายการโปรด &amp; คนที่คุณโทรหาบ่อยจะแสดงที่นี่</string>
@@ -172,4 +173,7 @@
   <string name="provider_disable_title">ปิดการใช้งาน %1$s หรือไม่</string>
   <string name="provider_disable_message">โดยการปิดการใช้งาน %1$s คุณจะไม่มี ID ผู้โทร</string>
   <string name="provider_disable_spam_message">โดยการปิด %1$s คุณจะไม่มีการป้องกันสแปมหรือ ID ผู้โทร</string>
+  <string name="snackbar_storage_permission_denied">เครื่องมือการโทรออกต้องได้รับอนุญาตให้เข้าถึงพื้นที่จัดเก็บเพื่อใช้งานบันทึกการโทร</string>
+  <string name="snackbar_storage_permission_denied_explanation">ไปที่การตั้งค่า และแตะที่สิทธิ์ของแอปเพื่ออนุญาตให้ใช้งาน</string>
+  <string name="snackbar_settings">การตั้งค่า</string>
 </resources>

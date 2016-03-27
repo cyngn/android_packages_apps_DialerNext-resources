@@ -151,6 +151,7 @@
   <string name="call_duration_missed">مكالمة فائتة</string>
   <string name="unknown_caller">المتصل غير معروف</string>
   <string name="clear_call_history">محو محفوظات المكالمات</string>
+  <string name="recents_footer_text">عرض سجل المكالمات بالكامل</string>
   <string name="search_prompt">البحث عن جهات الاتصال</string>
   <string name="search_places_prompt">البحث عن جهات الاتصال أو أماكن</string>
   <string name="empty_favorites_hint">قائمة المفضلين &amp; الأشخاص الذين تتصل بهم غالباً تظهر أسماؤهم هنا.</string>
@@ -187,4 +188,7 @@
   <string name="provider_disable_title">تعطيل %1$s؟</string>
   <string name="provider_disable_message">بتعطيل %1$s، لن يكون لديك هوية متصل.</string>
   <string name="provider_disable_spam_message">بتعطيل %1$s، لن يكون لديك حماية ضد الاتصالات غير الهامة أو معرف المتصل.</string>
+  <string name="snackbar_storage_permission_denied">يتطلب المتصل الإذن للتخزين من أجل استخدام تسجيل المكالمة.</string>
+  <string name="snackbar_storage_permission_denied_explanation">انتقل إلى إعدادات، واضغط على أذونات لمنح إذن.</string>
+  <string name="snackbar_settings">إعدادات</string>
 </resources>

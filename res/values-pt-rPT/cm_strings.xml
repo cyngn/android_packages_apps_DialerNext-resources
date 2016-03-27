@@ -92,7 +92,7 @@
   <string name="incall_vibrate_45_title">Vibrar a cada minuto</string>
   <string name="incall_vibrate_45_summary">Vibrar aos 45 segundos de cada minuto durante chamadas efetuadas</string>
   <string name="detailed_incall_info_title">Informações detalhadas do chamador</string>
-  <string name="detailed_incall_info_summary">Exibir informações adicionais sobre o chamador no ecrã de chamada recebida</string>
+  <string name="detailed_incall_info_summary">Mostrar informações adicionais sobre o chamador no ecrã de chamada recebida</string>
   <string name="video_call">Chamada de vídeo</string>
   <string name="call_duration_active">Duração ativa:</string>
   <string name="call_duration_call_out">Duração da chamada:</string>
@@ -137,7 +137,7 @@
     <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> hora <xliff:g id="minutes" example="13">%d</xliff:g> minuto de chamada</item>
   </plurals>
   <string name="call_duration_missed">Chamada perdida</string>
-  <string name="unknown_caller">Chamada desconhecida</string>
+  <string name="unknown_caller">Número desconhecido</string>
   <string name="clear_call_history">Limpar o histórico de chamadas</string>
   <string name="recents_footer_text">Ver o histórico completo de chamadas</string>
   <string name="search_prompt">Procurar contactos</string>
@@ -154,18 +154,18 @@
   <string name="silence_spam_summary">Nunca deixar tocar as chamadas de spam</string>
   <string name="block_hidden_title">Bloquear números de telefone ocultos</string>
   <string name="block_hidden_summary">Considerar números ocultos como spam</string>
-  <string name="block_dialog_title">Bloquear este chamador?</string>
+  <string name="block_dialog_title">Bloquear este número?</string>
   <string name="block_dialog_positive">Bloquear</string>
   <string name="block_dialog_negative">Cancelar</string>
   <string name="block_dialog_description">Você não receberá mais chamadas ou mensagens desta pessoa.</string>
   <string name="block_dialog_report_spam">Comunicar como spam a <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Sim</string>
-  <string name="caller_info_auth_no">Não obrigado</string>
+  <string name="caller_info_auth_no">Não, obrigado</string>
   <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> terá acesso aos seus contactos, perfil e conta Cyanogen OS, que pode incluir o seu endereço de e-mail.</string>
   <string name="caller_info_auth_learn_more">Saber mais</string>
-  <string name="caller_info_auth_desc">Bem-vindo! Gostaria que <xliff:g id="provider_name">%s</xliff:g> identifique os números desconhecidos e bloqueie chamadas indesejadas?</string>
-  <string name="caller_info_auth_desc_no_spam">Bem-vindo! Gostaria que <xliff:g id="provider_name">%s</xliff:g> identifique os números desconhecidos?</string>
-  <string name="caller_info_summary">Identifica os números desconhecidos e spam</string>
+  <string name="caller_info_auth_desc">Bem-vindo! Deseja que <xliff:g id="provider_name">%s</xliff:g> identifique os números desconhecidos e bloqueie chamadas indesejadas?</string>
+  <string name="caller_info_auth_desc_no_spam">Bem-vindo! Deseja que <xliff:g id="provider_name">%s</xliff:g> identifique os números desconhecidos?</string>
+  <string name="caller_info_summary">Identifica números desconhecidos e spam</string>
   <string name="caller_info_summary_no_spam">Identifica números desconhecidos</string>
   <string name="edit_contact">Editar</string>
   <string name="add_contact">Adicionar contacto</string>
@@ -174,8 +174,8 @@
   <string name="call_history_empty_view">Não há histórico de chamadas</string>
   <string name="empty_dialpad_t9_example">Perquisar %1$s marcando:</string>
   <string name="provider_disable_title">Desativar %1$s?</string>
-  <string name="provider_disable_message">Ao desativar %1$s, não terá a identificação de quem lhe telefona.</string>
-  <string name="provider_disable_spam_message">Ao desativar %1$s, não terá proteção de spam ou idenficação de quem lhe telefona.</string>
+  <string name="provider_disable_message">Ao desativar %1$s, não obterá a identificação de quem lhe telefona.</string>
+  <string name="provider_disable_spam_message">Ao desativar %1$s, não terá proteção contra spam ou a identificação de quem lhe telefona.</string>
   <string name="snackbar_storage_permission_denied">O Telefone necessita de permissões de armazenamento para poder gravar as chamadas.</string>
   <string name="snackbar_storage_permission_denied_explanation">Vá a Definições e toque em Permissões para conceder permissão.</string>
   <string name="snackbar_settings">Definições</string>

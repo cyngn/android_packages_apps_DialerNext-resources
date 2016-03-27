@@ -148,7 +148,7 @@
   <string name="empty_contacts_hint">Non hai contatti.</string>
   <string name="all_favorites_label">Tutti i preferiti</string>
   <string name="all_favorites_title">Preferiti</string>
-  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> aggiunto alla lista chiamanti bloccati</string>
+  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> aggiunto alla lista bloccati</string>
   <string name="advanced_lookup_title">Avanzate</string>
   <string name="silence_spam_title">Chiamate silenziose spam</string>
   <string name="silence_spam_summary">Non lasciare mai squillare le chiamate spam</string>

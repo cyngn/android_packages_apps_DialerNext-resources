@@ -176,6 +176,7 @@
   <string name="provider_disable_title">Inaktivera %1$s?</string>
   <string name="provider_disable_message">Genom att avaktivera %1$s, kommer du inte längre ha nummerpresentatör.</string>
   <string name="provider_disable_spam_message">Genom att avaktivera %1$s, kommer du inte längre ha spam skydd eller nummerpresentatör.</string>
+  <string name="snackbar_storage_permission_denied">Ringappen behöver behörighet till lagring för att kunna spela in samtal.</string>
   <string name="snackbar_storage_permission_denied_explanation">Gå till inställningar och tryck på behörigheter för att bevilja behörighet.</string>
   <string name="snackbar_settings">Inställningar</string>
 </resources>
