@@ -139,6 +139,7 @@
   <string name="call_duration_missed">Gemiste oproep</string>
   <string name="unknown_caller">Onbekende beller</string>
   <string name="clear_call_history">Oproepgeschiedenis wissen</string>
+  <string name="recents_footer_text">Volledige oproepgeschiedenis weergeven</string>
   <string name="search_prompt">Contacten vinden</string>
   <string name="search_places_prompt">Contacten of plaatsen doorzoeken</string>
   <string name="empty_favorites_hint">Hier worden uw favorieten en personen met wie u regelmatig belt weergegeven.</string>
@@ -175,4 +176,7 @@
   <string name="provider_disable_title">%1$s uitschakelen?</string>
   <string name="provider_disable_message">Door %1$s uit te schakelen heeft u geen beller-id.</string>
   <string name="provider_disable_spam_message">Door %1$s uit te schakelen heeft u geen spambeveiliging of beller-id.</string>
+  <string name="snackbar_storage_permission_denied">Telefoon heeft opslag-machtiging nodig om telefoongesprekken op te nemen.</string>
+  <string name="snackbar_storage_permission_denied_explanation">Ga naar Instellingen en tik Machtigingen om machtiging te verlenen.</string>
+  <string name="snackbar_settings">Instellingen</string>
 </resources>

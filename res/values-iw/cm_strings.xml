@@ -151,7 +151,7 @@
   <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> נוספו לרשימת המתקשרים החסומים</string>
   <string name="advanced_lookup_title">מתקדם</string>
   <string name="silence_spam_title">השתק שיחות זבל</string>
-  <string name="silence_spam_summary">לעולם אל תיתן לשיחות ספאם לצלצל</string>
+  <string name="silence_spam_summary">לעולם אל תיתן לשיחות זבל לצלצל</string>
   <string name="block_hidden_title">חסום מספרי טלפון חסויים</string>
   <string name="block_hidden_summary">התייחס למספרים חסויים כזבל</string>
   <string name="block_dialog_title">לחסום מתקשר זה?</string>
@@ -165,7 +165,7 @@
   <string name="caller_info_auth_learn_more">למד עוד</string>
   <string name="caller_info_auth_desc">ברוכים הבאים! האם ברצונך ש-<xliff:g id="provider_name">%s</xliff:g> תזהה מתקשרים לא ידועים ותחסום שיחות לא רצויות?</string>
   <string name="caller_info_auth_desc_no_spam">ברוכים הבאים! האם ברצונך ש-<xliff:g id="provider_name">%s</xliff:g> תזהה מתקשרים לא ידועים?</string>
-  <string name="caller_info_summary">מזהה מתקשרים לא ידועים וזבל</string>
+  <string name="caller_info_summary">מזהה מתקשרים לא ידועים ושיחות זבל</string>
   <string name="caller_info_summary_no_spam">מזהה מתקשרים לא ידועים</string>
   <string name="edit_contact">עריכה</string>
   <string name="add_contact">הוסף איש קשר</string>
