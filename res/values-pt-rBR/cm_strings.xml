@@ -36,20 +36,20 @@
   <!-- dialpad t9 search -->
   <string name="preference_category_t9_dialpad_search">Pesquisa no teclado T9</string>
   <string name="t9_search_input_locale">Pesquisar entrada no teclado T9</string>
-  <string name="t9_search_input_locale_default">Opção por omissão</string>
+  <string name="t9_search_input_locale_default">Padrão</string>
   <!-- Description for incoming calls that were blacklisted -->
   <string name="type_blacklist">Chamada bloqueada</string>
   <string name="call_log_stats_title">Estatísticas</string>
-  <string name="callStatsDetailTitle">Estatística de chamadas detalhadas</string>
+  <string name="callStatsDetailTitle">Detalhes de estatística de chamadas</string>
   <string name="call_stats">Estatísticas de chamadas</string>
   <string name="call_stats_refresh">Atualizar</string>
   <string name="activity_title_call_stats">Estatísticas de chamadas</string>
   <string name="call_stats_nav_all">Todas</string>
   <string name="call_stats_nav_incoming">Recebidas</string>
-  <string name="call_stats_nav_outgoing">Enviadas</string>
+  <string name="call_stats_nav_outgoing">Feitas</string>
   <string name="call_stats_nav_missed">Perdidas</string>
   <string name="call_stats_incoming">Recebidas: <xliff:g id="percent">%d</xliff:g>%%</string>
-  <string name="call_stats_outgoing">Enviadas: <xliff:g id="percent">%d</xliff:g>%%</string>
+  <string name="call_stats_outgoing">Feitas: <xliff:g id="percent">%d</xliff:g>%%</string>
   <string name="call_stats_missed">Perdidas</string>
   <string name="call_stats_missed_percent">Perdidas: <xliff:g id="percent">%d</xliff:g>%%</string>
   <string name="call_stats_blacklist">Bloqueada</string>
@@ -60,21 +60,21 @@
   <string name="call_stats_filter_to">Data final</string>
   <string name="call_stats_filter_picker_title">Filtro por intervalo</string>
   <string name="date_quick_selection">Seleção rápida</string>
-  <string name="date_qs_currentmonth">Mês corrente</string>
-  <string name="date_qs_currentquarter">Trimestre corrente</string>
-  <string name="date_qs_currentyear">Ano corrente</string>
-  <string name="date_qs_lastweek">Última semana</string>
-  <string name="date_qs_lastmonth">Último mês</string>
-  <string name="date_qs_lastquarter">Último trimestre</string>
-  <string name="date_qs_lastyear">Último ano</string>
-  <string name="call_stats_date_filter">Ajustar tempo de intervalo</string>
-  <string name="call_stats_reset_filter">Redefinr tempo de intervalo</string>
-  <string name="call_stats_sort_by_duration">Ordernar por duração de chamada</string>
+  <string name="date_qs_currentmonth">Mês atual</string>
+  <string name="date_qs_currentquarter">Trimestre atual</string>
+  <string name="date_qs_currentyear">Ano atual</string>
+  <string name="date_qs_lastweek">Semana passada</string>
+  <string name="date_qs_lastmonth">Mês passado</string>
+  <string name="date_qs_lastquarter">Trimestre passado</string>
+  <string name="date_qs_lastyear">Ano passado</string>
+  <string name="call_stats_date_filter">Ajustar intervalo</string>
+  <string name="call_stats_reset_filter">Redefinir intervalo</string>
+  <string name="call_stats_sort_by_duration">Ordenar por duração de chamada</string>
   <string name="call_stats_sort_by_count">Ordenar por quantidade de chamadas</string>
   <string name="menu_add_to_blacklist">Bloquear número</string>
   <string name="menu_remove_from_blacklist">Desbloquear número</string>
   <!--  for speed dial -->
-  <string name="speed_dial_settings">Configurações de discagem rápida</string>
+  <string name="speed_dial_settings">Discagem rápida</string>
   <string name="speed_dial_not_set">(não definido)</string>
   <string name="speed_dial_replace">Substituir</string>
   <string name="speed_dial_delete">Apagar</string>
@@ -90,9 +90,9 @@
   <string name="vibrate_call_waiting">Vibrar ao receber chamada em espera</string>
   <string name="incall_vibrate_hangup_title">Vibrar ao desligar</string>
   <string name="incall_vibrate_45_title">Vibrar a cada minuto</string>
-  <string name="incall_vibrate_45_summary">Vibrar a cada minuto durante chamadas realizadas</string>
-  <string name="detailed_incall_info_title">Informações detalhadas do chamador</string>
-  <string name="detailed_incall_info_summary">Exibir informações adicionais sobre o chamador na tela de chamada</string>
+  <string name="incall_vibrate_45_summary">Vibrar aos 45 segundos de cada minuto durante chamadas feitas</string>
+  <string name="detailed_incall_info_title">Informações detalhadas de quem liga</string>
+  <string name="detailed_incall_info_summary">Exibe informações adicionais sobre quem está ligando na tela de chamada</string>
   <string name="video_call">Vídeo chamada</string>
   <string name="call_duration_active">Duração ativa:</string>
   <string name="call_duration_call_out">Duração da chamada:</string>
@@ -107,16 +107,16 @@
   <string name="call_playback_error_message">Falha ao reproduzir a gravação</string>
   <!-- Smart Call -->
   <string name="smart_dialer_title">Chamada inteligente</string>
-  <string name="smart_dialer_summary">Chamar automaticamente o número discado movendo o seu dispositivo ao seu ouvido</string>
-  <string name="powered_by">Fornecido por</string>
+  <string name="smart_dialer_summary">Ligar automaticamente para o número discado ao mover o dispositivo para o ouvido</string>
+  <string name="powered_by">Desenvolvido por</string>
   <!-- pretty time -->
   <string name="pretty_format_yesterday">Ontem no <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> dias atrás</string>
-  <string name="pretty_format_just_now">Agora mesmo</string>
+  <string name="pretty_format_just_now">Há pouco</string>
   <string name="recent_calls_today_header">Hoje</string>
   <string name="recent_calls_yesterday_header">Ontem</string>
   <string name="recent_calls_this_week_header">Esta semana</string>
-  <string name="recent_calls_last_week_header">Última semana</string>
+  <string name="recent_calls_last_week_header">Semana passada</string>
   <string name="recent_calls_older_header">Mais antiga</string>
   <string name="action_call">Chamar</string>
   <string name="action_details">Detalhes</string>
@@ -142,7 +142,7 @@
   <string name="recents_footer_text">Exibir todo o histórico de chamadas</string>
   <string name="search_prompt">Procurar contatos</string>
   <string name="search_places_prompt">Pesquisar contatos ou lugares</string>
-  <string name="empty_favorites_hint">Seus favoritos &amp; as pessoas quem você liga frequentemente aparecerá aqui.</string>
+  <string name="empty_favorites_hint">Seus favoritos e as pessoas para quem você liga frequentemente aparecerão aqui.</string>
   <string name="empty_dialpad_hint">Você pode discar um número de telefone ou procurar em seus contatos.</string>
   <string name="empty_recents_hint">Você não tem nenhuma chamada recente.</string>
   <string name="empty_contacts_hint">Você não tem nenhum contato.</string>
@@ -151,23 +151,23 @@
   <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> adicionado à lista de números bloqueados</string>
   <string name="advanced_lookup_title">Avançado</string>
   <string name="silence_spam_title">Silenciar chamadas de spam</string>
-  <string name="silence_spam_summary">Nunca deixe as chamadas de spam tocar</string>
+  <string name="silence_spam_summary">Nunca deixar as chamadas de spam tocar</string>
   <string name="block_hidden_title">Bloquear números de telefone ocultos</string>
   <string name="block_hidden_summary">Considerar números ocultos como spam</string>
   <string name="block_dialog_title">Bloquear esta chamada?</string>
   <string name="block_dialog_positive">Bloquear</string>
   <string name="block_dialog_negative">Cancelar</string>
   <string name="block_dialog_description">Você não receberá mais chamadas ou mensagens desta pessoa.</string>
-  <string name="block_dialog_report_spam">Reportar como spam para <xliff:g id="provider">%s</xliff:g></string>
+  <string name="block_dialog_report_spam">Denunciar como spam para <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Sim</string>
-  <string name="caller_info_auth_no">Não obrigado</string>
+  <string name="caller_info_auth_no">Não, obrigado</string>
   <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> terá acesso aos seus contatos, perfil e conta Cyanogen OS, que pode incluir o seu endereço de e-mail.</string>
   <string name="caller_info_auth_learn_more">Saiba mais</string>
   <string name="caller_info_auth_desc">Bem-vindo! Gostaria que <xliff:g id="provider_name">%s</xliff:g> identifique os números desconhecidos e bloqueie chamadas indesejadas?</string>
   <string name="caller_info_auth_desc_no_spam">Bem-vindo! Gostaria que <xliff:g id="provider_name">%s</xliff:g> identifique os números desconhecidos?</string>
   <string name="caller_info_summary">Identifica os números desconhecidos e spam</string>
   <string name="caller_info_summary_no_spam">Identifica números desconhecidos</string>
-  <string name="edit_contact">Alterar</string>
+  <string name="edit_contact">Editar</string>
   <string name="add_contact">Adicionar contato</string>
   <string name="caller_info_loading">Procurando <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">Desenvolvido por <xliff:g id="provider">%s</xliff:g></string>
@@ -176,7 +176,7 @@
   <string name="provider_disable_title">Desativar %1$s?</string>
   <string name="provider_disable_message">Ao desativar %1$s, você não terá a identificação de quem te liga.</string>
   <string name="provider_disable_spam_message">Ao desativar %1$s, não terá proteção de spam ou identificação de quem te liga.</string>
-  <string name="snackbar_storage_permission_denied">O Telefone necessita de permissões de armazenamento para poder gravar as chamadas.</string>
+  <string name="snackbar_storage_permission_denied">O Discador precisa de permissões de armazenamento para poder gravar as chamadas.</string>
   <string name="snackbar_storage_permission_denied_explanation">Vá até o menu configurações e toque em permissões para conceder a permissão.</string>
   <string name="snackbar_settings">Configurações</string>
 </resources>
