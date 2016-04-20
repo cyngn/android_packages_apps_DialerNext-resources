@@ -16,8 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Forward lookup -->
   <string name="nearby_places">Lugares próximos</string>
   <string name="people">Xente</string>
+  <!-- Number lookup -->
   <string name="lookup_settings_label">Busca de número de teléfono</string>
   <string name="lookup_settings_description">Busca de números de teléfono descoñecidos</string>
   <string name="enable_forward_lookup_title">Busca avanzada</string>
@@ -29,10 +31,13 @@
   <string name="forward_lookup_provider_title">Fornecedor de procura avanzada</string>
   <string name="people_lookup_provider_title">Fornecedor de procura de persoas</string>
   <string name="reverse_lookup_provider_title">Fornecedor de busca inversa</string>
+  <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+  <!-- dialpad t9 search -->
   <string name="preference_category_t9_dialpad_search">Busca con Dialpad T9</string>
   <string name="t9_search_input_locale">Entrada de busca T9</string>
   <string name="t9_search_input_locale_default">Predeterminado</string>
+  <!-- Description for incoming calls that were blacklisted -->
   <string name="type_blacklist">Chamada bloqueada</string>
   <string name="call_log_stats_title">Estatísticas</string>
   <string name="callStatsDetailTitle">Estatísticas da chamada</string>
@@ -68,9 +73,15 @@
   <string name="call_stats_sort_by_count">Ordenar por número de chamadas</string>
   <string name="menu_add_to_blacklist">Bloquear número</string>
   <string name="menu_remove_from_blacklist">Desbloquear número</string>
+  <!--  for speed dial -->
   <string name="speed_dial_settings">Chamada rápida</string>
   <string name="speed_dial_not_set">(sen estabelecer)</string>
   <string name="speed_dial_replace">Substituír</string>
+  <!-- The string used to represent an unknown location for a phone number in the call log
+       Do not translate. -->
+  <!-- Filter by blacklist calls option -->
+  <!-- Smart Call -->
+  <!-- pretty time -->
   <string name="empty_favorites_hint">Aquí aparecerán os seus favoritos e a xente á que chama a cotío.</string>
   <string name="empty_dialpad_hint">Pode marcar un número ou buscar entre os seus contactos.</string>
   <string name="empty_recents_hint">Non ten chamadas recentes.</string>

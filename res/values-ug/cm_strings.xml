@@ -16,8 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Forward lookup -->
   <string name="nearby_places">ئەتراپتىكى ئورۇنلار</string>
   <string name="people">كىشى</string>
+  <!-- Number lookup -->
   <string name="lookup_settings_label">تېلېفون نومۇر ئىزدەش</string>
   <string name="lookup_settings_description">يوچۇن تېلېفون نومۇرىنى ئىزدەش</string>
   <string name="enable_forward_lookup_title">ئوڭ ئىزدەش</string>
@@ -29,10 +31,14 @@
   <string name="forward_lookup_provider_title">ئوڭ ئىزدەش تەمىنلىگۈچى</string>
   <string name="people_lookup_provider_title">كىشى ئىزەش تەمىنلىگۈچى</string>
   <string name="reverse_lookup_provider_title">تەتۈر ئىزدەش تەمىنلىگۈچى</string>
+  <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn خەنچە (CN)</string>
+  <!-- dialpad t9 search -->
   <string name="preference_category_t9_dialpad_search">نومۇر تاختا T9 ئىزدەش</string>
   <string name="t9_search_input_locale">T9 ئىزدەش كىرگۈزۈش</string>
   <string name="t9_search_input_locale_default">كۆڭۈلدىكى</string>
+  <!-- Description for incoming calls that were blacklisted -->
+  <string name="type_blacklist">توسىۋېلىنغان تېلېفونلار</string>
   <string name="call_log_stats_title">سىتاتىستىكا</string>
   <string name="callStatsDetailTitle">چاقىرىش تەپسىلاتى</string>
   <string name="call_stats">چاقىرىش سىتاتىستىكىسى</string>
@@ -46,6 +52,8 @@
   <string name="call_stats_outgoing">چاقىرىش: <xliff:g id="percent">%d</xliff:g>%%</string>
   <string name="call_stats_missed">سۆزلەشمىگەنلىرى</string>
   <string name="call_stats_missed_percent">سۆزلەشمىگەن: <xliff:g id="percent">%d</xliff:g>%%</string>
+  <string name="call_stats_blacklist">توسۇلغان</string>
+  <string name="call_stats_blacklist_percent">توسىۋېلىندى: <xliff:g id="percent">%d</xliff:g>%%</string>
   <string name="call_stats_header_total">جەمئى: <xliff:g id="call_count">%s</xliff:g>، <xliff:g id="duration">%s</xliff:g></string>
   <string name="call_stats_header_total_callsonly">جەمئى: <xliff:g id="call_count">%s</xliff:g></string>
   <string name="call_stats_filter_from">باشلاش چېسلاسى</string>
@@ -63,6 +71,9 @@
   <string name="call_stats_reset_filter">ۋاقىت دائىرىسىنى ئەسلىگە قايتۇر</string>
   <string name="call_stats_sort_by_duration">داۋاملىشىش ۋاقتى بويىچە</string>
   <string name="call_stats_sort_by_count">سۆزلىشىش قېتىمى بويىچە</string>
+  <string name="menu_add_to_blacklist">نومۇرنى توسۇش</string>
+  <string name="menu_remove_from_blacklist">توسۇلمىغان نومۇرلار</string>
+  <!--  for speed dial -->
   <string name="speed_dial_settings">تېز نومۇر بۇراش تەڭشەكلىرى</string>
   <string name="speed_dial_not_set">(تەڭشەلمىگەن)</string>
   <string name="speed_dial_replace">ئالماشتۇر</string>
@@ -72,8 +83,11 @@
   <string name="dialog_speed_dial_airplane_mode_message">ئەگەر تېز نومۇر بۇراشنى ئىشلەتسە، ئالدى بىلەن ئايروپىلان ھالىتىنى تاقاڭ.</string>
   <string name="yes">ھەئە</string>
   <string name="no">ياق</string>
+  <!-- The string used to represent an unknown location for a phone number in the call log
+       Do not translate. -->
   <string name="incall_vibration_category_title">چاقىرىلغاندا تىترىتىش</string>
   <string name="incall_vibrate_outgoing_title">ئۇلانغاندا تىترەت</string>
+  <string name="vibrate_call_waiting">چاقىرىشنى كۈتۈۋاتقاندا تىتىرەيدۇ</string>
   <string name="incall_vibrate_hangup_title">ئۈزگەندە تىترەت</string>
   <string name="incall_vibrate_45_title">ھەر مىنۇتتا تىترەت</string>
   <string name="incall_vibrate_45_summary">سىرتتىكى نومۇرنى چاقىرغاندا ھەر 45 سېكۇنتتا بىر تىترىتىدۇ</string>
@@ -86,7 +100,76 @@
   <string name="call_log_all_calls_header">ھەممە چاقىرىشلار</string>
   <string name="calllog_search_hint">چاقىرىش خاتىرىسىنى ئىزدە</string>
   <string name="msim_ime_dialog_title">ئۈسكۈنە بەلگىسى</string>
+  <!-- Filter by blacklist calls option -->
+  <string name="call_log_blacklist_header">كەلگەن تېلېفوننىلا توسۇش</string>
   <string name="start_call_playback">ئۈن خاتىرىسىنى چال</string>
   <string name="stop_call_playback">توختا</string>
   <string name="call_playback_error_message">ئۈن خاتىرىسىنى چالالمىدى</string>
+  <!-- Smart Call -->
+  <string name="smart_dialer_title">ئەقلىي-ئىقتىدارلىق چاقىرىش</string>
+  <string name="smart_dialer_summary">ئۈسكىنىڭىز قولاق تۈۋىڭىزگە كەلگەندا ئاپتۇماتېك چاقىرىش</string>
+  <string name="powered_by">قوللىغۇچى</string>
+  <!-- pretty time -->
+  <string name="pretty_format_yesterday">تۆنۈگۈن <xliff:g id="time">%s</xliff:g></string>
+  <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g> كۈن بۇرۇن</string>
+  <string name="pretty_format_just_now">ھازىرلا يېڭىلىدى</string>
+  <string name="recent_calls_today_header">بۈگۈن</string>
+  <string name="recent_calls_yesterday_header">تۈنۈگۈن</string>
+  <string name="recent_calls_this_week_header">بۇ ھەپتە</string>
+  <string name="recent_calls_last_week_header">ئۆتكەن ھەپتە</string>
+  <string name="recent_calls_older_header">كونىراق</string>
+  <string name="action_call">چاقىرىش</string>
+  <string name="action_details">تەپسىلاتى</string>
+  <string name="action_history">تارىخ</string>
+  <string name="action_message">ئۇچۇر</string>
+  <string name="quick_action_contacts"><xliff:g id="number">%s</xliff:g> ئۈچۈن ئالاقىداش قۇرۇش</string>
+  <string name="quick_action_sms"><xliff:g id="number">%s</xliff:g> گە ئۇچۇر ئەۋەتىش</string>
+  <plurals name="call_duration_seconds">
+    <item quantity="other"><xliff:g id="seconds" example="28">%d</xliff:g> سىكونت چاقىرىلدى</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g> مىنۇت چاقىردى</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> hour <xliff:g id="minutes" example="13">%d</xliff:g> مىنۇت چاقىردى</item>
+  </plurals>
+  <string name="call_duration_missed">سۆزلەشمىگەن چاقىرىش</string>
+  <string name="unknown_caller">نامەم نومۇر</string>
+  <string name="clear_call_history">ئالاقە خاتىرىسىنى يۇيۇش</string>
+  <string name="search_prompt">ئالاقەداش ئىزدە</string>
+  <string name="search_places_prompt">ئالاقىداش ياكى ئورۇن ئىزدەش</string>
+  <string name="empty_favorites_hint">سىز ساقلىۋالغان &amp; دائىم سىزگە ئۇرغان ئالاقىداش بۇ يەردە كۆرۈنىدۇ.</string>
+  <string name="empty_dialpad_hint">سىز تېلېفون ئۇرسىڭىز ياكى ئالاقىداش ئىزدىسىڭىز بۇلىدۇ.</string>
+  <string name="empty_recents_hint">يېقىنقى تېلېفون خاتىرىسى يوق.</string>
+  <string name="empty_contacts_hint">ئالاقىداش يوق.</string>
+  <string name="all_favorites_label">ساقلىغانلار</string>
+  <string name="all_favorites_title">يىغقۇچ</string>
+  <string name="toast_added_to_blacklist">چاقىرىق <xliff:g id="number">%s</xliff:g> قارا تىزىملىككە قوشۇلدى</string>
+  <string name="advanced_lookup_title">ئالىي</string>
+  <string name="silence_spam_title">ئەخلەت تېلېفوننىڭ ئاۋازىنى ئېتىش</string>
+  <string name="silence_spam_summary">ئەخلەت تېلېفون مەڭگۈ سايرىمىسۇن</string>
+  <string name="block_hidden_title">يۇرۇشۇن نومۇرنى توسۇش</string>
+  <string name="block_hidden_summary">يۇرۇشۇنغان نومۇرنى ئەخلەت تېلېفون دەپ قارايدۇ</string>
+  <string name="block_dialog_title">بۇ ئالاقىداشنى توسامسىز؟</string>
+  <string name="block_dialog_positive">توسۋېلىش</string>
+  <string name="block_dialog_negative">بىكار قىلىش</string>
+  <string name="block_dialog_description">بۇنىڭدىن كىيىن بۇ ئالاقىداشتىن تېلېفون ۋە ئۇچۇر قۇبۇل قىلمايسىز.</string>
+  <string name="block_dialog_report_spam">بۇ <xliff:g id="provider">%s</xliff:g> نى ئەخلەت ئېلخەت قىلىپ دوكىلات قىلىش</string>
+  <string name="caller_info_auth_yes">ھەئە</string>
+  <string name="caller_info_auth_no">ياق، رەھمەت</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> ئالاقىداش، سەپلەنمە ھۆججەت ۋە Cyanogen OS ھېساباتىنى زىيارەت قىلىدۇ، بەلكىم ئېلخەتنىمۇ زىيارەت قىلىشى مۇمكىن.</string>
+  <string name="caller_info_auth_learn_more">تەپسىلات بىلدۈرگۈسى</string>
+  <string name="caller_info_auth_desc">قارشى ئالىمىز! سىز <xliff:g id="provider_name">%s</xliff:g> نىڭ نامەلۇم نومۇرنى تونۇشىنى ۋە لازىم بولمىغان نومۇرنى توسۇشىنى خالامسىز؟</string>
+  <string name="caller_info_auth_desc_no_spam">قارشى ئالىمىز! سىز <xliff:g id="provider_name">%s</xliff:g> نىڭ نامەلۇم نومۇرنى تونۇشىنى خالامسىز؟</string>
+  <string name="caller_info_summary">نامەلۇم نومۇر ۋە ئەخلەت ئېلانغا بەلگە قويۇش</string>
+  <string name="caller_info_summary_no_spam">نامەلۇم نومۇرغا بەلگە قويۇش</string>
+  <string name="edit_contact">تەھرىرلەش</string>
+  <string name="add_contact">ئالاقەداشقا قوشۇش</string>
+  <string name="caller_info_loading">ئىزدەۋاتىدۇ <xliff:g id="provider"><xliff:g id="provider"></xliff:g>\u2026</string>
+  <string name="powered_by_provider">بۇنى <xliff:g id="provider">%s</xliff:g> قوللىغان</string>
+  <string name="call_history_empty_view">ئالاقە ئىزناسى يوق</string>
+  <string name="empty_dialpad_t9_example">نومۇر ئۇرۇش ئارقىلىق %1$s نى ئىزدەۋاتىدۇ:</string>
+  <string name="provider_disable_title">%1$s نى چەكلەمسىز؟</string>
+  <string name="provider_disable_message">ئىلە %1$s نى چەكلىسىڭىز، تېلېفون نومۇر سالاھىتى تونۇلمەيدۇ.</string>
+  <string name="provider_disable_spam_message">ئىلە %1$s نى چەكلىسىڭىز، تېلېفون نومۇر سالاھىتى تونۇلمەيدۇ ۋە ئەخلەت تېلېفون ئۇچۇرىغا ئېرىشمەيدۇ.</string>
 </resources>

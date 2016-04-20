@@ -16,8 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Forward lookup -->
   <string name="nearby_places">الأماكن القريبة</string>
   <string name="people">الناس</string>
+  <!-- Number lookup -->
   <string name="lookup_settings_label">البحث عن رقم الهاتف</string>
   <string name="lookup_settings_description">البحث عن أرقام الهاتف المجهولة</string>
   <string name="enable_forward_lookup_title">بحث إلى الأمام</string>
@@ -29,10 +31,13 @@
   <string name="forward_lookup_provider_title">موفر البحث إلى الأمام</string>
   <string name="people_lookup_provider_title">موفر بحث عن أشخاص</string>
   <string name="reverse_lookup_provider_title">موفر البحث العكسي</string>
+  <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn الصينية (CN)</string>
+  <!-- dialpad t9 search -->
   <string name="preference_category_t9_dialpad_search">بحث لوحة الطلب T9</string>
   <string name="t9_search_input_locale">إدخال بحث T9</string>
   <string name="t9_search_input_locale_default">افتراضي</string>
+  <!-- Description for incoming calls that were blacklisted -->
   <string name="type_blacklist">مكالمة محظورة </string>
   <string name="call_log_stats_title">الإحصائيات</string>
   <string name="callStatsDetailTitle">تفاصيل إحصائيات المكالمة</string>
@@ -68,6 +73,7 @@
   <string name="call_stats_sort_by_count">فرز بحسب عدد المكالمات</string>
   <string name="menu_add_to_blacklist">حظر رقم</string>
   <string name="menu_remove_from_blacklist">إلغاء حظر رقم</string>
+  <!--  for speed dial -->
   <string name="speed_dial_settings">الاتصال السريع</string>
   <string name="speed_dial_not_set">(عدم تعيين)</string>
   <string name="speed_dial_replace">استبدال</string>
@@ -77,6 +83,8 @@
   <string name="dialog_speed_dial_airplane_mode_message">لاستخدام الاتصال الهاتفي السريع، قم أولاً بإيقاف تشغيل وضع الطيران.</string>
   <string name="yes">نعم</string>
   <string name="no">لا</string>
+  <!-- The string used to represent an unknown location for a phone number in the call log
+       Do not translate. -->
   <string name="incall_vibration_category_title">الاهتزاز أثناء المكالمة</string>
   <string name="incall_vibrate_outgoing_title">اهتزاز عند الرد</string>
   <string name="vibrate_call_waiting">الاهتزاز أثناء انتظار المكالمة</string>
@@ -92,13 +100,16 @@
   <string name="call_log_all_calls_header">جميع المكالمات</string>
   <string name="calllog_search_hint">البحث في سجل المكالمات</string>
   <string name="msim_ime_dialog_title">معرف الجهاز</string>
+  <!-- Filter by blacklist calls option -->
   <string name="call_log_blacklist_header">المكالمات المحظورة فقط</string>
   <string name="start_call_playback">تشغيل التسجيل</string>
   <string name="stop_call_playback">توقف</string>
   <string name="call_playback_error_message">فشل تشغيل التسجيل</string>
+  <!-- Smart Call -->
   <string name="smart_dialer_title">المكالمة الذكية</string>
   <string name="smart_dialer_summary">الاتصال تلقائياً بالرقم المتصل به من خلال وضع الجهاز على أذنك</string>
   <string name="powered_by">مزود بالطاقة بواسطة</string>
+  <!-- pretty time -->
   <string name="pretty_format_yesterday">أمس عند <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago"><xliff:g id="n_days">%d</xliff:g>أيام مضت</string>
   <string name="pretty_format_just_now">الآن للتو</string>

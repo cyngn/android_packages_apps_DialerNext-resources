@@ -16,8 +16,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Forward lookup -->
   <string name="nearby_places">Orte in der Nähe</string>
   <string name="people">Personen</string>
+  <!-- Number lookup -->
   <string name="lookup_settings_label">Telefonnummernsuche</string>
   <string name="lookup_settings_description">Suche nach unbekannten Telefonnummern</string>
   <string name="enable_forward_lookup_title">Vorwärtssuche</string>
@@ -29,10 +31,13 @@
   <string name="forward_lookup_provider_title">Dienst für Vorwärtssuche</string>
   <string name="people_lookup_provider_title">Dienst für Personensuche</string>
   <string name="reverse_lookup_provider_title">Dienst für Rückwärtssuche</string>
+  <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinesisch (CN)</string>
+  <!-- dialpad t9 search -->
   <string name="preference_category_t9_dialpad_search">Dialpad T9-Suche</string>
   <string name="t9_search_input_locale">T9-Eingabesprache</string>
   <string name="t9_search_input_locale_default">Standard</string>
+  <!-- Description for incoming calls that were blacklisted -->
   <string name="type_blacklist">Blockierter Anruf</string>
   <string name="call_log_stats_title">Statistiken</string>
   <string name="callStatsDetailTitle">Anrufstatistikdetails</string>
@@ -68,21 +73,24 @@
   <string name="call_stats_sort_by_count">Nach Anrufanzahl sortieren</string>
   <string name="menu_add_to_blacklist">Nummer blockieren</string>
   <string name="menu_remove_from_blacklist">Nummer nicht mehr blockieren</string>
+  <!--  for speed dial -->
   <string name="speed_dial_settings">Kurzwahl-Einstellungen</string>
   <string name="speed_dial_not_set">(nicht festgelegt)</string>
   <string name="speed_dial_replace">Ersetzen</string>
   <string name="speed_dial_delete">Löschen</string>
   <string name="speed_dial_unassigned_dialog_title">Nicht zugewiesene Taste</string>
   <string name="speed_dial_unassigned_dialog_message">Der Wähltaste \"<xliff:g id="number">%s</xliff:g>\" ist keine Kurzwahlaktion zugewiesen. Möchten Sie das jetzt tun?</string>
-  <string name="dialog_speed_dial_airplane_mode_message">Um die Kurzwahl nutzen zu können, deaktivieren Sie zunächst den Flugmodus.</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Wenn Sie die Kurzwahl nutzen möchten, müssen Sie zunächst den Flugmodus deaktivieren.</string>
   <string name="yes">Ja</string>
   <string name="no">Nein</string>
+  <!-- The string used to represent an unknown location for a phone number in the call log
+       Do not translate. -->
   <string name="incall_vibration_category_title">Vibration während eines Anrufes</string>
   <string name="incall_vibrate_outgoing_title">Bei Annahme vibrieren</string>
   <string name="vibrate_call_waiting">Beim Anklopfen vibrieren</string>
   <string name="incall_vibrate_hangup_title">Beim Auflegen vibrieren</string>
   <string name="incall_vibrate_45_title">Jede Minute vibrieren</string>
-  <string name="incall_vibrate_45_summary">Während ausgehender Anrufe 45 Sekunden vor dem Ende jeder vollen Minute vibrieren</string>
+  <string name="incall_vibrate_45_summary">Während ausgehender Anrufe 15 Sekunden vor dem Ende jeder vollen Minute vibrieren</string>
   <string name="detailed_incall_info_title">Detaillierte Anruferinformationen</string>
   <string name="detailed_incall_info_summary">Bei eingehenden Anrufen zusätzliche Informationen zum Anrufer anzeigen</string>
   <string name="video_call">Videoanruf</string>
@@ -92,13 +100,16 @@
   <string name="call_log_all_calls_header">Alle Anrufe</string>
   <string name="calllog_search_hint">Anrufprotokoll durchsuchen</string>
   <string name="msim_ime_dialog_title">Gerätebezeichner</string>
+  <!-- Filter by blacklist calls option -->
   <string name="call_log_blacklist_header">Nur blockierte Anrufe</string>
   <string name="start_call_playback">Aufzeichnung wiedergeben</string>
   <string name="stop_call_playback">Anhalten</string>
   <string name="call_playback_error_message">Wiedergabe der Aufzeichnung fehlgeschlagen</string>
+  <!-- Smart Call -->
   <string name="smart_dialer_title">Schnellanruf</string>
   <string name="smart_dialer_summary">Gewählte Nummer automatisch anrufen, wenn Sie Ihr Gerät zum Ohr führen</string>
   <string name="powered_by">Zur Verfügung gestellt von</string>
+  <!-- pretty time -->
   <string name="pretty_format_yesterday">Gestern um <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago">Vor <xliff:g id="n_days">%d</xliff:g> Tagen</string>
   <string name="pretty_format_just_now">Gerade jetzt</string>
@@ -128,7 +139,7 @@
   <string name="call_duration_missed">Verpasster Anruf</string>
   <string name="unknown_caller">Unbekannter Anrufer</string>
   <string name="clear_call_history">Anrufverlauf löschen</string>
-  <string name="search_prompt">Suche nach Kontakten</string>
+  <string name="search_prompt">Kontakte suchen</string>
   <string name="search_places_prompt">Kontakte oder Orte suchen</string>
   <string name="empty_favorites_hint">Ihre Favoriten und Personen, die Sie häufig anrufen, werden hier angezeigt.</string>
   <string name="empty_dialpad_hint">Sie können eine Telefonnummer wählen oder Ihre Kontakte durchsuchen.</string>
@@ -157,7 +168,7 @@
   <string name="caller_info_summary_no_spam">Identifiziert unbekannte Anrufer</string>
   <string name="edit_contact">Bearbeiten</string>
   <string name="add_contact">Kontakt hinzufügen</string>
-  <string name="caller_info_loading"><xliff:g id="provider">%s</xliff:g> wird gesucht\u2026</string>
+  <string name="caller_info_loading">Suche <xliff:g id="provider">%s</xliff:g>\u2026</string>
   <string name="powered_by_provider">Zur Verfügung gestellt von <xliff:g id="provider">%s</xliff:g></string>
   <string name="call_history_empty_view">Keine Anrufliste</string>
   <string name="empty_dialpad_t9_example">Suche nach %1$s unter der Rufnummer:</string>
