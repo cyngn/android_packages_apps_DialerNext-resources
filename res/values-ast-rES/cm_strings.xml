@@ -108,6 +108,7 @@
   <!-- Smart Call -->
   <string name="smart_dialer_title">Llamada intelixente</string>
   <string name="smart_dialer_summary">Llama automáticamente al númberu marcáu moviendo\'l to preséu a la to oreya</string>
+  <string name="powered_by">Proporcionáu por</string>
   <!-- pretty time -->
   <string name="pretty_format_yesterday">Ayeri a les <xliff:g id="time">%s</xliff:g></string>
   <string name="pretty_format_x_days_ago">hai <xliff:g id="n_days">%d</xliff:g> díes</string>
@@ -116,18 +117,62 @@
   <string name="recent_calls_yesterday_header">Ayeri</string>
   <string name="recent_calls_this_week_header">Esta selmana</string>
   <string name="recent_calls_last_week_header">La semana pasada</string>
+  <string name="recent_calls_older_header">Más antigües</string>
+  <string name="action_call">Llamar</string>
+  <string name="action_details">Detalles</string>
+  <string name="action_history">Historial</string>
   <string name="action_message">Mensaxe</string>
+  <string name="quick_action_contacts">Crear contautu pa <xliff:g id="number">%s </xliff:g></string>
+  <string name="quick_action_sms">Unviar SMS a <xliff:g id="number">%s</xliff:g></string>
+  <plurals name="call_duration_seconds">
+    <item quantity="one">Llamada de <xliff:g id="seconds" example="1">%d</xliff:g> segundu</item>
+    <item quantity="other">Llamada de <xliff:g id="seconds" example="1">%d</xliff:g> segundos</item>
+  </plurals>
+  <plurals name="call_duration_minutes">
+    <item quantity="one">Llamada de <xliff:g id="minutes" example="1">%d</xliff:g> minutu</item>
+    <item quantity="other">Llamada de <xliff:g id="minutes" example="1">%d</xliff:g> minutos</item>
+  </plurals>
+  <plurals name="call_duration_hours_minutes">
+    <item quantity="one">Llamada de <xliff:g id="hours" example="1">%d</xliff:g> hora y <xliff:g id="minutes" example="13">%d</xliff:g> minutos</item>
+    <item quantity="other">Llamada de <xliff:g id="hours" example="1">%d</xliff:g> horas y <xliff:g id="minutes" example="13">%d</xliff:g> minutos</item>
+  </plurals>
   <string name="call_duration_missed">Llamada perdida</string>
   <string name="unknown_caller">Orixe desconocíu</string>
+  <string name="clear_call_history">Llimpiar historial de llamaes</string>
   <string name="search_prompt">Guetar contautos</string>
+  <string name="search_places_prompt">Guetar contautos o llugares</string>
+  <string name="empty_favorites_hint">Equí amosaráse la xente que llames davezu.</string>
+  <string name="empty_dialpad_hint">Pues marcar un númberu o guetar nos tos contautos.</string>
   <string name="empty_recents_hint">Nun tienes llamaes recientes.</string>
   <string name="empty_contacts_hint">Nun tienes contautos.</string>
   <string name="all_favorites_label">Tolos favoritos</string>
+  <string name="all_favorites_title">Favoritos</string>
+  <string name="toast_added_to_blacklist"><xliff:g id="number">%s</xliff:g> amestóse a la llista de contautos bloquiaos</string>
+  <string name="advanced_lookup_title">Avanzáu</string>
+  <string name="silence_spam_title">Silenciar llamaes de spam</string>
+  <string name="silence_spam_summary">Nun dexar que suenen les llamaes spam</string>
+  <string name="block_hidden_title">Bloquiar númberos anubríos</string>
+  <string name="block_hidden_summary">Considerar númberos anubríos como spam</string>
+  <string name="block_dialog_title">¿Bloquiar a esti contautu?</string>
   <string name="block_dialog_positive">Bloquiar</string>
   <string name="block_dialog_negative">Encaboxar</string>
+  <string name="block_dialog_description">Yá nun recibirás más llamaes o mensaxes d\'esta persona.</string>
+  <string name="block_dialog_report_spam">Informar de spam a <xliff:g id="provider">%s</xliff:g></string>
   <string name="caller_info_auth_yes">Sí</string>
   <string name="caller_info_auth_no">Non, gracies</string>
+  <string name="caller_info_auth_access"><xliff:g id="provider_name">%s</xliff:g> va poder acceder a los contautos, perfil y a la cuenta de Cyanogen OS, que podría incluyir la to direición de corréu-e.</string>
   <string name="caller_info_auth_learn_more">Deprendi más</string>
+  <string name="caller_info_auth_desc">¡Bienllegáu! ¿Prestaríate usar <xliff:g id="provider_name">%s</xliff:g> pa identificar les llamaes desconocíes y bloquiar llamaes non deseyaes?</string>
+  <string name="caller_info_auth_desc_no_spam">¡Bienllegáu! ¿Prestaríate usar <xliff:g id="provider_name">%s</xliff:g> pa identificar les llamaes desconocíes?</string>
+  <string name="caller_info_summary">Identifica les llamaes desconocíes y spam</string>
+  <string name="caller_info_summary_no_spam">Identifica llamaes desconocíes</string>
   <string name="edit_contact">Editar</string>
   <string name="add_contact">Amestar contautu</string>
+  <string name="caller_info_loading">Guetando <xliff:g id="provider">%s</xliff:g>\u2026</string>
+  <string name="powered_by_provider">Proporcionáu por <xliff:g id="provider">%s</xliff:g></string>
+  <string name="call_history_empty_view">Nun hai historial de llamaes</string>
+  <string name="empty_dialpad_t9_example">Guetar a %1$s marcando:</string>
+  <string name="provider_disable_title">¿Deshabilitar %1$s?</string>
+  <string name="provider_disable_message">Si desactives %1$s, nun tendrás un ID de llamada.</string>
+  <string name="provider_disable_spam_message">Si desactives %1$s, nun tendrás proteición escontra spam nin ID de llamada.</string>
 </resources>
