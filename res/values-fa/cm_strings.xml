@@ -125,12 +125,15 @@
   <string name="quick_action_contacts">ایجاد مخاطب برای <xliff:g id="number">%s</xliff:g></string>
   <string name="quick_action_sms">ارسال پیامک به <xliff:g id="number">%s</xliff:g></string>
   <plurals name="call_duration_seconds">
+    <item quantity="one">تماس <xliff:g id="seconds" example="28">%d</xliff:g> ثانیه‌ای</item>
     <item quantity="other">تماس <xliff:g id="seconds" example="28">%d</xliff:g> ثانیه‌ای</item>
   </plurals>
   <plurals name="call_duration_minutes">
+    <item quantity="one">تماس <xliff:g id="minutes" example="13">%d</xliff:g> دقیقه‌ای</item>
     <item quantity="other">تماس <xliff:g id="minutes" example="13">%d</xliff:g> دقیقه‌ای</item>
   </plurals>
   <plurals name="call_duration_hours_minutes">
+    <item quantity="one">تماس <xliff:g id="hours" example="1">%d</xliff:g> ساعت و <xliff:g id="minutes" example="13">%d</xliff:g> دقیقه‌ای</item>
     <item quantity="other">تماس <xliff:g id="hours" example="1">%d</xliff:g> ساعت و <xliff:g id="minutes" example="13">%d</xliff:g> دقیقه‌ای</item>
   </plurals>
   <string name="call_duration_missed">تماس از دست رفته</string>

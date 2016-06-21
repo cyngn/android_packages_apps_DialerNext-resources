@@ -126,14 +126,20 @@
   <string name="quick_action_sms">שלח SMS אל <xliff:g id="number">%s</xliff:g></string>
   <plurals name="call_duration_seconds">
     <item quantity="one">שיחה של שניה <xliff:g id="seconds" example="1">%d</xliff:g></item>
+    <item quantity="two">שיחה של <xliff:g id="seconds" example="28">%d</xliff:g> שניות</item>
+    <item quantity="many">שיחה של <xliff:g id="seconds" example="28">%d</xliff:g> שניות</item>
     <item quantity="other">שיחה של <xliff:g id="seconds" example="28">%d</xliff:g> שניות</item>
   </plurals>
   <plurals name="call_duration_minutes">
     <item quantity="one">דקת שיחה <xliff:g id="minutes" example="1">%d</xliff:g></item>
+    <item quantity="two"><xliff:g id="minutes" example="13">%d</xliff:g> דקות שיחה</item>
+    <item quantity="many"><xliff:g id="minutes" example="13">%d</xliff:g> דקות שיחה</item>
     <item quantity="other"><xliff:g id="minutes" example="13">%d</xliff:g> דקות שיחה</item>
   </plurals>
   <plurals name="call_duration_hours_minutes">
     <item quantity="one"><xliff:g id="hours" example="1">%d</xliff:g> שעות ודקת שיחה <xliff:g id="minutes" example="13">%d</xliff:g></item>
+    <item quantity="two"><xliff:g id="hours" example="1">%d</xliff:g> שעות ו-<xliff:g id="minutes" example="13">%d</xliff:g> דקות שיחה</item>
+    <item quantity="many"><xliff:g id="hours" example="1">%d</xliff:g> שעות ו-<xliff:g id="minutes" example="13">%d</xliff:g> דקות שיחה</item>
     <item quantity="other"><xliff:g id="hours" example="1">%d</xliff:g> שעות ו-<xliff:g id="minutes" example="13">%d</xliff:g> דקות שיחה</item>
   </plurals>
   <string name="call_duration_missed">שיחה שלא נענתה</string>
